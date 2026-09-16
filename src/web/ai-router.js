@@ -1,9 +1,11 @@
 // Presentation and routing live outside the frozen research engine.
-export function modelFor({ playerCount, deckSize, deckMode }) {
+export const STATIC_AI = import.meta.env?.MODE === 'static'
+
+export function modelFor({ playerCount, deckSize, deckMode }, staticMode = STATIC_AI) {
   const classic = deckSize === 104 || (deckSize == null && deckMode === 'classic')
-  if (classic && [3, 4].includes(playerCount)) return { id: 'distill2048-specialist2048', label: '正式冠军 · 2048', remote: true, certified: true }
+  if (!staticMode && classic && [3, 4].includes(playerCount)) return { id: 'distill2048-specialist2048', label: '正式冠军 · 2048', remote: true, certified: true }
   if (classic && playerCount === 2) return { id: 'v6', label: '二人专项 · V6', remote: false, certified: true }
-  return { id: 'neural_hybrid', label: '经典 AI', remote: false, certified: false }
+  return { id: 'neural_hybrid', label: '浏览器混合 AI', remote: false, certified: false }
 }
 
 export function publicPayload(observation) {
@@ -13,7 +15,7 @@ export function publicPayload(observation) {
 }
 
 export async function chooseWebCard(observation, strategy = 'strongest', options = {}) {
-  const route = modelFor(observation)
+  const route = modelFor(observation, options.staticMode ?? STATIC_AI)
   if (strategy === 'strongest' && route.remote) {
     const controller = new AbortController()
     const timeout = setTimeout(() => controller.abort(), 60000)

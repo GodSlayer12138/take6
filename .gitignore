@@ -33,3 +33,6 @@ Thumbs.db
 # Publish provenance and evaluation results, not a re-hosted weight bundle.
 /external/take6/*
 !/external/take6/provenance.json
+
+# Local deployment metadata
+.vercel/

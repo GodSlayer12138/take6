@@ -5,6 +5,22 @@ import { playWebArenaGame } from '../src/web/arena-game.js'
 
 const observation = { playerCount: 3, deckSize: 104, hand: [1, 2], rows: [[5], [10], [15], [20]], seenCards: [5, 10, 15, 20], scores: [0, 0, 0], seed: 123 }
 
+test('static deployment uses browser AI and never calls the GPU API', async () => {
+  for (const p of [3, 4]) {
+    const route = modelFor({ playerCount: p, deckSize: 104 }, true)
+    assert.equal(route.id, 'neural_hybrid')
+    assert.equal(route.remote, false)
+    assert.equal(route.certified, false)
+  }
+  assert.equal(modelFor({ playerCount: 2, deckSize: 104 }, true).id, 'v6')
+  const result = await chooseWebCard(observation, 'strongest', {
+    staticMode: true,
+    fetch: () => { throw new Error('Static deployment must not call a server') },
+  })
+  assert.equal(result.model, 'neural_hybrid')
+  assert.ok(observation.hand.includes(result.card))
+})
+
 test('strongest routes are specific to certified player counts and rules', () => {
   for (const p of [3, 4]) assert.equal(modelFor({ playerCount: p, deckSize: 104 }).id, 'distill2048-specialist2048')
   assert.equal(modelFor({ playerCount: 2, deckSize: 104 }).id, 'v6')

@@ -22,6 +22,8 @@ npm run dev       # http://127.0.0.1:5173，自动启动 Python 后端
 
 生产运行时执行 `npm run build` 后再执行 `npm start`，网页为 `http://127.0.0.1:8765`；与开发模式择一启动。默认 Python 为 `D:/Programs/miniconda3/envs/ntw-ai/python.exe`，可通过 `NTW_PYTHON` 修改，后端端口可通过 `NTW_API_PORT` 修改。
 
+纯静态发布使用 `npm run build:static`，将 `dist/` 部署到静态托管平台；仓库的 Vercel 配置已使用该命令。此版本无需 Python 或 GPU，二人 104 张使用 V6，其余规则使用浏览器混合 AI（`neural_hybrid`）。GPU 冠军的评测成绩不适用于纯静态版三四人 AI。
+
 ## 文档
 
 - [最终模型技术说明](docs/TECHNICAL_REPORT.md)：网络、搜索、参数量、权重位置、接口和资源需求。

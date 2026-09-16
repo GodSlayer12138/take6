@@ -23,6 +23,6 @@ export default function ModelStatus({ config }) {
     <strong>{route.label}</strong>
     <span>{route.remote
       ? health === 'ready' ? '本机 GPU 已连接 · 固定 2,048 个模拟世界' : health === 'checking' ? '正在连接本机冠军…' : '冠军未连接，请使用完整应用启动命令'
-      : route.id === 'v6' ? '二人专项 · 浏览器本地运行' : '此规则暂无正式专项冠军，使用经典 AI'}</span>
+      : route.id === 'v6' ? '二人专项 · 浏览器本地运行' : '神经评分与模拟搜索 · 浏览器本地运行'}</span>
   </div>
 }

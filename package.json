@@ -8,6 +8,7 @@
     "dev:web": "vite",
     "start": "node scripts/start-local.mjs --production",
     "build": "vite build",
+    "build:static": "vite build --mode static",
     "benchmark": "node scripts/benchmark.mjs",
     "data:train": "node scripts/generate-training-data.mjs",
     "train:gpu": "conda run -n ntw-ai python training/train_policy.py",
