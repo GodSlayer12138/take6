@@ -1,0 +1,38 @@
+{
+  "version": "v4",
+  "config": {
+    "method": "ppo-mixed-player-league",
+    "updates": 192,
+    "batch": 256,
+    "lr": 8e-06,
+    "temperature": 0.85,
+    "anchor": 0.15,
+    "seed": 60833001,
+    "save_every": 48,
+    "players": [
+      4,
+      2,
+      4,
+      3
+    ]
+  },
+  "initial": "D:\\code\\ntw\\artifacts\\small-player-iterations\\v3\\model.pt",
+  "initial_sha256": "2b7756759b8b924a3d368f0eb0f30264be27552fc82b5c86305cb53075ab512b",
+  "opponents": [
+    "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt",
+    "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-rl-v3b.pt",
+    "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-arena-v8-distill.pt",
+    "D:\\code\\ntw\\artifacts\\small-player-iterations\\v2\\model.pt",
+    "D:\\code\\ntw\\artifacts\\small-player-iterations\\v3\\model.pt"
+  ],
+  "reward": "win_share - .10*(rank-1)/(P-1) - .003*bullheads; gamma=1",
+  "selection": "Best prespecified checkpoint on development seeds only; independent final seeds never used for selection.",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "source_sha256": {
+    "training\\iterate_small_players.py": "aeb28532787cc14514fa143c899f2e7ccc72f5787a5a2a87618b5afd63e39348",
+    "training\\small_player_env.py": "5b6e7601050bd567d52023afdd76c5c15733877f7084fc4c3255fba40b08aa1f",
+    "training\\train_policy.py": "66e4ee68aa14dfa007f146fa15fec4123b8370b97a9b7084956a5cb38243a253"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "command": "train",
+  "kind": "alpha",
+  "games": 2000,
+  "simulations": 50,
+  "hidden": 100,
+  "learning_rate": 0.001,
+  "gamma": 0.99,
+  "save_every": 25,
+  "resume": false,
+  "workers": 4,
+  "output": "artifacts/eth-reproduction/paper-alpha",
+  "seed": 60811001,
+  "device": "cpu",
+  "threads": 1,
+  "format": "ntw-eth-dirv-reimplementation-v1",
+  "paper": "https://pub.tik.ee.ethz.ch/students/2021-HS/GA-2021-02.pdf",
+  "source_sha256": {
+    "training\\reproduce_eth_dirv.py": "53dd09fc8c0b5d44a8e9cfdd2d6bfb01e6308e16ee7843e86a6cdee2fa37f6c3",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\agents\\mcts.py": "7bb49235fe29befe0c61cd3f1453d117a996a4f9de24f012c48517e28809bcbc",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\env.py": "371848b8599e1963685c2259c1d21ddce0681604f5be45066d94b2e957e0fc7c",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\utils\\preprocessing.py": "f1600616ba2758094b24252b1862ff2708e8b11b20f086aa3c3c84fd24ae9b67"
+  },
+  "runtime": {
+    "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "logical_cpus": 32
+  },
+  "status": "method reimplementation; not original ETH weights"
+}

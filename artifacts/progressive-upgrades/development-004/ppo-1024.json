@@ -1,0 +1,14 @@
+{
+  "format": "ntw-progressive-planner-v1",
+  "name": "ppo-1024",
+  "params": {
+    "engine": "torch",
+    "device": "cuda",
+    "opponents": "actual-proxy",
+    "proxy_directory": "artifacts/progressive-upgrades/opponent-proxies-v2",
+    "prior_weight": 0.003,
+    "bullhead_weight": 0.002,
+    "worlds": 1024,
+    "continuation_checkpoint": "artifacts/progressive-upgrades/ppo-proxy-v1/model.pt"
+  }
+}

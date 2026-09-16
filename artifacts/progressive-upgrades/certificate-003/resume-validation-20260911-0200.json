@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "time": "2026-09-11T02:01:56.975809+08:00",
+  "decisions": 280,
+  "reports": [
+    {
+      "policy": "reference",
+      "report": "artifacts\\progressive-upgrades\\shared-service-003-resume-20260911-0200\\verification-reference.json",
+      "decisions": 140
+    },
+    {
+      "policy": "hybrid-wide-specialist",
+      "report": "artifacts\\progressive-upgrades\\shared-service-003-resume-20260911-0200\\verification-hybrid-wide-specialist.json",
+      "decisions": 140
+    }
+  ],
+  "scope": "Identical archived development inputs and frozen inference code as the original preflight; no partial certificate outcome statistics"
+}

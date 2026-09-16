@@ -1,0 +1,172 @@
+{
+  "name": "development-001",
+  "purpose": "development",
+  "namespace": "development-001",
+  "deals": 64,
+  "versions": [
+    "reference",
+    "rollout32-mixed",
+    "rollout64-neural",
+    "rollout64-risk",
+    "rollout64-base"
+  ],
+  "entrants": [
+    {
+      "id": "ntw-adaptive-rl-v3b",
+      "name": "ntw-adaptive-rl-v3b",
+      "kind": "model",
+      "path": "D:\\code\\ntw\\artifacts\\local-tournament\\exports\\ntw-adaptive-rl-v3b.json",
+      "sha256": "0170a85c3bb25d049745d6e7795444c02d74dc75a79e6d6c9337b710384f65fe",
+      "format": "ntw-neural-v1",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ],
+      "inference": "Greedy standalone card policy; no search",
+      "exported_from": "artifacts\\models\\ntw-adaptive-rl-v3b.pt"
+    },
+    {
+      "id": "ntw-adaptive-arena-v8-distill",
+      "name": "ntw-adaptive-arena-v8-distill",
+      "kind": "model",
+      "path": "D:\\code\\ntw\\artifacts\\local-tournament\\exports\\ntw-adaptive-arena-v8-distill.json",
+      "sha256": "fc72b70749858710390addf41b653bde0a74891f267d1f7f7cc614d361a1ec8d",
+      "format": "ntw-neural-v1",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ],
+      "inference": "Greedy standalone card policy; no search",
+      "exported_from": "artifacts\\models\\ntw-adaptive-arena-v8-distill.pt"
+    },
+    {
+      "id": "ntw-champion",
+      "name": "ntw-champion",
+      "kind": "model",
+      "path": "D:\\code\\ntw\\src\\game\\models\\ntw-champion.json",
+      "sha256": "a27c7a54d151e49b374db2e35540da546d431b8e9c9571f16ccc8f94bb439233",
+      "format": "ntw-neural-v1",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ],
+      "inference": "Greedy standalone card policy; no search",
+      "exported_from": null
+    },
+    {
+      "id": "dirv-10000",
+      "name": "DirV 复现版 10,000 局",
+      "kind": "eth",
+      "path": "D:\\code\\ntw\\artifacts\\eth-reproduction\\paper-dirv\\checkpoint.pt",
+      "sha256": "e79138f79a43c5b96d4703a35f8aabab7f82ce6775a858cfd2f2d25b04d05917",
+      "simulations": 200,
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ],
+      "inference": "Frozen agent index 0; adaptive5 is transfer without retraining"
+    },
+    {
+      "id": "alpha-2000",
+      "name": "Alpha 复现版 2,000 局",
+      "kind": "eth",
+      "path": "D:\\code\\ntw\\artifacts\\eth-reproduction\\paper-alpha\\checkpoint.pt",
+      "sha256": "3c76afe7682da1e3df769956511f62f008a8b2a2fd8998014b10987602dc89ff",
+      "simulations": 50,
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ],
+      "inference": "Frozen agent index 0; adaptive5 is transfer without retraining"
+    },
+    {
+      "id": "mcs",
+      "name": "公开 MCS 适配版",
+      "kind": "strategy",
+      "strategy": "external_mcs",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ]
+    },
+    {
+      "id": "champion-search",
+      "name": "牧场冠军 v2 搜索",
+      "kind": "strategy",
+      "strategy": "champion",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ]
+    },
+    {
+      "id": "random",
+      "name": "随机策略（校准基线）",
+      "kind": "strategy",
+      "strategy": "random",
+      "modes": [
+        "adaptive5",
+        "classic4"
+      ]
+    },
+    {
+      "id": "reference",
+      "name": "v5",
+      "kind": "model",
+      "format": "ntw-small-player-v1",
+      "path": "D:\\code\\ntw\\artifacts\\small-player-exploration\\v5\\model.json",
+      "sha256": "e4798288cd409d00035a4f36a9f91604ab91ff0024eb3c9d3fca1c7bb17d84f2"
+    },
+    {
+      "id": "rollout32-mixed",
+      "name": "rollout32-mixed",
+      "kind": "planner",
+      "path": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\rollout32-mixed.json",
+      "sha256": "0d12374caf718d39eb5eec3f110a5bce41dc2b28f895a69e87691cadf6c049dc",
+      "runtime": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\source-snapshot\\training\\progressive_planner.py",
+      "runtime_sha256": "899b1b268e131a75bceb32fe7efac29041eec1ec6afef243a121b91403a28e92"
+    },
+    {
+      "id": "rollout64-neural",
+      "name": "rollout64-neural",
+      "kind": "planner",
+      "path": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\rollout64-neural.json",
+      "sha256": "299bc9e786c82bb67455bfd4ff3d9a1967303289dc8846c589eb3e468ee0c40e",
+      "runtime": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\source-snapshot\\training\\progressive_planner.py",
+      "runtime_sha256": "899b1b268e131a75bceb32fe7efac29041eec1ec6afef243a121b91403a28e92"
+    },
+    {
+      "id": "rollout64-risk",
+      "name": "rollout64-risk",
+      "kind": "planner",
+      "path": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\rollout64-risk.json",
+      "sha256": "4fe849eec2468174bd51eb5562403d28f980076b806cf589979556e904b42456",
+      "runtime": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\source-snapshot\\training\\progressive_planner.py",
+      "runtime_sha256": "899b1b268e131a75bceb32fe7efac29041eec1ec6afef243a121b91403a28e92"
+    },
+    {
+      "id": "rollout64-base",
+      "name": "rollout64-base",
+      "kind": "planner",
+      "path": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\rollout64-base.json",
+      "sha256": "f7bcc52cce9b4d43013fc928042c03e3809c647c9ebfe3819e4f720c400bc331",
+      "runtime": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\development-001\\source-snapshot\\training\\progressive_planner.py",
+      "runtime_sha256": "899b1b268e131a75bceb32fe7efac29041eec1ec6afef243a121b91403a28e92"
+    }
+  ],
+  "source_sha256": {
+    "training/progressive_planner.py": "899b1b268e131a75bceb32fe7efac29041eec1ec6afef243a121b91403a28e92",
+    "training/progressive_campaign.py": "d6a2380ade84d65dc889cbdfd29e5377775584e177e3cebe7b75fd60c4a0595f",
+    "training/explore_small_strategies.py": "fc9d98a46561251473cf64d95beaf4ff321e08d6405187cfec315bb05c165944",
+    "training/small_player_env.py": "5b6e7601050bd567d52023afdd76c5c15733877f7084fc4c3255fba40b08aa1f",
+    "training/train_policy.py": "66e4ee68aa14dfa007f146fa15fec4123b8370b97a9b7084956a5cb38243a253",
+    "training/run_local_tournament.py": "4dc346d87a239eb1640e82c232316d985a6589898ebaf666f7a79e1a5c08a369",
+    "training/report_local_tournament.py": "d2f0da3b83a66e5b9bf07ef365aacedb1b51671ce3f5309d681357a8532adc76",
+    "training/evaluate_small_exploration.py": "7c7026b3194a840f01e7b8ef579283c4cc61e9fabfd0bbfb5c68acfbd1b19e48",
+    "training/evaluate_small_iterations.py": "751f166a8f54dd0e14154d96f42dfe1614929def5c8685a79d74dca681d378bd",
+    "scripts/small-exploration-worker.mjs": "f7704c3a78394e4c770e562e327295561b07d4211d1101bdd59db20b4711f5b9",
+    "scripts/small-strategy-runtime.mjs": "a47743881f3ba3d9cd2c36315d9e91d2cbe216af0ca70eb469bdbbe644ce5d43"
+  },
+  "protocol_sha256": "c09faf5324ffe62dfe821cb392ae7f9a9276420be51d537ff0c8db5b22017574",
+  "policy": "Frozen settings; no changes during this run."
+}

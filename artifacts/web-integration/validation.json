@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-15T14:56:37+08:00",
+  "javascript_tests": 21,
+  "python_tests": 3,
+  "production_build": "passed",
+  "model_catalog": {
+    "entries": 10,
+    "unique_files": 70,
+    "sha256_check": "passed"
+  },
+  "archive_transport": {
+    "independent_states": 70,
+    "by_players": {
+      "3": 30,
+      "4": 40
+    },
+    "direct_calls": 70,
+    "proxy_calls": 70,
+    "reports": [
+      "http-equivalence.json",
+      "proxy-equivalence.json"
+    ]
+  },
+  "formal_audit": {
+    "accepted_upgrades": 3,
+    "attempts": 4,
+    "verified_games": 114688,
+    "report": "../progressive-upgrades/independent-completion-audit.json"
+  },
+  "browser_checks": [
+    "4-player default champion connected; suggestion and completed turn into round 2",
+    "2-player V6 suggestion and completed turn into round 2",
+    "4-player 104-card arena completed all 20 games",
+    "production static website returned real champion and V6 suggestions"
+  ],
+  "arena_smoke": {
+    "games": 20,
+    "players": 4,
+    "deck_size": 104,
+    "seed": 20260820,
+    "champion_observed_win_rate": 0.475,
+    "champion_mean_bullheads": 5.65,
+    "scope": "Functional smoke test, not a new formal strength claim"
+  },
+  "launcher_child_cleanup": "Observed both owned launchers exit after their backend child exited",
+  "production_url": "http://127.0.0.1:8765",
+  "product_sha256": {
+    "package-lock.json": "30e50325b1cd1e9d3c52c00b2822cc3f2a2b9741d9219ce824868f91e70d0d08",
+    "package.json": "9e8ba82351c82b5f70226ef6193c2f53bcd35e06a19a9c52400724d100d9211c",
+    "scripts/start-local.mjs": "0ef2b0774fc7f3d07acfec8599402ce6c0969c9873a0e05a28f622a10403fda0",
+    "server/champion_api.py": "ae4c0df4e5244fcadeff81a9c805ade8b2facfb6425895f2d7665a1a3786d01c",
+    "server/test_champion_api.py": "f3956a59078b00d478ef25fb64d1efbafda2c35f437609ec7b8a326643448ff3",
+    "server/verify_web_champion.py": "5110dc69315ce476a21b669986fecf698bb2b5b072c9fde4c99dc0c28492533a",
+    "src/App.jsx": "dd59ae73f7521cfb12ee533a5a5bedc3c054bb58036a9890e781198622b82acc",
+    "src/Arena.jsx": "d0e839f50e8ede84335178e294f7af83577554fd08ca0f860fa04383a9ccfaad",
+    "src/styles.css": "1c29e163a44f48c717315dfa7fcae28439a880b955caeaa7ca1c5bb23bb7672a",
+    "src/web/ModelStatus.jsx": "a9fa6471d3dda1f647b664bb0920da0f94cc0f12163dec1cdcabefd35f9b059a",
+    "src/web/ai-router.js": "217c7c59d41ee3401fd681510825dde1be8ef149a82762c4a413eff3a85b41c9",
+    "src/web/ai.worker.js": "ecfdb2ef52e11d1a9b371f0b18f50880470054d99527d63ceed7b445a277dada",
+    "src/web/arena-game.js": "db8cfafafa6f09f43eda761c27b1e6662853ab68b02dc718131d5443abc8cdcb",
+    "src/web/arena.worker.js": "e7d8c84ab5ab9d2a3865a525fdd03231c6e2eb2f88f5c17cc85b1f32feba106f",
+    "src/web/strategy-catalog.js": "ca4f59d6efad1b869f7430fac3512d464aa2216534f01d3294909c0504ba4822",
+    "src/web/v6-runtime.js": "62dfaf0f0dd62edae0793498c3fabfc55fa29c839ce23b0c75c372aeb98a549a",
+    "tests/web-ai.test.js": "d9a6b265c2027a845b33603f0c67a4c30873a8e50138a58ec18c392788a762f2",
+    "tools/organize_models.py": "4547b741ae633c3d271789c211e497f5475284bb3226010ce09095fc5e45da5e",
+    "vite.config.js": "6582e130268e9c7b29beb9f3b9e69e6fd53ba4ddf2c0327634d34c9d50a00030"
+  }
+}

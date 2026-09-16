@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-15T15:13:48+08:00",
+  "policy": "distill2048-specialist2048",
+  "certificate": "certificate-004",
+  "trace_sha256": "0ceeea7193a5ca22ef4f858a0ed46d35ed64120a346b8b2983471e140875d5c0",
+  "script_sha256": "349bfe829a1153adc9a751bafef7f6ab6833b5e176cd5de84d08300d6a896182",
+  "scope": "Post-hoc descriptive same-table score comparisons in existing 3/4-player games. A win means fewer bullheads than that opponent, ties count half. Not 2-player win rate, whole-table first-place share, equal-compute comparison, or a new formal significance claim. Seat rotations are correlated within deal groups.",
+  "rows": [
+    {
+      "players": 3,
+      "opponent": "alpha-2000",
+      "games": 1509,
+      "independent_deals": 503,
+      "wins": 1023,
+      "ties": 53,
+      "losses": 433,
+      "pair_score_share": 0.6954937044400266,
+      "champion_mean_bullheads": 6.715705765407555,
+      "opponent_mean_bullheads": 11.183565275016567
+    },
+    {
+      "players": 3,
+      "opponent": "dirv-10000",
+      "games": 1455,
+      "independent_deals": 485,
+      "wins": 933,
+      "ties": 51,
+      "losses": 471,
+      "pair_score_share": 0.6587628865979381,
+      "champion_mean_bullheads": 6.911340206185567,
+      "opponent_mean_bullheads": 10.862542955326461
+    },
+    {
+      "players": 3,
+      "opponent": "mcs",
+      "games": 1527,
+      "independent_deals": 509,
+      "wins": 1014,
+      "ties": 59,
+      "losses": 454,
+      "pair_score_share": 0.683366077275704,
+      "champion_mean_bullheads": 6.5697445972495085,
+      "opponent_mean_bullheads": 10.75049115913556
+    },
+    {
+      "players": 4,
+      "opponent": "alpha-2000",
+      "games": 3040,
+      "independent_deals": 760,
+      "wins": 2135,
+      "ties": 95,
+      "losses": 810,
+      "pair_score_share": 0.7179276315789473,
+      "champion_mean_bullheads": 7.059210526315789,
+      "opponent_mean_bullheads": 12.984868421052632
+    },
+    {
+      "players": 4,
+      "opponent": "dirv-10000",
+      "games": 3136,
+      "independent_deals": 784,
+      "wins": 2029,
+      "ties": 101,
+      "losses": 1006,
+      "pair_score_share": 0.6631058673469388,
+      "champion_mean_bullheads": 7.127551020408164,
+      "opponent_mean_bullheads": 12.087372448979592
+    },
+    {
+      "players": 4,
+      "opponent": "mcs",
+      "games": 3148,
+      "independent_deals": 787,
+      "wins": 2139,
+      "ties": 101,
+      "losses": 908,
+      "pair_score_share": 0.6955209656925032,
+      "champion_mean_bullheads": 7.121029224904701,
+      "opponent_mean_bullheads": 12.351651842439644
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "branch": "v7-counterfactual",
+  "config": {
+    "root_games": 8,
+    "turns": [
+      6,
+      8
+    ],
+    "worlds": 4,
+    "epochs": 2,
+    "save_every": 1,
+    "lr": 1e-05,
+    "temperature": 0.75,
+    "advantage_scale": 6.0,
+    "seed": 60862001
+  },
+  "players": [
+    {
+      "players": 2,
+      "root_games": 8,
+      "public_states": 16,
+      "completion_rollouts": 192,
+      "selected_epoch": 1,
+      "baseline_development": 0.46875,
+      "selected_development": 0.46875
+    },
+    {
+      "players": 3,
+      "root_games": 8,
+      "public_states": 16,
+      "completion_rollouts": 192,
+      "selected_epoch": 2,
+      "baseline_development": 0.453125,
+      "selected_development": 0.53125
+    },
+    {
+      "players": 4,
+      "root_games": 8,
+      "public_states": 16,
+      "completion_rollouts": 192,
+      "selected_epoch": 1,
+      "baseline_development": 0.34375,
+      "selected_development": 0.34375
+    }
+  ],
+  "root_games": 24,
+  "completion_rollouts": 576,
+  "information": "Teacher samples only own hand, public board, scores and seen cards. True opposing hands are discarded. Uniform unseen-card belief; no learned history-conditioned posterior."
+}

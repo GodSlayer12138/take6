@@ -1,0 +1,33 @@
+{
+  "batch": 512,
+  "updates": 256,
+  "epochs": 4,
+  "minibatch": 512,
+  "lr": 2e-05,
+  "clip": 0.15,
+  "entropy": 0.005,
+  "anchor_kl": 0.01,
+  "gae_lambda": 0.95,
+  "critic_weight": 0.5,
+  "bullhead_weight": 0.002,
+  "evaluate_every": 32,
+  "evaluation_games": 2048,
+  "players": [
+    3
+  ],
+  "deck_size": 104,
+  "initial_policy": "artifacts/progressive-upgrades/ppo-proxy-v1/model.pt",
+  "opponent_proxy": "artifacts/progressive-upgrades/opponent-proxies-v2",
+  "selection": "Largest deterministic proxy development win share for this player count; separate 3/4-player policies",
+  "seed_namespace": "progressive-ppo-specialist-3-v1",
+  "role": "Training and proxy development only; neither proxy wins nor checkpoints count as accepted upgrades",
+  "driver_source_sha256": "f697df6016c254c0af84627636586f63bd25d82ff903c2a9afece878f201bce1",
+  "source_sha256": "f60e750d12207395190e519406cb75c328130c97b5f68d0989bdfe77f66f8170",
+  "dependency_sha256": {
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\ppo-proxy-v1\\model.pt": "9f1baf52946194b9aa9676720cfef2977e1203ced72904bbfd65fd94b741d694",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\dirv-10000.pt": "d63e47e25c5af2da0b2160c406b46cc7d1f1b4215c38b36a3d43b22e3d3de8ac",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\alpha-2000.pt": "b33af960990939cb3ff55e1b5b8b313a974e98f535e3bfd2010a813d6230f56b",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\mcs.pt": "623003eea2fa49a26a86ab479df4762b39149853c2b205ce02a3b9657de6ab39",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\champion-search.pt": "31720446b809cc5081217dc7ea931f99f5dd5928b2ab7d5ef1f872a83b02554d"
+  }
+}

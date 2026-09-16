@@ -1,0 +1,142 @@
+{
+  "purpose": "development",
+  "games": 8960,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 768,
+        "win_rate": 0.5336371527777777,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.157552083333334,
+        "mean_decision_ms": 697.7373755598629
+      },
+      {
+        "version": "pair512-specialist2048",
+        "games": 768,
+        "win_rate": 0.5774739583333333,
+        "delta_pp": 4.383680555555555,
+        "delta_ci95_pp": [
+          0.08680555555557995,
+          8.658854166666668
+        ],
+        "adjusted_one_sided_lower_pp": 0.08680555555557995,
+        "mean_bullheads": 6.850260416666667,
+        "mean_decision_ms": 916.0384897265837
+      },
+      {
+        "version": "purewin2048-specialist2048",
+        "games": 768,
+        "win_rate": 0.5642361111111112,
+        "delta_pp": 3.0598958333333335,
+        "delta_ci95_pp": [
+          -1.041666666666652,
+          7.226562499999989
+        ],
+        "adjusted_one_sided_lower_pp": -1.041666666666652,
+        "mean_bullheads": 7.03125,
+        "mean_decision_ms": 1030.0850820702303
+      },
+      {
+        "version": "belief2048-specialist2048",
+        "games": 768,
+        "win_rate": 0.5653211805555556,
+        "delta_pp": 3.1684027777777777,
+        "delta_ci95_pp": [
+          -1.063368055555558,
+          7.50868055555557
+        ],
+        "adjusted_one_sided_lower_pp": -1.063368055555558,
+        "mean_bullheads": 6.591145833333334,
+        "mean_decision_ms": 1585.2748254166413
+      },
+      {
+        "version": "distill2048-specialist2048",
+        "games": 768,
+        "win_rate": 0.576388888888889,
+        "delta_pp": 4.275173611111112,
+        "delta_ci95_pp": [
+          -0.17361111111109412,
+          8.745659722222221
+        ],
+        "adjusted_one_sided_lower_pp": -0.17361111111109412,
+        "mean_bullheads": 6.427083333333333,
+        "mean_decision_ms": 995.0157098568097
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 1024,
+        "win_rate": 0.46663411458333337,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.4609375,
+        "mean_decision_ms": 861.5026416991988
+      },
+      {
+        "version": "pair512-specialist2048",
+        "games": 1024,
+        "win_rate": 0.48486328125,
+        "delta_pp": 1.8229166666666665,
+        "delta_ci95_pp": [
+          -2.24609375,
+          5.973307291666669
+        ],
+        "adjusted_one_sided_lower_pp": -2.24609375,
+        "mean_bullheads": 6.9951171875,
+        "mean_decision_ms": 1015.1705478222759
+      },
+      {
+        "version": "purewin2048-specialist2048",
+        "games": 1024,
+        "win_rate": 0.48486328125,
+        "delta_pp": 1.8229166666666665,
+        "delta_ci95_pp": [
+          -2.24609375,
+          5.973307291666669
+        ],
+        "adjusted_one_sided_lower_pp": -2.24609375,
+        "mean_bullheads": 6.9951171875,
+        "mean_decision_ms": 1029.6532340722615
+      },
+      {
+        "version": "belief2048-specialist2048",
+        "games": 1024,
+        "win_rate": 0.48486328125,
+        "delta_pp": 1.8229166666666665,
+        "delta_ci95_pp": [
+          -2.24609375,
+          5.973307291666669
+        ],
+        "adjusted_one_sided_lower_pp": -2.24609375,
+        "mean_bullheads": 6.9951171875,
+        "mean_decision_ms": 1028.3751986913899
+      },
+      {
+        "version": "distill2048-specialist2048",
+        "games": 1024,
+        "win_rate": 0.48486328125,
+        "delta_pp": 1.8229166666666665,
+        "delta_ci95_pp": [
+          -2.24609375,
+          5.973307291666669
+        ],
+        "adjusted_one_sided_lower_pp": -2.24609375,
+        "mean_bullheads": 6.9951171875,
+        "mean_decision_ms": 1002.9907399413794
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "7a2cf3302ebed458fa97bd01a58df17807296c33bb052c6455c179160340bd4c"
+}

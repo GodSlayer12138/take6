@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 477.98475928585896,
+  "wall_seconds": 69.77751709999939,
+  "source_trace_sha256": "0a426d341957d92c5dbd5c9093b42708da09135f96aa5fdd42c955356aa371b7",
+  "service_source_sha256": "006b804e7b4acf88068a706b364cc166c8c7903794fa43e4993a90824e4c2aa1"
+}

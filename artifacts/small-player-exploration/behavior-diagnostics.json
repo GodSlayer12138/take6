@@ -1,0 +1,36 @@
+{
+  "purpose": "Behavioral diagnosis only; fresh seed, no test-set access and no model selection.",
+  "results": [
+    {
+      "players": 2,
+      "public_states": 1024,
+      "baseline_action_changed_by_row_reversal": 0.2685546875,
+      "branch_action_disagreement_with_baseline": {
+        "v5": 0.041015625,
+        "v6": 0.3056640625,
+        "v7": 0.029296875
+      }
+    },
+    {
+      "players": 3,
+      "public_states": 1024,
+      "baseline_action_changed_by_row_reversal": 0.2392578125,
+      "branch_action_disagreement_with_baseline": {
+        "v5": 0.154296875,
+        "v6": 0.232421875,
+        "v7": 0.0224609375
+      }
+    },
+    {
+      "players": 4,
+      "public_states": 1024,
+      "baseline_action_changed_by_row_reversal": 0.259765625,
+      "branch_action_disagreement_with_baseline": {
+        "v5": 0.1787109375,
+        "v6": 0.1416015625,
+        "v7": 0.0400390625
+      }
+    }
+  ],
+  "caveat": "Action differences and row sensitivity do not by themselves establish higher win rate."
+}

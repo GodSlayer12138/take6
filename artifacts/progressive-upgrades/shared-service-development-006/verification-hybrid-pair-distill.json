@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "policy": "hybrid-pair-distill",
+  "clients": 8,
+  "streams": 2,
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 255.8130928578196,
+  "wall_seconds": 80.10625910000817,
+  "source_trace_sha256": "a54786897a734dc578cda02cb99728b050932ff3127aa9f37a108cd96cfc5d75",
+  "archive_policy_by_players": {
+    "3": "two-card-256",
+    "4": "distill-v2-1024"
+  },
+  "selected_inputs_sha256": "150d53617897abadcd4dea19b5746119cb35f563903d5f7dd66e9e7e7b94fe89",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5",
+  "verifier_sha256": "aa3e751f355f3211c384d8af0206e585423a1a59e7562e0bb72f26f8aca914ba"
+}

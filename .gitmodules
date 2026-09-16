@@ -1,0 +1,3 @@
+[submodule "external/rl-6-nimmt"]
+	path = external/rl-6-nimmt
+	url = https://github.com/johannbrehmer/rl-6-nimmt.git

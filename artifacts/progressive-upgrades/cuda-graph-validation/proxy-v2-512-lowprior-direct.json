@@ -1,0 +1,25 @@
+{
+  "policy": "proxy-v2-512-lowprior",
+  "archive": "development-003",
+  "direct": true,
+  "source_sha256": "6780044300591e27ed7b2503ed42bf1ed327f5e9849d7f2daed705ddaafad7e4",
+  "runs": [
+    {
+      "repeat": 0,
+      "decisions": 140,
+      "mismatches": [],
+      "seconds": 10.072545900002297,
+      "cache": [],
+      "peak_cuda_bytes": 154411008
+    },
+    {
+      "repeat": 1,
+      "decisions": 140,
+      "mismatches": [],
+      "seconds": 10.165121099998942,
+      "cache": [],
+      "peak_cuda_bytes": 154411008
+    }
+  ],
+  "status": "passed"
+}

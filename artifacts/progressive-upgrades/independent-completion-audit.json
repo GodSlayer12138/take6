@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-15T14:40:23.034691+08:00",
+  "goal_complete": true,
+  "accepted_upgrades": 3,
+  "completed_attempts": 4,
+  "verified_games": 114688,
+  "attempts": [
+    {
+      "attempt": 1,
+      "candidate": "gpu128-proxy",
+      "passed": true,
+      "modes": {
+        "3": {
+          "delta_pp": 14.01095920138889,
+          "adjusted_lower_pp": 12.144639756944445,
+          "independent_deals": 2048,
+          "games_per_version": 6144
+        },
+        "4": {
+          "delta_pp": 11.507161458333334,
+          "adjusted_lower_pp": 9.9609375,
+          "independent_deals": 2048,
+          "games_per_version": 8192
+        }
+      },
+      "games": 28672
+    },
+    {
+      "attempt": 2,
+      "candidate": "proxy-v2-512-lowprior",
+      "passed": true,
+      "modes": {
+        "3": {
+          "delta_pp": 3.049045138888889,
+          "adjusted_lower_pp": 0.8300781250000002,
+          "independent_deals": 2048,
+          "games_per_version": 6144
+        },
+        "4": {
+          "delta_pp": 4.274495442708334,
+          "adjusted_lower_pp": 2.3579915364583335,
+          "independent_deals": 2048,
+          "games_per_version": 8192
+        }
+      },
+      "games": 28672
+    },
+    {
+      "attempt": 3,
+      "candidate": "hybrid-wide-specialist",
+      "passed": false,
+      "modes": {
+        "3": {
+          "delta_pp": 2.0453559027777777,
+          "adjusted_lower_pp": -0.11935763888888883,
+          "independent_deals": 2048,
+          "games_per_version": 6144
+        },
+        "4": {
+          "delta_pp": 2.5553385416666665,
+          "adjusted_lower_pp": 0.6083170572916666,
+          "independent_deals": 2048,
+          "games_per_version": 8192
+        }
+      },
+      "games": 28672
+    },
+    {
+      "attempt": 4,
+      "candidate": "distill2048-specialist2048",
+      "passed": true,
+      "modes": {
+        "3": {
+          "delta_pp": 3.271484375,
+          "adjusted_lower_pp": 0.8897569444444444,
+          "independent_deals": 2048,
+          "games_per_version": 6144
+        },
+        "4": {
+          "delta_pp": 2.5421142578125004,
+          "adjusted_lower_pp": 0.3967272440592447,
+          "independent_deals": 2048,
+          "games_per_version": 8192
+        }
+      },
+      "games": 28672
+    }
+  ],
+  "all_campaign_seed_reservations_unique": true,
+  "campaign_seeds_disjoint_from_historical_development": true,
+  "pending_outcomes_read": false,
+  "protocol_sha256": "c09faf5324ffe62dfe821cb392ae7f9a9276420be51d537ff0c8db5b22017574",
+  "auditor_sha256": "f18614311b106c2e1c12990d8f00cca1b9186c8e793d7ca74c43da2a23ab2557"
+}

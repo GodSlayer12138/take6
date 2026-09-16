@@ -1,0 +1,246 @@
+{
+  "purpose": "development",
+  "games": 8064,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 384,
+        "win_rate": 0.5299479166666667,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.442708333333334,
+        "mean_decision_ms": 415.8051228906837
+      },
+      {
+        "version": "proxy-v2-128",
+        "games": 384,
+        "win_rate": 0.5247395833333333,
+        "delta_pp": -0.5208333333333337,
+        "delta_ci95_pp": [
+          -6.901041666666652,
+          5.598958333333348
+        ],
+        "adjusted_one_sided_lower_pp": -6.901041666666652,
+        "mean_bullheads": 7.494791666666666,
+        "mean_decision_ms": 407.627745234376
+      },
+      {
+        "version": "proxy-v2-256",
+        "games": 384,
+        "win_rate": 0.5950520833333334,
+        "delta_pp": 6.510416666666666,
+        "delta_ci95_pp": [
+          0.3906250000000111,
+          12.63020833333332
+        ],
+        "adjusted_one_sided_lower_pp": 0.3906250000000111,
+        "mean_bullheads": 6.8125,
+        "mean_decision_ms": 412.7414477604285
+      },
+      {
+        "version": "belief-soft-256",
+        "games": 384,
+        "win_rate": 0.5763888888888888,
+        "delta_pp": 4.644097222222222,
+        "delta_ci95_pp": [
+          -1.736111111111116,
+          11.111111111111127
+        ],
+        "adjusted_one_sided_lower_pp": -1.736111111111116,
+        "mean_bullheads": 7.158854166666667,
+        "mean_decision_ms": 663.3255363281762
+      },
+      {
+        "version": "belief-strong-256",
+        "games": 384,
+        "win_rate": 0.5273437499999999,
+        "delta_pp": -0.2604166666666665,
+        "delta_ci95_pp": [
+          -6.901041666666652,
+          6.250000000000022
+        ],
+        "adjusted_one_sided_lower_pp": -6.901041666666652,
+        "mean_bullheads": 6.955729166666667,
+        "mean_decision_ms": 757.8589697656204
+      },
+      {
+        "version": "continuation-256",
+        "games": 384,
+        "win_rate": 0.5143229166666667,
+        "delta_pp": -1.5625,
+        "delta_ci95_pp": [
+          -7.682291666666635,
+          4.427083333333348
+        ],
+        "adjusted_one_sided_lower_pp": -7.682291666666635,
+        "mean_bullheads": 7.796875,
+        "mean_decision_ms": 416.01444606777795
+      },
+      {
+        "version": "belief-continuation-256",
+        "games": 384,
+        "win_rate": 0.5130208333333333,
+        "delta_pp": -1.6927083333333328,
+        "delta_ci95_pp": [
+          -8.072916666666629,
+          4.4270833333333375
+        ],
+        "adjusted_one_sided_lower_pp": -8.072916666666629,
+        "mean_bullheads": 7.229166666666666,
+        "mean_decision_ms": 669.0333324999528
+      },
+      {
+        "version": "proxy-v2-512-lowprior",
+        "games": 384,
+        "win_rate": 0.5768229166666666,
+        "delta_pp": 4.6875,
+        "delta_ci95_pp": [
+          -1.432291666666674,
+          10.807291666666675
+        ],
+        "adjusted_one_sided_lower_pp": -1.432291666666674,
+        "mean_bullheads": 6.927083333333334,
+        "mean_decision_ms": 414.60026518228216
+      },
+      {
+        "version": "proxy-v2-256-greedy",
+        "games": 384,
+        "win_rate": 0.5143229166666667,
+        "delta_pp": -1.5625000000000004,
+        "delta_ci95_pp": [
+          -8.203125000000028,
+          4.947916666666686
+        ],
+        "adjusted_one_sided_lower_pp": -8.203125000000028,
+        "mean_bullheads": 7.65625,
+        "mean_decision_ms": 388.1553585676727
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 512,
+        "win_rate": 0.4228515625,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 8.494140625,
+        "mean_decision_ms": 403.4206008398378
+      },
+      {
+        "version": "proxy-v2-128",
+        "games": 512,
+        "win_rate": 0.3974609375,
+        "delta_pp": -2.5390625,
+        "delta_ci95_pp": [
+          -8.69140625,
+          3.61328125
+        ],
+        "adjusted_one_sided_lower_pp": -8.69140625,
+        "mean_bullheads": 8.330078125,
+        "mean_decision_ms": 402.62588101565416
+      },
+      {
+        "version": "proxy-v2-256",
+        "games": 512,
+        "win_rate": 0.4309895833333333,
+        "delta_pp": 0.8138020833333333,
+        "delta_ci95_pp": [
+          -4.6549479166666625,
+          6.217447916666669
+        ],
+        "adjusted_one_sided_lower_pp": -4.6549479166666625,
+        "mean_bullheads": 7.642578125,
+        "mean_decision_ms": 404.7156895508273
+      },
+      {
+        "version": "belief-soft-256",
+        "games": 512,
+        "win_rate": 0.43522135416666663,
+        "delta_pp": 1.2369791666666665,
+        "delta_ci95_pp": [
+          -4.39453125,
+          6.8359375
+        ],
+        "adjusted_one_sided_lower_pp": -4.39453125,
+        "mean_bullheads": 7.884765625,
+        "mean_decision_ms": 631.769190390635
+      },
+      {
+        "version": "belief-strong-256",
+        "games": 512,
+        "win_rate": 0.46012369791666663,
+        "delta_pp": 3.7272135416666665,
+        "delta_ci95_pp": [
+          -1.790364583333337,
+          9.22892252604163
+        ],
+        "adjusted_one_sided_lower_pp": -1.790364583333337,
+        "mean_bullheads": 7.533203125,
+        "mean_decision_ms": 713.0823446288865
+      },
+      {
+        "version": "continuation-256",
+        "games": 512,
+        "win_rate": 0.44287109375,
+        "delta_pp": 2.001953125,
+        "delta_ci95_pp": [
+          -3.515625,
+          7.470703125
+        ],
+        "adjusted_one_sided_lower_pp": -3.515625,
+        "mean_bullheads": 7.607421875,
+        "mean_decision_ms": 396.8369721875156
+      },
+      {
+        "version": "belief-continuation-256",
+        "games": 512,
+        "win_rate": 0.4423828125,
+        "delta_pp": 1.953125,
+        "delta_ci95_pp": [
+          -4.1015625,
+          7.91015625
+        ],
+        "adjusted_one_sided_lower_pp": -4.1015625,
+        "mean_bullheads": 7.6484375,
+        "mean_decision_ms": 617.0024048632669
+      },
+      {
+        "version": "proxy-v2-512-lowprior",
+        "games": 512,
+        "win_rate": 0.4524739583333333,
+        "delta_pp": 2.962239583333333,
+        "delta_ci95_pp": [
+          -3.287760416666663,
+          9.309895833333332
+        ],
+        "adjusted_one_sided_lower_pp": -3.287760416666663,
+        "mean_bullheads": 7.369140625,
+        "mean_decision_ms": 394.09775416016475
+      },
+      {
+        "version": "proxy-v2-256-greedy",
+        "games": 512,
+        "win_rate": 0.43815104166666663,
+        "delta_pp": 1.5299479166666665,
+        "delta_ci95_pp": [
+          -4.78515625,
+          7.91015625
+        ],
+        "adjusted_one_sided_lower_pp": -4.78515625,
+        "mean_bullheads": 7.96875,
+        "mean_decision_ms": 367.3963477734503
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "05c402ef0e94edd693c549ac072ba9d382311412db007f5d7f035fda1ceb1445"
+}

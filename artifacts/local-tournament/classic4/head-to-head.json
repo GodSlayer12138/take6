@@ -1,0 +1,4120 @@
+{
+  "ntw-adaptive-rl": {
+    "ntw-champion-v2": {
+      "games": 272,
+      "better": 139,
+      "tied": 8
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 188,
+      "better": 95,
+      "tied": 6
+    },
+    "hybrid-rl": {
+      "games": 228,
+      "better": 113,
+      "tied": 8
+    },
+    "champion-search": {
+      "games": 324,
+      "better": 167,
+      "tied": 8
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 248,
+      "better": 131,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 248,
+      "better": 117,
+      "tied": 7
+    },
+    "default-classic": {
+      "games": 216,
+      "better": 109,
+      "tied": 2
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 200,
+      "better": 103,
+      "tied": 2
+    },
+    "ntw-classic5-rl": {
+      "games": 200,
+      "better": 110,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 220,
+      "better": 97,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 280,
+      "better": 146,
+      "tied": 6
+    },
+    "dirv-10000": {
+      "games": 164,
+      "better": 74,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 228,
+      "better": 104,
+      "tied": 8
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 236,
+      "better": 119,
+      "tied": 4
+    },
+    "dirv-6200": {
+      "games": 236,
+      "better": 125,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 140,
+      "better": 77,
+      "tied": 2
+    },
+    "ntw-adaptive5-v1": {
+      "games": 160,
+      "better": 71,
+      "tied": 7
+    },
+    "alpha-2000": {
+      "games": 232,
+      "better": 117,
+      "tied": 7
+    },
+    "ntw-adaptive5": {
+      "games": 208,
+      "better": 96,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 160,
+      "better": 85,
+      "tied": 1
+    },
+    "mcs": {
+      "games": 188,
+      "better": 93,
+      "tied": 6
+    },
+    "random": {
+      "games": 244,
+      "better": 179,
+      "tied": 6
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 268,
+      "better": 132,
+      "tied": 13
+    },
+    "hybrid-ensemble": {
+      "games": 284,
+      "better": 144,
+      "tied": 12
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 192,
+      "better": 93,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 192,
+      "better": 105,
+      "tied": 6
+    },
+    "ntw-champion-v1": {
+      "games": 188,
+      "better": 99,
+      "tied": 4
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 200,
+      "better": 108,
+      "tied": 5
+    }
+  },
+  "ntw-adaptive5": {
+    "dirv-6200": {
+      "games": 292,
+      "better": 152,
+      "tied": 13
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 264,
+      "better": 140,
+      "tied": 12
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 276,
+      "better": 138,
+      "tied": 10
+    },
+    "random": {
+      "games": 192,
+      "better": 134,
+      "tied": 4
+    },
+    "ntw-champion-v1": {
+      "games": 240,
+      "better": 137,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 140,
+      "better": 59,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 228,
+      "better": 120,
+      "tied": 10
+    },
+    "hybrid-ensemble": {
+      "games": 192,
+      "better": 93,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 220,
+      "better": 113,
+      "tied": 8
+    },
+    "champion-search": {
+      "games": 260,
+      "better": 137,
+      "tied": 7
+    },
+    "hybrid-rl": {
+      "games": 276,
+      "better": 130,
+      "tied": 10
+    },
+    "alpha-2000": {
+      "games": 172,
+      "better": 98,
+      "tied": 9
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 244,
+      "better": 117,
+      "tied": 6
+    },
+    "ntw-champion-v2": {
+      "games": 208,
+      "better": 103,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 144,
+      "better": 79,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 192,
+      "better": 101,
+      "tied": 3
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 272,
+      "better": 127,
+      "tied": 12
+    },
+    "ntw-adaptive-rl": {
+      "games": 208,
+      "better": 108,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 236,
+      "better": 116,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 244,
+      "better": 132,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 184,
+      "better": 96,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 236,
+      "better": 127,
+      "tied": 11
+    },
+    "mcs": {
+      "games": 212,
+      "better": 118,
+      "tied": 4
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 132,
+      "better": 60,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 236,
+      "better": 122,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 280,
+      "better": 147,
+      "tied": 13
+    },
+    "ntw-adaptive5-v1": {
+      "games": 208,
+      "better": 103,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 156,
+      "better": 82,
+      "tied": 3
+    }
+  },
+  "ntw-champion": {
+    "random": {
+      "games": 236,
+      "better": 166,
+      "tied": 3
+    },
+    "ntw-champion-v1": {
+      "games": 220,
+      "better": 105,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 196,
+      "better": 101,
+      "tied": 4
+    },
+    "default-classic": {
+      "games": 172,
+      "better": 84,
+      "tied": 10
+    },
+    "hybrid-ensemble": {
+      "games": 204,
+      "better": 101,
+      "tied": 3
+    },
+    "ntw-classic5-rl": {
+      "games": 172,
+      "better": 80,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 188,
+      "better": 96,
+      "tied": 6
+    },
+    "ntw-champion-v2": {
+      "games": 236,
+      "better": 106,
+      "tied": 8
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 180,
+      "better": 81,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 196,
+      "better": 98,
+      "tied": 9
+    },
+    "ntw-adaptive5-v1": {
+      "games": 296,
+      "better": 120,
+      "tied": 8
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 272,
+      "better": 123,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 208,
+      "better": 102,
+      "tied": 3
+    },
+    "alpha-2000": {
+      "games": 216,
+      "better": 111,
+      "tied": 2
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 300,
+      "better": 154,
+      "tied": 8
+    },
+    "ntw-adaptive-rl": {
+      "games": 140,
+      "better": 61,
+      "tied": 2
+    },
+    "dirv-6200": {
+      "games": 220,
+      "better": 98,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 200,
+      "better": 88,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 188,
+      "better": 86,
+      "tied": 1
+    },
+    "champion-search": {
+      "games": 216,
+      "better": 98,
+      "tied": 7
+    },
+    "ntw-classic5": {
+      "games": 220,
+      "better": 101,
+      "tied": 5
+    },
+    "dirv-10000": {
+      "games": 248,
+      "better": 114,
+      "tied": 7
+    },
+    "ntw-adaptive5": {
+      "games": 280,
+      "better": 120,
+      "tied": 13
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 164,
+      "better": 64,
+      "tied": 4
+    },
+    "hybrid-rl": {
+      "games": 252,
+      "better": 114,
+      "tied": 8
+    },
+    "mcs": {
+      "games": 300,
+      "better": 157,
+      "tied": 14
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 252,
+      "better": 115,
+      "tied": 2
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 172,
+      "better": 85,
+      "tied": 4
+    }
+  },
+  "ntw-classic5-rl": {
+    "ntw-champion": {
+      "games": 172,
+      "better": 86,
+      "tied": 6
+    },
+    "default-classic": {
+      "games": 132,
+      "better": 63,
+      "tied": 2
+    },
+    "hybrid-ensemble": {
+      "games": 228,
+      "better": 98,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 260,
+      "better": 113,
+      "tied": 11
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 272,
+      "better": 124,
+      "tied": 9
+    },
+    "hybrid-rl": {
+      "games": 272,
+      "better": 120,
+      "tied": 10
+    },
+    "ntw-adaptive-rl": {
+      "games": 200,
+      "better": 86,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 260,
+      "better": 114,
+      "tied": 14
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 296,
+      "better": 140,
+      "tied": 13
+    },
+    "random": {
+      "games": 164,
+      "better": 114,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 204,
+      "better": 98,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 160,
+      "better": 85,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 252,
+      "better": 113,
+      "tied": 9
+    },
+    "mcs": {
+      "games": 264,
+      "better": 123,
+      "tied": 5
+    },
+    "champion-search": {
+      "games": 280,
+      "better": 126,
+      "tied": 8
+    },
+    "ntw-champion-v1": {
+      "games": 184,
+      "better": 79,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 168,
+      "better": 75,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 260,
+      "better": 113,
+      "tied": 11
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 248,
+      "better": 125,
+      "tied": 6
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 180,
+      "better": 87,
+      "tied": 5
+    },
+    "dirv-6200": {
+      "games": 272,
+      "better": 137,
+      "tied": 12
+    },
+    "ntw-adaptive5-v1": {
+      "games": 240,
+      "better": 118,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 216,
+      "better": 102,
+      "tied": 11
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 188,
+      "better": 90,
+      "tied": 8
+    },
+    "alpha-2000": {
+      "games": 264,
+      "better": 138,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 180,
+      "better": 86,
+      "tied": 5
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 172,
+      "better": 86,
+      "tied": 6
+    },
+    "ntw-adaptive5": {
+      "games": 156,
+      "better": 71,
+      "tied": 3
+    }
+  },
+  "ntw-classic5": {
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 208,
+      "better": 106,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 244,
+      "better": 132,
+      "tied": 4
+    },
+    "ntw-adaptive5-v1": {
+      "games": 184,
+      "better": 86,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 172,
+      "better": 78,
+      "tied": 5
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 200,
+      "better": 99,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 216,
+      "better": 102,
+      "tied": 7
+    },
+    "ntw-champion-v2": {
+      "games": 248,
+      "better": 124,
+      "tied": 7
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 276,
+      "better": 140,
+      "tied": 9
+    },
+    "alpha-2000": {
+      "games": 224,
+      "better": 110,
+      "tied": 11
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 200,
+      "better": 87,
+      "tied": 10
+    },
+    "ntw-classic5-rl": {
+      "games": 252,
+      "better": 130,
+      "tied": 9
+    },
+    "random": {
+      "games": 232,
+      "better": 155,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 324,
+      "better": 145,
+      "tied": 10
+    },
+    "hybrid-ensemble": {
+      "games": 192,
+      "better": 85,
+      "tied": 2
+    },
+    "default-classic": {
+      "games": 188,
+      "better": 90,
+      "tied": 9
+    },
+    "mcs": {
+      "games": 184,
+      "better": 79,
+      "tied": 4
+    },
+    "champion-search": {
+      "games": 192,
+      "better": 96,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 200,
+      "better": 100,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 220,
+      "better": 111,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 224,
+      "better": 107,
+      "tied": 4
+    },
+    "hybrid-rl": {
+      "games": 228,
+      "better": 107,
+      "tied": 8
+    },
+    "ntw-champion": {
+      "games": 220,
+      "better": 114,
+      "tied": 5
+    },
+    "ntw-champion-v1": {
+      "games": 248,
+      "better": 125,
+      "tied": 11
+    },
+    "ntw-adaptive5": {
+      "games": 236,
+      "better": 107,
+      "tied": 7
+    },
+    "ntw-adaptive-rl": {
+      "games": 192,
+      "better": 81,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 180,
+      "better": 90,
+      "tied": 6
+    },
+    "dirv-6200": {
+      "games": 228,
+      "better": 105,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 232,
+      "better": 114,
+      "tied": 8
+    }
+  },
+  "ntw-champion-v1": {
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 188,
+      "better": 96,
+      "tied": 3
+    },
+    "ntw-adaptive5": {
+      "games": 240,
+      "better": 97,
+      "tied": 6
+    },
+    "random": {
+      "games": 272,
+      "better": 187,
+      "tied": 12
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 196,
+      "better": 89,
+      "tied": 6
+    },
+    "ntw-champion": {
+      "games": 220,
+      "better": 110,
+      "tied": 5
+    },
+    "default-classic": {
+      "games": 272,
+      "better": 128,
+      "tied": 11
+    },
+    "hybrid-ensemble": {
+      "games": 232,
+      "better": 103,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 296,
+      "better": 129,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 268,
+      "better": 126,
+      "tied": 5
+    },
+    "hybrid-rl": {
+      "games": 272,
+      "better": 128,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 204,
+      "better": 86,
+      "tied": 8
+    },
+    "ntw-adaptive5-v1": {
+      "games": 176,
+      "better": 71,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 180,
+      "better": 76,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 200,
+      "better": 87,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 252,
+      "better": 112,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 200,
+      "better": 85,
+      "tied": 8
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 256,
+      "better": 122,
+      "tied": 7
+    },
+    "alpha-2000": {
+      "games": 220,
+      "better": 112,
+      "tied": 11
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 204,
+      "better": 93,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 184,
+      "better": 97,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 140,
+      "better": 62,
+      "tied": 2
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 236,
+      "better": 106,
+      "tied": 8
+    },
+    "ntw-classic5": {
+      "games": 248,
+      "better": 112,
+      "tied": 11
+    },
+    "dirv-6200": {
+      "games": 240,
+      "better": 109,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 152,
+      "better": 74,
+      "tied": 7
+    },
+    "ntw-champion-v2": {
+      "games": 180,
+      "better": 89,
+      "tied": 3
+    },
+    "ntw-adaptive-rl": {
+      "games": 188,
+      "better": 85,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 228,
+      "better": 106,
+      "tied": 6
+    }
+  },
+  "ntw-adaptive-arena-v4": {
+    "alpha-2000": {
+      "games": 204,
+      "better": 103,
+      "tied": 6
+    },
+    "dirv-10000": {
+      "games": 248,
+      "better": 106,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 260,
+      "better": 123,
+      "tied": 10
+    },
+    "ntw-adaptive5-v1": {
+      "games": 196,
+      "better": 82,
+      "tied": 5
+    },
+    "ntw-classic5": {
+      "games": 244,
+      "better": 108,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 272,
+      "better": 141,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 248,
+      "better": 119,
+      "tied": 4
+    },
+    "dirv-6200": {
+      "games": 240,
+      "better": 117,
+      "tied": 8
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 228,
+      "better": 115,
+      "tied": 5
+    },
+    "hybrid-ensemble": {
+      "games": 164,
+      "better": 89,
+      "tied": 5
+    },
+    "ntw-adaptive5": {
+      "games": 228,
+      "better": 98,
+      "tied": 10
+    },
+    "ntw-adaptive-rl": {
+      "games": 280,
+      "better": 128,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 212,
+      "better": 104,
+      "tied": 4
+    },
+    "ntw-classic5-rl": {
+      "games": 160,
+      "better": 72,
+      "tied": 3
+    },
+    "random": {
+      "games": 168,
+      "better": 125,
+      "tied": 2
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 192,
+      "better": 94,
+      "tied": 3
+    },
+    "ntw-champion-v1": {
+      "games": 200,
+      "better": 107,
+      "tied": 8
+    },
+    "default-classic": {
+      "games": 396,
+      "better": 193,
+      "tied": 9
+    },
+    "mcs": {
+      "games": 136,
+      "better": 65,
+      "tied": 0
+    },
+    "champion-search": {
+      "games": 236,
+      "better": 128,
+      "tied": 10
+    },
+    "ntw-champion-v2": {
+      "games": 228,
+      "better": 113,
+      "tied": 2
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 164,
+      "better": 76,
+      "tied": 9
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 224,
+      "better": 119,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 232,
+      "better": 100,
+      "tied": 8
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 224,
+      "better": 105,
+      "tied": 6
+    },
+    "hybrid-rl": {
+      "games": 192,
+      "better": 92,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 196,
+      "better": 97,
+      "tied": 4
+    },
+    "ntw-champion": {
+      "games": 172,
+      "better": 83,
+      "tied": 4
+    }
+  },
+  "ntw-adaptive-arena-v5": {
+    "mcs": {
+      "games": 248,
+      "better": 113,
+      "tied": 8
+    },
+    "alpha-2000": {
+      "games": 256,
+      "better": 143,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 196,
+      "better": 96,
+      "tied": 5
+    },
+    "champion-search": {
+      "games": 180,
+      "better": 91,
+      "tied": 3
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 236,
+      "better": 134,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 188,
+      "better": 87,
+      "tied": 3
+    },
+    "ntw-adaptive-rl": {
+      "games": 220,
+      "better": 115,
+      "tied": 8
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 196,
+      "better": 94,
+      "tied": 2
+    },
+    "ntw-classic5-rl": {
+      "games": 296,
+      "better": 143,
+      "tied": 13
+    },
+    "random": {
+      "games": 184,
+      "better": 125,
+      "tied": 3
+    },
+    "ntw-champion": {
+      "games": 188,
+      "better": 86,
+      "tied": 6
+    },
+    "ntw-champion-v2": {
+      "games": 232,
+      "better": 114,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 248,
+      "better": 119,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 264,
+      "better": 126,
+      "tied": 8
+    },
+    "ntw-adaptive5": {
+      "games": 144,
+      "better": 62,
+      "tied": 3
+    },
+    "hybrid-rl": {
+      "games": 180,
+      "better": 90,
+      "tied": 3
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 232,
+      "better": 123,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 248,
+      "better": 113,
+      "tied": 9
+    },
+    "ntw-classic5": {
+      "games": 200,
+      "better": 95,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 232,
+      "better": 124,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 224,
+      "better": 108,
+      "tied": 9
+    },
+    "hybrid-ensemble": {
+      "games": 280,
+      "better": 126,
+      "tied": 12
+    },
+    "dirv-6200": {
+      "games": 192,
+      "better": 87,
+      "tied": 10
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 260,
+      "better": 121,
+      "tied": 6
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 188,
+      "better": 92,
+      "tied": 8
+    },
+    "ntw-champion-v1": {
+      "games": 228,
+      "better": 116,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 192,
+      "better": 87,
+      "tied": 6
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 212,
+      "better": 111,
+      "tied": 7
+    }
+  },
+  "ntw-adaptive-arena-v6": {
+    "ntw-adaptive-rl": {
+      "games": 248,
+      "better": 124,
+      "tied": 7
+    },
+    "champion-search": {
+      "games": 296,
+      "better": 150,
+      "tied": 10
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 268,
+      "better": 124,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 188,
+      "better": 98,
+      "tied": 3
+    },
+    "mcs": {
+      "games": 292,
+      "better": 132,
+      "tied": 9
+    },
+    "alpha-2000": {
+      "games": 140,
+      "better": 71,
+      "tied": 2
+    },
+    "ntw-adaptive5-v1": {
+      "games": 188,
+      "better": 102,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 304,
+      "better": 148,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 224,
+      "better": 107,
+      "tied": 10
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 220,
+      "better": 109,
+      "tied": 9
+    },
+    "ntw-classic5-rl": {
+      "games": 204,
+      "better": 98,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 212,
+      "better": 104,
+      "tied": 4
+    },
+    "random": {
+      "games": 232,
+      "better": 176,
+      "tied": 7
+    },
+    "ntw-champion-v2": {
+      "games": 236,
+      "better": 112,
+      "tied": 10
+    },
+    "ntw-adaptive5": {
+      "games": 192,
+      "better": 88,
+      "tied": 3
+    },
+    "hybrid-rl": {
+      "games": 252,
+      "better": 114,
+      "tied": 9
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 240,
+      "better": 105,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 172,
+      "better": 86,
+      "tied": 8
+    },
+    "ntw-champion": {
+      "games": 188,
+      "better": 101,
+      "tied": 1
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 228,
+      "better": 103,
+      "tied": 12
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 164,
+      "better": 76,
+      "tied": 3
+    },
+    "ntw-champion-v1": {
+      "games": 140,
+      "better": 76,
+      "tied": 2
+    },
+    "dirv-10000": {
+      "games": 188,
+      "better": 89,
+      "tied": 11
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 248,
+      "better": 117,
+      "tied": 7
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 240,
+      "better": 120,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 212,
+      "better": 101,
+      "tied": 10
+    },
+    "dirv-6200": {
+      "games": 196,
+      "better": 101,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 232,
+      "better": 110,
+      "tied": 8
+    }
+  },
+  "ntw-adaptive-arena-v7-restored": {
+    "mcs": {
+      "games": 200,
+      "better": 104,
+      "tied": 5
+    },
+    "alpha-2000": {
+      "games": 236,
+      "better": 120,
+      "tied": 10
+    },
+    "dirv-10000": {
+      "games": 240,
+      "better": 110,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 260,
+      "better": 127,
+      "tied": 10
+    },
+    "ntw-adaptive5-v1": {
+      "games": 276,
+      "better": 122,
+      "tied": 8
+    },
+    "ntw-classic5": {
+      "games": 208,
+      "better": 95,
+      "tied": 7
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 264,
+      "better": 130,
+      "tied": 7
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 156,
+      "better": 80,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 252,
+      "better": 119,
+      "tied": 12
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 184,
+      "better": 90,
+      "tied": 8
+    },
+    "ntw-champion": {
+      "games": 208,
+      "better": 103,
+      "tied": 3
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 284,
+      "better": 130,
+      "tied": 18
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 272,
+      "better": 130,
+      "tied": 12
+    },
+    "hybrid-rl": {
+      "games": 108,
+      "better": 51,
+      "tied": 5
+    },
+    "hybrid-ensemble": {
+      "games": 268,
+      "better": 131,
+      "tied": 8
+    },
+    "ntw-champion-v1": {
+      "games": 252,
+      "better": 131,
+      "tied": 9
+    },
+    "ntw-adaptive-rl": {
+      "games": 160,
+      "better": 74,
+      "tied": 1
+    },
+    "ntw-adaptive5": {
+      "games": 236,
+      "better": 113,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 224,
+      "better": 107,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 164,
+      "better": 85,
+      "tied": 3
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 232,
+      "better": 121,
+      "tied": 11
+    },
+    "random": {
+      "games": 228,
+      "better": 162,
+      "tied": 0
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 212,
+      "better": 103,
+      "tied": 10
+    },
+    "ntw-champion-v2": {
+      "games": 220,
+      "better": 95,
+      "tied": 7
+    },
+    "dirv-6200": {
+      "games": 196,
+      "better": 99,
+      "tied": 2
+    },
+    "default-classic": {
+      "games": 224,
+      "better": 110,
+      "tied": 7
+    },
+    "ntw-classic5-rl": {
+      "games": 180,
+      "better": 89,
+      "tied": 5
+    },
+    "champion-search": {
+      "games": 200,
+      "better": 83,
+      "tied": 8
+    }
+  },
+  "ntw-adaptive-arena-v8-distill": {
+    "ntw-adaptive-arena-v4": {
+      "games": 272,
+      "better": 125,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 228,
+      "better": 101,
+      "tied": 10
+    },
+    "ntw-classic5": {
+      "games": 172,
+      "better": 89,
+      "tied": 5
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 232,
+      "better": 113,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 328,
+      "better": 163,
+      "tied": 9
+    },
+    "dirv-6200": {
+      "games": 224,
+      "better": 124,
+      "tied": 10
+    },
+    "alpha-2000": {
+      "games": 172,
+      "better": 93,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 252,
+      "better": 121,
+      "tied": 12
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 200,
+      "better": 102,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 268,
+      "better": 128,
+      "tied": 12
+    },
+    "mcs": {
+      "games": 200,
+      "better": 108,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 160,
+      "better": 72,
+      "tied": 1
+    },
+    "default-classic": {
+      "games": 304,
+      "better": 151,
+      "tied": 7
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 196,
+      "better": 105,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 248,
+      "better": 120,
+      "tied": 9
+    },
+    "hybrid-ensemble": {
+      "games": 236,
+      "better": 112,
+      "tied": 11
+    },
+    "ntw-champion-v1": {
+      "games": 200,
+      "better": 106,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 200,
+      "better": 105,
+      "tied": 7
+    },
+    "ntw-adaptive5": {
+      "games": 244,
+      "better": 107,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 268,
+      "better": 137,
+      "tied": 6
+    },
+    "ntw-classic5-rl": {
+      "games": 168,
+      "better": 89,
+      "tied": 4
+    },
+    "hybrid-rl": {
+      "games": 212,
+      "better": 96,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 184,
+      "better": 97,
+      "tied": 7
+    },
+    "random": {
+      "games": 228,
+      "better": 175,
+      "tied": 1
+    },
+    "ntw-adaptive-rl": {
+      "games": 192,
+      "better": 96,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 212,
+      "better": 101,
+      "tied": 10
+    },
+    "champion-search": {
+      "games": 188,
+      "better": 92,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 156,
+      "better": 83,
+      "tied": 3
+    }
+  },
+  "ntw-adaptive-counterfactual-v9": {
+    "hybrid-rl": {
+      "games": 216,
+      "better": 92,
+      "tied": 9
+    },
+    "ntw-adaptive-rl": {
+      "games": 248,
+      "better": 111,
+      "tied": 6
+    },
+    "champion-search": {
+      "games": 296,
+      "better": 139,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 268,
+      "better": 137,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 236,
+      "better": 95,
+      "tied": 7
+    },
+    "mcs": {
+      "games": 280,
+      "better": 135,
+      "tied": 6
+    },
+    "ntw-champion": {
+      "games": 196,
+      "better": 89,
+      "tied": 9
+    },
+    "ntw-champion-v2": {
+      "games": 168,
+      "better": 76,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 200,
+      "better": 74,
+      "tied": 6
+    },
+    "ntw-classic5": {
+      "games": 276,
+      "better": 127,
+      "tied": 9
+    },
+    "alpha-2000": {
+      "games": 256,
+      "better": 118,
+      "tied": 13
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 264,
+      "better": 127,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 196,
+      "better": 82,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 220,
+      "better": 95,
+      "tied": 5
+    },
+    "ntw-adaptive5-v1": {
+      "games": 260,
+      "better": 112,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 168,
+      "better": 78,
+      "tied": 7
+    },
+    "dirv-6200": {
+      "games": 180,
+      "better": 91,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 224,
+      "better": 97,
+      "tied": 8
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 188,
+      "better": 103,
+      "tied": 9
+    },
+    "ntw-adaptive5": {
+      "games": 184,
+      "better": 79,
+      "tied": 9
+    },
+    "ntw-classic5-rl": {
+      "games": 248,
+      "better": 117,
+      "tied": 6
+    },
+    "dirv-10000": {
+      "games": 232,
+      "better": 105,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 200,
+      "better": 99,
+      "tied": 7
+    },
+    "ntw-champion-v1": {
+      "games": 152,
+      "better": 71,
+      "tied": 7
+    },
+    "random": {
+      "games": 164,
+      "better": 119,
+      "tied": 5
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 160,
+      "better": 75,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 192,
+      "better": 88,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 272,
+      "better": 119,
+      "tied": 8
+    }
+  },
+  "ntw-adaptive-rl-v3": {
+    "hybrid-ensemble": {
+      "games": 232,
+      "better": 124,
+      "tied": 3
+    },
+    "ntw-classic5-rl": {
+      "games": 272,
+      "better": 139,
+      "tied": 9
+    },
+    "ntw-champion-v2": {
+      "games": 236,
+      "better": 130,
+      "tied": 10
+    },
+    "hybrid-rl": {
+      "games": 236,
+      "better": 110,
+      "tied": 6
+    },
+    "ntw-adaptive-rl": {
+      "games": 188,
+      "better": 87,
+      "tied": 6
+    },
+    "champion-search": {
+      "games": 164,
+      "better": 78,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 252,
+      "better": 105,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 304,
+      "better": 147,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 196,
+      "better": 99,
+      "tied": 7
+    },
+    "mcs": {
+      "games": 192,
+      "better": 101,
+      "tied": 7
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 180,
+      "better": 84,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 272,
+      "better": 130,
+      "tied": 12
+    },
+    "alpha-2000": {
+      "games": 176,
+      "better": 91,
+      "tied": 9
+    },
+    "ntw-adaptive5": {
+      "games": 244,
+      "better": 121,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 224,
+      "better": 103,
+      "tied": 10
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 220,
+      "better": 107,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 196,
+      "better": 96,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 224,
+      "better": 107,
+      "tied": 8
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 172,
+      "better": 80,
+      "tied": 11
+    },
+    "ntw-champion-v1": {
+      "games": 204,
+      "better": 106,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 268,
+      "better": 125,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 232,
+      "better": 105,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 224,
+      "better": 113,
+      "tied": 6
+    },
+    "random": {
+      "games": 280,
+      "better": 208,
+      "tied": 8
+    },
+    "ntw-champion": {
+      "games": 164,
+      "better": 96,
+      "tied": 4
+    },
+    "ntw-classic5": {
+      "games": 180,
+      "better": 84,
+      "tied": 6
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 192,
+      "better": 100,
+      "tied": 4
+    },
+    "dirv-6200": {
+      "games": 220,
+      "better": 109,
+      "tied": 8
+    }
+  },
+  "ntw-adaptive-rl-v3b": {
+    "ntw-classic5": {
+      "games": 216,
+      "better": 107,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 328,
+      "better": 156,
+      "tied": 9
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 176,
+      "better": 82,
+      "tied": 3
+    },
+    "dirv-6200": {
+      "games": 192,
+      "better": 94,
+      "tied": 5
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 224,
+      "better": 115,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 216,
+      "better": 91,
+      "tied": 9
+    },
+    "random": {
+      "games": 292,
+      "better": 207,
+      "tied": 9
+    },
+    "ntw-champion": {
+      "games": 180,
+      "better": 94,
+      "tied": 5
+    },
+    "ntw-champion-v2": {
+      "games": 216,
+      "better": 107,
+      "tied": 6
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 200,
+      "better": 120,
+      "tied": 6
+    },
+    "alpha-2000": {
+      "games": 304,
+      "better": 155,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 192,
+      "better": 95,
+      "tied": 3
+    },
+    "dirv-10000": {
+      "games": 196,
+      "better": 106,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 188,
+      "better": 93,
+      "tied": 8
+    },
+    "ntw-champion-v1": {
+      "games": 180,
+      "better": 94,
+      "tied": 10
+    },
+    "ntw-adaptive5": {
+      "games": 272,
+      "better": 133,
+      "tied": 12
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 240,
+      "better": 128,
+      "tied": 7
+    },
+    "hybrid-rl": {
+      "games": 232,
+      "better": 110,
+      "tied": 8
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 220,
+      "better": 109,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 188,
+      "better": 83,
+      "tied": 9
+    },
+    "ntw-adaptive5-v1": {
+      "games": 128,
+      "better": 70,
+      "tied": 3
+    },
+    "default-classic": {
+      "games": 244,
+      "better": 121,
+      "tied": 10
+    },
+    "mcs": {
+      "games": 236,
+      "better": 123,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 232,
+      "better": 100,
+      "tied": 11
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 260,
+      "better": 133,
+      "tied": 6
+    },
+    "ntw-classic5-rl": {
+      "games": 216,
+      "better": 103,
+      "tied": 11
+    },
+    "champion-search": {
+      "games": 176,
+      "better": 90,
+      "tied": 2
+    },
+    "ntw-adaptive-rl": {
+      "games": 200,
+      "better": 87,
+      "tied": 5
+    }
+  },
+  "ntw-adaptive-selfplay-v10-best": {
+    "ntw-adaptive-rl-v3b": {
+      "games": 216,
+      "better": 116,
+      "tied": 9
+    },
+    "dirv-6200": {
+      "games": 232,
+      "better": 117,
+      "tied": 10
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 192,
+      "better": 99,
+      "tied": 4
+    },
+    "ntw-adaptive5": {
+      "games": 276,
+      "better": 128,
+      "tied": 10
+    },
+    "random": {
+      "games": 268,
+      "better": 200,
+      "tied": 7
+    },
+    "ntw-champion-v1": {
+      "games": 188,
+      "better": 89,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 220,
+      "better": 102,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 212,
+      "better": 106,
+      "tied": 7
+    },
+    "ntw-adaptive-rl": {
+      "games": 200,
+      "better": 95,
+      "tied": 2
+    },
+    "ntw-classic5-rl": {
+      "games": 260,
+      "better": 132,
+      "tied": 14
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 196,
+      "better": 100,
+      "tied": 2
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 224,
+      "better": 111,
+      "tied": 10
+    },
+    "hybrid-rl": {
+      "games": 160,
+      "better": 76,
+      "tied": 5
+    },
+    "champion-search": {
+      "games": 200,
+      "better": 98,
+      "tied": 6
+    },
+    "mcs": {
+      "games": 228,
+      "better": 116,
+      "tied": 11
+    },
+    "alpha-2000": {
+      "games": 240,
+      "better": 127,
+      "tied": 6
+    },
+    "dirv-10000": {
+      "games": 196,
+      "better": 104,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 284,
+      "better": 128,
+      "tied": 7
+    },
+    "ntw-classic5": {
+      "games": 224,
+      "better": 113,
+      "tied": 4
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 236,
+      "better": 114,
+      "tied": 2
+    },
+    "ntw-champion-v2": {
+      "games": 168,
+      "better": 74,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 196,
+      "better": 95,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 212,
+      "better": 99,
+      "tied": 10
+    },
+    "hybrid-ensemble": {
+      "games": 200,
+      "better": 94,
+      "tied": 10
+    },
+    "ntw-adaptive5-v1": {
+      "games": 236,
+      "better": 103,
+      "tied": 11
+    },
+    "ntw-champion": {
+      "games": 252,
+      "better": 135,
+      "tied": 2
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 272,
+      "better": 145,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 156,
+      "better": 70,
+      "tied": 3
+    }
+  },
+  "ntw-adaptive-selfplay-v10": {
+    "ntw-adaptive5": {
+      "games": 140,
+      "better": 76,
+      "tied": 5
+    },
+    "random": {
+      "games": 128,
+      "better": 93,
+      "tied": 4
+    },
+    "ntw-champion-v1": {
+      "games": 196,
+      "better": 101,
+      "tied": 6
+    },
+    "ntw-champion": {
+      "games": 196,
+      "better": 91,
+      "tied": 4
+    },
+    "default-classic": {
+      "games": 216,
+      "better": 97,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 196,
+      "better": 95,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 184,
+      "better": 86,
+      "tied": 8
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 252,
+      "better": 119,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 268,
+      "better": 128,
+      "tied": 12
+    },
+    "dirv-6200": {
+      "games": 252,
+      "better": 126,
+      "tied": 9
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 196,
+      "better": 102,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 248,
+      "better": 125,
+      "tied": 4
+    },
+    "ntw-adaptive5-v1": {
+      "games": 224,
+      "better": 87,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 284,
+      "better": 149,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 224,
+      "better": 109,
+      "tied": 8
+    },
+    "dirv-10000": {
+      "games": 268,
+      "better": 134,
+      "tied": 12
+    },
+    "ntw-adaptive-rl": {
+      "games": 228,
+      "better": 116,
+      "tied": 8
+    },
+    "hybrid-rl": {
+      "games": 168,
+      "better": 78,
+      "tied": 2
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 248,
+      "better": 126,
+      "tied": 9
+    },
+    "ntw-classic5": {
+      "games": 220,
+      "better": 103,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 188,
+      "better": 96,
+      "tied": 9
+    },
+    "mcs": {
+      "games": 204,
+      "better": 105,
+      "tied": 6
+    },
+    "champion-search": {
+      "games": 256,
+      "better": 118,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 200,
+      "better": 94,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 248,
+      "better": 124,
+      "tied": 7
+    },
+    "ntw-champion-v2": {
+      "games": 284,
+      "better": 132,
+      "tied": 6
+    },
+    "alpha-2000": {
+      "games": 240,
+      "better": 116,
+      "tied": 6
+    },
+    "ntw-classic5-rl": {
+      "games": 188,
+      "better": 90,
+      "tied": 8
+    }
+  },
+  "ntw-adaptive5-v1": {
+    "dirv-10000": {
+      "games": 264,
+      "better": 126,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 276,
+      "better": 146,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 196,
+      "better": 109,
+      "tied": 5
+    },
+    "ntw-classic5": {
+      "games": 184,
+      "better": 94,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 228,
+      "better": 117,
+      "tied": 10
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 244,
+      "better": 126,
+      "tied": 12
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 252,
+      "better": 137,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 188,
+      "better": 80,
+      "tied": 6
+    },
+    "default-classic": {
+      "games": 192,
+      "better": 100,
+      "tied": 6
+    },
+    "champion-search": {
+      "games": 208,
+      "better": 104,
+      "tied": 2
+    },
+    "hybrid-rl": {
+      "games": 204,
+      "better": 110,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 180,
+      "better": 99,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 256,
+      "better": 114,
+      "tied": 10
+    },
+    "ntw-champion-v1": {
+      "games": 176,
+      "better": 98,
+      "tied": 7
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 224,
+      "better": 132,
+      "tied": 5
+    },
+    "ntw-champion": {
+      "games": 296,
+      "better": 168,
+      "tied": 8
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 260,
+      "better": 141,
+      "tied": 7
+    },
+    "ntw-adaptive-rl": {
+      "games": 160,
+      "better": 82,
+      "tied": 7
+    },
+    "dirv-6200": {
+      "games": 188,
+      "better": 94,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 128,
+      "better": 55,
+      "tied": 3
+    },
+    "random": {
+      "games": 240,
+      "better": 181,
+      "tied": 6
+    },
+    "ntw-champion-v2": {
+      "games": 208,
+      "better": 110,
+      "tied": 7
+    },
+    "ntw-classic5-rl": {
+      "games": 240,
+      "better": 116,
+      "tied": 6
+    },
+    "alpha-2000": {
+      "games": 272,
+      "better": 145,
+      "tied": 15
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 236,
+      "better": 122,
+      "tied": 11
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 244,
+      "better": 128,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 192,
+      "better": 99,
+      "tied": 6
+    },
+    "ntw-adaptive5": {
+      "games": 208,
+      "better": 100,
+      "tied": 5
+    }
+  },
+  "ntw-champion-v2": {
+    "default-classic": {
+      "games": 304,
+      "better": 151,
+      "tied": 7
+    },
+    "hybrid-ensemble": {
+      "games": 340,
+      "better": 165,
+      "tied": 6
+    },
+    "ntw-classic5-rl": {
+      "games": 260,
+      "better": 136,
+      "tied": 11
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 236,
+      "better": 96,
+      "tied": 10
+    },
+    "hybrid-rl": {
+      "games": 204,
+      "better": 104,
+      "tied": 5
+    },
+    "ntw-adaptive-rl": {
+      "games": 272,
+      "better": 125,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 232,
+      "better": 111,
+      "tied": 7
+    },
+    "random": {
+      "games": 196,
+      "better": 136,
+      "tied": 5
+    },
+    "ntw-champion": {
+      "games": 236,
+      "better": 122,
+      "tied": 8
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 216,
+      "better": 103,
+      "tied": 6
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 168,
+      "better": 87,
+      "tied": 5
+    },
+    "ntw-classic5": {
+      "games": 248,
+      "better": 117,
+      "tied": 7
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 216,
+      "better": 99,
+      "tied": 3
+    },
+    "mcs": {
+      "games": 128,
+      "better": 60,
+      "tied": 3
+    },
+    "dirv-6200": {
+      "games": 192,
+      "better": 93,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 160,
+      "better": 87,
+      "tied": 1
+    },
+    "champion-search": {
+      "games": 232,
+      "better": 109,
+      "tied": 13
+    },
+    "ntw-adaptive5": {
+      "games": 208,
+      "better": 98,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 236,
+      "better": 114,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 228,
+      "better": 113,
+      "tied": 2
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 168,
+      "better": 88,
+      "tied": 6
+    },
+    "alpha-2000": {
+      "games": 192,
+      "better": 104,
+      "tied": 9
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 284,
+      "better": 146,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 208,
+      "better": 91,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 220,
+      "better": 118,
+      "tied": 7
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 180,
+      "better": 95,
+      "tied": 5
+    },
+    "ntw-champion-v1": {
+      "games": 180,
+      "better": 88,
+      "tied": 3
+    },
+    "dirv-10000": {
+      "games": 200,
+      "better": 110,
+      "tied": 7
+    }
+  },
+  "ntw-classic5-arena-v4": {
+    "ntw-adaptive5-v1": {
+      "games": 244,
+      "better": 106,
+      "tied": 12
+    },
+    "ntw-classic5": {
+      "games": 200,
+      "better": 95,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 232,
+      "better": 112,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 176,
+      "better": 91,
+      "tied": 3
+    },
+    "dirv-6200": {
+      "games": 208,
+      "better": 106,
+      "tied": 3
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 260,
+      "better": 135,
+      "tied": 7
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 196,
+      "better": 89,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 228,
+      "better": 108,
+      "tied": 5
+    },
+    "hybrid-ensemble": {
+      "games": 304,
+      "better": 137,
+      "tied": 9
+    },
+    "dirv-10000": {
+      "games": 236,
+      "better": 118,
+      "tied": 6
+    },
+    "ntw-champion": {
+      "games": 272,
+      "better": 139,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 284,
+      "better": 136,
+      "tied": 18
+    },
+    "alpha-2000": {
+      "games": 208,
+      "better": 116,
+      "tied": 4
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 180,
+      "better": 91,
+      "tied": 5
+    },
+    "ntw-champion-v1": {
+      "games": 256,
+      "better": 127,
+      "tied": 7
+    },
+    "default-classic": {
+      "games": 156,
+      "better": 81,
+      "tied": 2
+    },
+    "mcs": {
+      "games": 236,
+      "better": 118,
+      "tied": 6
+    },
+    "random": {
+      "games": 264,
+      "better": 191,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 228,
+      "better": 113,
+      "tied": 12
+    },
+    "champion-search": {
+      "games": 160,
+      "better": 79,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 236,
+      "better": 120,
+      "tied": 2
+    },
+    "ntw-adaptive-rl": {
+      "games": 268,
+      "better": 123,
+      "tied": 13
+    },
+    "ntw-adaptive5": {
+      "games": 132,
+      "better": 69,
+      "tied": 3
+    },
+    "hybrid-rl": {
+      "games": 256,
+      "better": 114,
+      "tied": 9
+    },
+    "ntw-champion-v2": {
+      "games": 180,
+      "better": 80,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 160,
+      "better": 80,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 172,
+      "better": 80,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 212,
+      "better": 94,
+      "tied": 7
+    }
+  },
+  "ntw-classic5-rl-v3": {
+    "ntw-classic5-arena-v4": {
+      "games": 260,
+      "better": 118,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 224,
+      "better": 103,
+      "tied": 6
+    },
+    "dirv-6200": {
+      "games": 244,
+      "better": 115,
+      "tied": 11
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 192,
+      "better": 89,
+      "tied": 4
+    },
+    "ntw-adaptive5": {
+      "games": 264,
+      "better": 112,
+      "tied": 12
+    },
+    "random": {
+      "games": 236,
+      "better": 163,
+      "tied": 6
+    },
+    "ntw-classic5": {
+      "games": 200,
+      "better": 103,
+      "tied": 10
+    },
+    "alpha-2000": {
+      "games": 268,
+      "better": 154,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 156,
+      "better": 69,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 200,
+      "better": 92,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 252,
+      "better": 124,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 244,
+      "better": 109,
+      "tied": 14
+    },
+    "mcs": {
+      "games": 212,
+      "better": 104,
+      "tied": 5
+    },
+    "ntw-champion-v2": {
+      "games": 216,
+      "better": 114,
+      "tied": 3
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 172,
+      "better": 81,
+      "tied": 11
+    },
+    "dirv-10000": {
+      "games": 188,
+      "better": 96,
+      "tied": 2
+    },
+    "ntw-adaptive-rl": {
+      "games": 236,
+      "better": 113,
+      "tied": 4
+    },
+    "ntw-champion": {
+      "games": 300,
+      "better": 138,
+      "tied": 8
+    },
+    "default-classic": {
+      "games": 188,
+      "better": 102,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 164,
+      "better": 79,
+      "tied": 9
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 188,
+      "better": 76,
+      "tied": 9
+    },
+    "ntw-classic5-rl": {
+      "games": 180,
+      "better": 88,
+      "tied": 5
+    },
+    "hybrid-ensemble": {
+      "games": 188,
+      "better": 102,
+      "tied": 3
+    },
+    "ntw-champion-v1": {
+      "games": 236,
+      "better": 122,
+      "tied": 8
+    },
+    "hybrid-rl": {
+      "games": 264,
+      "better": 115,
+      "tied": 2
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 188,
+      "better": 88,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 240,
+      "better": 117,
+      "tied": 3
+    },
+    "ntw-adaptive5-v1": {
+      "games": 244,
+      "better": 108,
+      "tied": 8
+    }
+  },
+  "default-classic": {
+    "ntw-champion-v1": {
+      "games": 272,
+      "better": 133,
+      "tied": 11
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 216,
+      "better": 112,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 172,
+      "better": 78,
+      "tied": 10
+    },
+    "hybrid-ensemble": {
+      "games": 176,
+      "better": 96,
+      "tied": 2
+    },
+    "ntw-classic5-rl": {
+      "games": 132,
+      "better": 67,
+      "tied": 2
+    },
+    "ntw-champion-v2": {
+      "games": 304,
+      "better": 146,
+      "tied": 7
+    },
+    "ntw-adaptive5-v1": {
+      "games": 192,
+      "better": 86,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 196,
+      "better": 90,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 224,
+      "better": 107,
+      "tied": 10
+    },
+    "ntw-adaptive-rl": {
+      "games": 216,
+      "better": 105,
+      "tied": 2
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 212,
+      "better": 99,
+      "tied": 7
+    },
+    "dirv-6200": {
+      "games": 200,
+      "better": 88,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 304,
+      "better": 146,
+      "tied": 7
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 220,
+      "better": 120,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 264,
+      "better": 130,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 396,
+      "better": 194,
+      "tied": 9
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 156,
+      "better": 73,
+      "tied": 2
+    },
+    "mcs": {
+      "games": 204,
+      "better": 99,
+      "tied": 7
+    },
+    "random": {
+      "games": 212,
+      "better": 152,
+      "tied": 5
+    },
+    "ntw-classic5": {
+      "games": 188,
+      "better": 89,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 212,
+      "better": 102,
+      "tied": 7
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 188,
+      "better": 79,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 220,
+      "better": 116,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 244,
+      "better": 113,
+      "tied": 10
+    },
+    "ntw-adaptive5": {
+      "games": 236,
+      "better": 98,
+      "tied": 11
+    },
+    "alpha-2000": {
+      "games": 192,
+      "better": 107,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 224,
+      "better": 107,
+      "tied": 7
+    },
+    "hybrid-rl": {
+      "games": 172,
+      "better": 78,
+      "tied": 4
+    }
+  },
+  "hybrid-rl": {
+    "ntw-classic5-rl": {
+      "games": 272,
+      "better": 142,
+      "tied": 10
+    },
+    "ntw-champion-v2": {
+      "games": 204,
+      "better": 95,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 236,
+      "better": 120,
+      "tied": 6
+    },
+    "ntw-adaptive-rl": {
+      "games": 228,
+      "better": 107,
+      "tied": 8
+    },
+    "champion-search": {
+      "games": 176,
+      "better": 91,
+      "tied": 4
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 216,
+      "better": 115,
+      "tied": 9
+    },
+    "ntw-adaptive5": {
+      "games": 276,
+      "better": 136,
+      "tied": 10
+    },
+    "ntw-champion-v1": {
+      "games": 272,
+      "better": 139,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 284,
+      "better": 152,
+      "tied": 7
+    },
+    "ntw-adaptive5-v1": {
+      "games": 204,
+      "better": 89,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 108,
+      "better": 52,
+      "tied": 5
+    },
+    "alpha-2000": {
+      "games": 216,
+      "better": 119,
+      "tied": 8
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 160,
+      "better": 79,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 180,
+      "better": 87,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 252,
+      "better": 129,
+      "tied": 9
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 232,
+      "better": 114,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 212,
+      "better": 109,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 240,
+      "better": 116,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 168,
+      "better": 88,
+      "tied": 2
+    },
+    "dirv-6200": {
+      "games": 232,
+      "better": 114,
+      "tied": 5
+    },
+    "hybrid-ensemble": {
+      "games": 216,
+      "better": 119,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 228,
+      "better": 113,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 192,
+      "better": 94,
+      "tied": 6
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 264,
+      "better": 147,
+      "tied": 2
+    },
+    "ntw-champion": {
+      "games": 252,
+      "better": 130,
+      "tied": 8
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 256,
+      "better": 133,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 172,
+      "better": 90,
+      "tied": 4
+    },
+    "random": {
+      "games": 196,
+      "better": 151,
+      "tied": 3
+    }
+  },
+  "hybrid-ensemble": {
+    "ntw-adaptive-selfplay-v10": {
+      "games": 196,
+      "better": 93,
+      "tied": 8
+    },
+    "ntw-champion": {
+      "games": 204,
+      "better": 100,
+      "tied": 3
+    },
+    "default-classic": {
+      "games": 176,
+      "better": 78,
+      "tied": 2
+    },
+    "ntw-classic5-rl": {
+      "games": 228,
+      "better": 122,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 340,
+      "better": 169,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 232,
+      "better": 105,
+      "tied": 3
+    },
+    "dirv-6200": {
+      "games": 296,
+      "better": 136,
+      "tied": 12
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 304,
+      "better": 158,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 164,
+      "better": 70,
+      "tied": 5
+    },
+    "dirv-10000": {
+      "games": 172,
+      "better": 93,
+      "tied": 11
+    },
+    "ntw-adaptive5": {
+      "games": 192,
+      "better": 92,
+      "tied": 7
+    },
+    "ntw-champion-v1": {
+      "games": 232,
+      "better": 125,
+      "tied": 4
+    },
+    "ntw-adaptive5-v1": {
+      "games": 256,
+      "better": 132,
+      "tied": 10
+    },
+    "ntw-classic5": {
+      "games": 192,
+      "better": 105,
+      "tied": 2
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 188,
+      "better": 87,
+      "tied": 8
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 168,
+      "better": 83,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 236,
+      "better": 113,
+      "tied": 11
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 268,
+      "better": 129,
+      "tied": 8
+    },
+    "random": {
+      "games": 172,
+      "better": 134,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 172,
+      "better": 78,
+      "tied": 8
+    },
+    "hybrid-rl": {
+      "games": 216,
+      "better": 94,
+      "tied": 3
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 188,
+      "better": 83,
+      "tied": 3
+    },
+    "ntw-adaptive-rl": {
+      "games": 284,
+      "better": 128,
+      "tied": 12
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 280,
+      "better": 142,
+      "tied": 12
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 200,
+      "better": 96,
+      "tied": 10
+    },
+    "alpha-2000": {
+      "games": 196,
+      "better": 107,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 192,
+      "better": 100,
+      "tied": 4
+    },
+    "mcs": {
+      "games": 200,
+      "better": 110,
+      "tied": 8
+    }
+  },
+  "champion-search": {
+    "ntw-adaptive-rl-v3": {
+      "games": 164,
+      "better": 80,
+      "tied": 6
+    },
+    "hybrid-rl": {
+      "games": 176,
+      "better": 81,
+      "tied": 4
+    },
+    "ntw-adaptive-rl": {
+      "games": 324,
+      "better": 149,
+      "tied": 8
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 296,
+      "better": 147,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 296,
+      "better": 136,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 180,
+      "better": 86,
+      "tied": 3
+    },
+    "dirv-10000": {
+      "games": 164,
+      "better": 82,
+      "tied": 3
+    },
+    "ntw-adaptive5": {
+      "games": 260,
+      "better": 116,
+      "tied": 7
+    },
+    "ntw-champion-v1": {
+      "games": 268,
+      "better": 137,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 212,
+      "better": 105,
+      "tied": 8
+    },
+    "ntw-adaptive5-v1": {
+      "games": 208,
+      "better": 102,
+      "tied": 2
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 200,
+      "better": 96,
+      "tied": 6
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 244,
+      "better": 121,
+      "tied": 14
+    },
+    "dirv-6200": {
+      "games": 192,
+      "better": 109,
+      "tied": 4
+    },
+    "random": {
+      "games": 208,
+      "better": 157,
+      "tied": 6
+    },
+    "ntw-classic5": {
+      "games": 192,
+      "better": 91,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 280,
+      "better": 146,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 232,
+      "better": 110,
+      "tied": 13
+    },
+    "ntw-champion": {
+      "games": 216,
+      "better": 111,
+      "tied": 7
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 160,
+      "better": 77,
+      "tied": 4
+    },
+    "default-classic": {
+      "games": 212,
+      "better": 103,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 236,
+      "better": 98,
+      "tied": 10
+    },
+    "alpha-2000": {
+      "games": 212,
+      "better": 114,
+      "tied": 9
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 256,
+      "better": 133,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 188,
+      "better": 91,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 176,
+      "better": 84,
+      "tied": 2
+    },
+    "hybrid-ensemble": {
+      "games": 192,
+      "better": 88,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 200,
+      "better": 109,
+      "tied": 8
+    }
+  },
+  "mcs": {
+    "ntw-adaptive-arena-v5": {
+      "games": 248,
+      "better": 127,
+      "tied": 8
+    },
+    "alpha-2000": {
+      "games": 240,
+      "better": 126,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 240,
+      "better": 112,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 200,
+      "better": 91,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 280,
+      "better": 139,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 292,
+      "better": 151,
+      "tied": 9
+    },
+    "ntw-champion-v1": {
+      "games": 204,
+      "better": 110,
+      "tied": 8
+    },
+    "champion-search": {
+      "games": 212,
+      "better": 99,
+      "tied": 8
+    },
+    "hybrid-rl": {
+      "games": 284,
+      "better": 125,
+      "tied": 7
+    },
+    "ntw-adaptive5-v1": {
+      "games": 180,
+      "better": 74,
+      "tied": 7
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 192,
+      "better": 84,
+      "tied": 7
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 228,
+      "better": 101,
+      "tied": 11
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 212,
+      "better": 103,
+      "tied": 5
+    },
+    "dirv-6200": {
+      "games": 260,
+      "better": 121,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 128,
+      "better": 65,
+      "tied": 3
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 200,
+      "better": 84,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 136,
+      "better": 71,
+      "tied": 0
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 236,
+      "better": 112,
+      "tied": 6
+    },
+    "default-classic": {
+      "games": 204,
+      "better": 98,
+      "tied": 7
+    },
+    "random": {
+      "games": 180,
+      "better": 130,
+      "tied": 2
+    },
+    "ntw-classic5": {
+      "games": 184,
+      "better": 101,
+      "tied": 4
+    },
+    "ntw-classic5-rl": {
+      "games": 264,
+      "better": 136,
+      "tied": 5
+    },
+    "ntw-adaptive-rl": {
+      "games": 188,
+      "better": 89,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 236,
+      "better": 107,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 204,
+      "better": 93,
+      "tied": 6
+    },
+    "ntw-adaptive5": {
+      "games": 212,
+      "better": 90,
+      "tied": 4
+    },
+    "ntw-champion": {
+      "games": 300,
+      "better": 129,
+      "tied": 14
+    },
+    "hybrid-ensemble": {
+      "games": 200,
+      "better": 82,
+      "tied": 8
+    }
+  },
+  "random": {
+    "ntw-classic5-rl-v3": {
+      "games": 236,
+      "better": 67,
+      "tied": 6
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 268,
+      "better": 61,
+      "tied": 7
+    },
+    "ntw-adaptive5": {
+      "games": 192,
+      "better": 54,
+      "tied": 4
+    },
+    "ntw-champion-v1": {
+      "games": 272,
+      "better": 73,
+      "tied": 12
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 128,
+      "better": 31,
+      "tied": 4
+    },
+    "ntw-champion": {
+      "games": 236,
+      "better": 67,
+      "tied": 3
+    },
+    "ntw-classic5-rl": {
+      "games": 164,
+      "better": 45,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 184,
+      "better": 56,
+      "tied": 3
+    },
+    "ntw-champion-v2": {
+      "games": 196,
+      "better": 55,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 292,
+      "better": 76,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 232,
+      "better": 49,
+      "tied": 7
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 168,
+      "better": 41,
+      "tied": 2
+    },
+    "ntw-classic5": {
+      "games": 232,
+      "better": 73,
+      "tied": 4
+    },
+    "dirv-10000": {
+      "games": 224,
+      "better": 52,
+      "tied": 5
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 264,
+      "better": 64,
+      "tied": 9
+    },
+    "default-classic": {
+      "games": 212,
+      "better": 55,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 180,
+      "better": 48,
+      "tied": 2
+    },
+    "champion-search": {
+      "games": 208,
+      "better": 45,
+      "tied": 6
+    },
+    "dirv-6200": {
+      "games": 236,
+      "better": 51,
+      "tied": 7
+    },
+    "ntw-adaptive5-v1": {
+      "games": 240,
+      "better": 53,
+      "tied": 6
+    },
+    "hybrid-ensemble": {
+      "games": 172,
+      "better": 34,
+      "tied": 4
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 280,
+      "better": 64,
+      "tied": 8
+    },
+    "ntw-adaptive-rl": {
+      "games": 244,
+      "better": 59,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 228,
+      "better": 52,
+      "tied": 1
+    },
+    "alpha-2000": {
+      "games": 268,
+      "better": 71,
+      "tied": 2
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 228,
+      "better": 66,
+      "tied": 0
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 164,
+      "better": 40,
+      "tied": 5
+    },
+    "hybrid-rl": {
+      "games": 196,
+      "better": 42,
+      "tied": 3
+    }
+  },
+  "alpha-2000": {
+    "ntw-adaptive-arena-v5": {
+      "games": 256,
+      "better": 109,
+      "tied": 4
+    },
+    "mcs": {
+      "games": 240,
+      "better": 107,
+      "tied": 7
+    },
+    "dirv-10000": {
+      "games": 192,
+      "better": 96,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 236,
+      "better": 106,
+      "tied": 10
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 204,
+      "better": 95,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 140,
+      "better": 67,
+      "tied": 2
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 304,
+      "better": 139,
+      "tied": 10
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 256,
+      "better": 125,
+      "tied": 13
+    },
+    "ntw-classic5": {
+      "games": 224,
+      "better": 103,
+      "tied": 11
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 268,
+      "better": 106,
+      "tied": 8
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 172,
+      "better": 74,
+      "tied": 5
+    },
+    "ntw-champion": {
+      "games": 216,
+      "better": 103,
+      "tied": 2
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 208,
+      "better": 88,
+      "tied": 4
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 176,
+      "better": 76,
+      "tied": 9
+    },
+    "hybrid-rl": {
+      "games": 216,
+      "better": 89,
+      "tied": 8
+    },
+    "ntw-adaptive5": {
+      "games": 172,
+      "better": 65,
+      "tied": 9
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 240,
+      "better": 107,
+      "tied": 6
+    },
+    "ntw-adaptive-rl": {
+      "games": 232,
+      "better": 108,
+      "tied": 7
+    },
+    "ntw-champion-v1": {
+      "games": 220,
+      "better": 97,
+      "tied": 11
+    },
+    "ntw-champion-v2": {
+      "games": 192,
+      "better": 79,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 212,
+      "better": 89,
+      "tied": 9
+    },
+    "random": {
+      "games": 268,
+      "better": 195,
+      "tied": 2
+    },
+    "default-classic": {
+      "games": 192,
+      "better": 81,
+      "tied": 4
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 240,
+      "better": 118,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 272,
+      "better": 112,
+      "tied": 15
+    },
+    "ntw-classic5-rl": {
+      "games": 264,
+      "better": 120,
+      "tied": 6
+    },
+    "hybrid-ensemble": {
+      "games": 196,
+      "better": 80,
+      "tied": 9
+    },
+    "dirv-6200": {
+      "games": 136,
+      "better": 59,
+      "tied": 5
+    }
+  },
+  "dirv-10000": {
+    "ntw-adaptive-arena-v5": {
+      "games": 196,
+      "better": 95,
+      "tied": 5
+    },
+    "mcs": {
+      "games": 240,
+      "better": 124,
+      "tied": 4
+    },
+    "alpha-2000": {
+      "games": 192,
+      "better": 90,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 240,
+      "better": 126,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 248,
+      "better": 132,
+      "tied": 10
+    },
+    "ntw-adaptive5-v1": {
+      "games": 264,
+      "better": 129,
+      "tied": 9
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 236,
+      "better": 112,
+      "tied": 6
+    },
+    "hybrid-ensemble": {
+      "games": 172,
+      "better": 68,
+      "tied": 11
+    },
+    "ntw-adaptive5": {
+      "games": 220,
+      "better": 99,
+      "tied": 8
+    },
+    "ntw-champion-v1": {
+      "games": 296,
+      "better": 158,
+      "tied": 9
+    },
+    "champion-search": {
+      "games": 164,
+      "better": 79,
+      "tied": 3
+    },
+    "random": {
+      "games": 224,
+      "better": 167,
+      "tied": 5
+    },
+    "ntw-classic5": {
+      "games": 324,
+      "better": 169,
+      "tied": 10
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 196,
+      "better": 83,
+      "tied": 7
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 196,
+      "better": 86,
+      "tied": 6
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 196,
+      "better": 95,
+      "tied": 5
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 268,
+      "better": 122,
+      "tied": 12
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 188,
+      "better": 90,
+      "tied": 2
+    },
+    "ntw-adaptive-rl": {
+      "games": 164,
+      "better": 85,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 260,
+      "better": 136,
+      "tied": 11
+    },
+    "hybrid-rl": {
+      "games": 240,
+      "better": 118,
+      "tied": 6
+    },
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 184,
+      "better": 80,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 248,
+      "better": 127,
+      "tied": 7
+    },
+    "default-classic": {
+      "games": 220,
+      "better": 99,
+      "tied": 5
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 232,
+      "better": 123,
+      "tied": 4
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 188,
+      "better": 88,
+      "tied": 11
+    },
+    "dirv-6200": {
+      "games": 148,
+      "better": 74,
+      "tied": 5
+    },
+    "ntw-champion-v2": {
+      "games": 200,
+      "better": 83,
+      "tied": 7
+    }
+  },
+  "dirv-6200": {
+    "ntw-adaptive-arena-v8-distill": {
+      "games": 224,
+      "better": 90,
+      "tied": 10
+    },
+    "ntw-classic5-arena-v4": {
+      "games": 208,
+      "better": 99,
+      "tied": 3
+    },
+    "ntw-adaptive-rl-v3b": {
+      "games": 192,
+      "better": 93,
+      "tied": 5
+    },
+    "ntw-classic5-rl-v3": {
+      "games": 244,
+      "better": 118,
+      "tied": 11
+    },
+    "ntw-adaptive-selfplay-v10-best": {
+      "games": 232,
+      "better": 105,
+      "tied": 10
+    },
+    "ntw-adaptive5": {
+      "games": 292,
+      "better": 127,
+      "tied": 13
+    },
+    "ntw-adaptive-selfplay-v10": {
+      "games": 252,
+      "better": 117,
+      "tied": 9
+    },
+    "ntw-adaptive-arena-v4": {
+      "games": 240,
+      "better": 115,
+      "tied": 8
+    },
+    "hybrid-ensemble": {
+      "games": 296,
+      "better": 148,
+      "tied": 12
+    },
+    "champion-search": {
+      "games": 192,
+      "better": 79,
+      "tied": 4
+    },
+    "mcs": {
+      "games": 260,
+      "better": 131,
+      "tied": 8
+    },
+    "ntw-champion-v2": {
+      "games": 192,
+      "better": 93,
+      "tied": 6
+    },
+    "default-classic": {
+      "games": 200,
+      "better": 103,
+      "tied": 9
+    },
+    "ntw-adaptive-rl": {
+      "games": 236,
+      "better": 104,
+      "tied": 7
+    },
+    "ntw-champion": {
+      "games": 220,
+      "better": 116,
+      "tied": 6
+    },
+    "ntw-adaptive5-v1": {
+      "games": 188,
+      "better": 87,
+      "tied": 7
+    },
+    "ntw-adaptive-counterfactual-v9": {
+      "games": 180,
+      "better": 82,
+      "tied": 7
+    },
+    "random": {
+      "games": 236,
+      "better": 178,
+      "tied": 7
+    },
+    "hybrid-rl": {
+      "games": 232,
+      "better": 113,
+      "tied": 5
+    },
+    "ntw-classic5-rl": {
+      "games": 272,
+      "better": 123,
+      "tied": 12
+    },
+    "ntw-adaptive-arena-v5": {
+      "games": 192,
+      "better": 95,
+      "tied": 10
+    },
+    "ntw-champion-v1": {
+      "games": 240,
+      "better": 126,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v7-restored": {
+      "games": 196,
+      "better": 95,
+      "tied": 2
+    },
+    "alpha-2000": {
+      "games": 136,
+      "better": 72,
+      "tied": 5
+    },
+    "ntw-adaptive-arena-v6": {
+      "games": 196,
+      "better": 92,
+      "tied": 3
+    },
+    "ntw-classic5": {
+      "games": 228,
+      "better": 120,
+      "tied": 3
+    },
+    "dirv-10000": {
+      "games": 148,
+      "better": 69,
+      "tied": 5
+    },
+    "ntw-adaptive-rl-v3": {
+      "games": 220,
+      "better": 103,
+      "tied": 8
+    }
+  }
+}

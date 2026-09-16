@@ -1,0 +1,142 @@
+{
+  "purpose": "development",
+  "games": 8960,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 768,
+        "win_rate": 0.5323350694444444,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.216145833333334,
+        "mean_decision_ms": 562.3245093098452
+      },
+      {
+        "version": "hybrid-wide-specialist",
+        "games": 768,
+        "win_rate": 0.5965711805555556,
+        "delta_pp": 6.423611111111112,
+        "delta_ci95_pp": [
+          2.0833333333333477,
+          10.785590277777757
+        ],
+        "adjusted_one_sided_lower_pp": 2.0833333333333477,
+        "mean_bullheads": 6.50390625,
+        "mean_decision_ms": 667.0667182160381
+      },
+      {
+        "version": "hybrid-pair-distill",
+        "games": 768,
+        "win_rate": 0.5362413194444444,
+        "delta_pp": 0.39062500000000033,
+        "delta_ci95_pp": [
+          -3.9062500000000333,
+          4.644097222222211
+        ],
+        "adjusted_one_sided_lower_pp": -3.9062500000000333,
+        "mean_bullheads": 7.15625,
+        "mean_decision_ms": 547.1350929556972
+      },
+      {
+        "version": "specialist-prior-1024",
+        "games": 768,
+        "win_rate": 0.5362413194444444,
+        "delta_pp": 0.390625,
+        "delta_ci95_pp": [
+          -3.949652777777835,
+          4.6875
+        ],
+        "adjusted_one_sided_lower_pp": -3.949652777777835,
+        "mean_bullheads": 7.25,
+        "mean_decision_ms": 590.1680986457659
+      },
+      {
+        "version": "two-card-512",
+        "games": 768,
+        "win_rate": 0.5891927083333333,
+        "delta_pp": 5.685763888888889,
+        "delta_ci95_pp": [
+          1.6927083333333144,
+          9.700520833333227
+        ],
+        "adjusted_one_sided_lower_pp": 1.6927083333333144,
+        "mean_bullheads": 6.921875,
+        "mean_decision_ms": 589.2016673437354
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 1024,
+        "win_rate": 0.45548502604166663,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.4072265625,
+        "mean_decision_ms": 597.7781512890417
+      },
+      {
+        "version": "hybrid-wide-specialist",
+        "games": 1024,
+        "win_rate": 0.48795572916666663,
+        "delta_pp": 3.2470703125,
+        "delta_ci95_pp": [
+          -0.8870442708333316,
+          7.389322916666669
+        ],
+        "adjusted_one_sided_lower_pp": -0.8870442708333316,
+        "mean_bullheads": 6.947265625,
+        "mean_decision_ms": 624.2593357324296
+      },
+      {
+        "version": "hybrid-pair-distill",
+        "games": 1024,
+        "win_rate": 0.46484375,
+        "delta_pp": 0.9358723958333336,
+        "delta_ci95_pp": [
+          -2.7587890625000053,
+          4.6061197916666625
+        ],
+        "adjusted_one_sided_lower_pp": -2.7587890625000053,
+        "mean_bullheads": 7.12109375,
+        "mean_decision_ms": 555.63752827141
+      },
+      {
+        "version": "specialist-prior-1024",
+        "games": 1024,
+        "win_rate": 0.48795572916666663,
+        "delta_pp": 3.2470703125,
+        "delta_ci95_pp": [
+          -0.8870442708333316,
+          7.389322916666669
+        ],
+        "adjusted_one_sided_lower_pp": -0.8870442708333316,
+        "mean_bullheads": 6.947265625,
+        "mean_decision_ms": 614.486370214803
+      },
+      {
+        "version": "two-card-512",
+        "games": 1024,
+        "win_rate": 0.4383138020833333,
+        "delta_pp": -1.7171223958333333,
+        "delta_ci95_pp": [
+          -5.411783854166669,
+          1.9205729166666632
+        ],
+        "adjusted_one_sided_lower_pp": -5.411783854166669,
+        "mean_bullheads": 7.7294921875,
+        "mean_decision_ms": 616.3563395703221
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "7d26e7e885f59761c8c83162c1ab4e07ba246ca2707b27d8bb046fc887bea27e"
+}

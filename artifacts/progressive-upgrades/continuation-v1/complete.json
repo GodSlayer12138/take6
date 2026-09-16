@@ -1,0 +1,10 @@
+{
+  "initial": {
+    "states": 2079,
+    "nll": 1.4316973133463307,
+    "accuracy": 0.4247234247234247
+  },
+  "best_validation_nll": 1.391691081279628,
+  "states": 5985,
+  "validation_states": 2079
+}

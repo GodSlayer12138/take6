@@ -1,0 +1,24 @@
+{
+  "scope": "Only 3 and 4 players, fixed 104 cards; win means fractional first-place share.",
+  "target": "Three consecutive accepted upgrades, each significantly better than its accepted predecessor at both player counts.",
+  "starting_baseline": "Existing V5 symmetry strategy, the highest point estimate in prior 3/4-player paired tests.",
+  "alpha_total": 0.05,
+  "alpha_spending": "For certificate attempt j>=1, alpha_j=.05/(j*(j+1)); split equally between two player counts. Sum across unlimited attempts <= .05.",
+  "certificate_deals_per_player_count": 2048,
+  "bootstrap_replicates": 200000,
+  "acceptance": "Both one-sided multiplicity-adjusted paired deal-block bootstrap lower bounds must exceed zero and both observed improvements must be at least 0.5 percentage point.",
+  "minimum_observed_delta_pp": 0.5,
+  "independence": "Checkpoint/config selection uses development games only. Each certificate freezes both compared policies and its complete sample size before fresh games; no early significance peeking or test reuse.",
+  "opponents": [
+    "ntw-adaptive-rl-v3b",
+    "ntw-adaptive-arena-v8-distill",
+    "ntw-champion",
+    "dirv-10000",
+    "alpha-2000",
+    "mcs",
+    "champion-search",
+    "random"
+  ],
+  "failed_attempts": "A failure consumes its alpha allocation and never counts as an upgrade. Keep all records; the accepted predecessor remains unchanged.",
+  "scope_of_claim": "Conditional on this opponent pool and these rules; search computation is reported, not forced equal."
+}

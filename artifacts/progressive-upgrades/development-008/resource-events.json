@@ -1,0 +1,36 @@
+[
+  {
+    "kind": "concurrent_cpu_training",
+    "training": "opponent-proxies-v3-devshift",
+    "protocol_written_at": "2026-09-12T19:04:40.363231+08:00",
+    "completed_at": "2026-09-12T19:07:03.261262+08:00",
+    "cpu_threads": 2,
+    "cuda_visible_devices": "-1",
+    "training_pid": 59568,
+    "training_session": 21976,
+    "exit_code": 0,
+    "note": "This CPU training overlapped part of the three-player replication. Reported decision times include shared machine resource contention. Replication policies, sample counts, seeds and manifest were unchanged."
+  },
+  {
+    "kind": "concurrent_cpu_training",
+    "training": "continuation-v3-fourp",
+    "protocol_written_at": "2026-09-12T19:23:21.359944+08:00",
+    "completed_at": "2026-09-12T19:23:44.998202+08:00",
+    "cpu_threads": 2,
+    "cuda_visible_devices": "-1",
+    "training_session": 80191,
+    "exit_code": 0,
+    "note": "Overlapped part of the three-player replication. The frozen replication policies, manifest, seeds and sample counts were unchanged; decision times include machine contention."
+  },
+  {
+    "kind": "concurrent_cpu_diagnostic",
+    "experiment": "four-player-proxy-diagnostic-001",
+    "protocol_written_at": "2026-09-12T19:48:47.647879+08:00",
+    "completed_at": "2026-09-12T19:49:10.653814+08:00",
+    "cpu_threads": 2,
+    "cuda_visible_devices": "-1",
+    "runner_session": 14692,
+    "exit_code": 0,
+    "note": "CPU-only development against learned proxy opponents. Overlapped part of the real-opponent four-player replication. The frozen replication policies, manifest, seeds and sample counts were unchanged."
+  }
+]

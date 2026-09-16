@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-12T19:28:16.337589+08:00",
+  "performed_before_training": true,
+  "basis": "Successful pre-training --check output retained from this session; recorded after completion.",
+  "command": "python training/train_progressive_continuation_v3.py --check",
+  "source_sha256": "5b5498f4fdd78614edf9d314d59587067abe63c9c98a81b7e10d15f078f670e0",
+  "four_player_states": 20736,
+  "whole_deal_split_disjoint": true,
+  "source_games_replayed": true,
+  "rng_checkpoint_exact": true,
+  "output_written_during_check": false
+}

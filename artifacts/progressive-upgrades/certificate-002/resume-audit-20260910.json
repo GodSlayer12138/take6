@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "counts": {
+    "3": 486
+  },
+  "expected_blocks_per_mode": 2048,
+  "games": 2916,
+  "trace_sha256": "84cc2af96b6e28d8605b64cf5a4b3c543249e98a3fe1839b2a7ab448c6879fc7",
+  "reason": "All previous tool handles missing; no Python process currently exists; read-only replay before resumption. No incomplete certificate outcome statistics computed."
+}

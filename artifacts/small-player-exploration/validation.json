@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "unit_tests": 5,
+  "python_javascript_matching_decisions": 108,
+  "mixed_opponent_smoke_games": 36,
+  "all_smoke_games_replayed": true,
+  "counterfactual_independent_of_replaced_hidden_card_set": true
+}

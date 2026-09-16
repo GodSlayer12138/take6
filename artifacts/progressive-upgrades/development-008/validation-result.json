@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-12T18:17:58.230523+08:00",
+  "manifest_sha256": "0b5b935a69f16fe74f69b90a177631798c7ff9f2618e6e9404abdde66f92ec95",
+  "decisions": 420,
+  "reports": [
+    {
+      "policy": "reference",
+      "report": "artifacts\\progressive-upgrades\\shared-service-development-008\\verification-reference.json",
+      "decisions": 140
+    },
+    {
+      "policy": "pair512-specialist2048",
+      "report": "artifacts\\progressive-upgrades\\shared-service-development-008\\verification-pair512-specialist2048.json",
+      "decisions": 140
+    },
+    {
+      "policy": "distill2048-specialist2048",
+      "report": "artifacts\\progressive-upgrades\\shared-service-development-008\\verification-distill2048-specialist2048.json",
+      "decisions": 140
+    }
+  ],
+  "scope": "Frozen copied policies match complete development-007 actions before new replication games; sources and weights verified"
+}

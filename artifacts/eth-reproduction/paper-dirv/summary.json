@@ -1,0 +1,10 @@
+{
+  "format": "ntw-eth-dirv-reimplementation-v1",
+  "kind": "dirv",
+  "games": 10000,
+  "seconds": 2312.7946506000008,
+  "seconds_per_game": 0.23127946506000008,
+  "device": "cpu",
+  "checkpoint": "D:\\code\\ntw\\artifacts\\eth-reproduction\\paper-dirv\\checkpoint.pt",
+  "selection": "Fixed final checkpoint; agent index 0, no best-of-four selection"
+}

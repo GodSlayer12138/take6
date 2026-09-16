@@ -1,0 +1,20 @@
+{
+  "opponent": "champion-search",
+  "epoch": 2,
+  "loss": 1.0467051997541743,
+  "validation": {
+    "old": {
+      "states": 9693,
+      "nll": 1.101937942087718,
+      "accuracy": 0.5300732487362014
+    },
+    "new": {
+      "states": 2475,
+      "nll": 1.1197578568892046,
+      "accuracy": 0.5131313131313131
+    },
+    "balanced_nll": 1.1108478994884612
+  },
+  "best_epoch": 2,
+  "seconds": 6.019766899997194
+}

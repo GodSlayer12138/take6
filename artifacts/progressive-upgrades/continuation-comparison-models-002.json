@@ -1,0 +1,10 @@
+{
+  "base": "artifacts/models/ntw-adaptive5-v1.pt",
+  "imitation-v1": "artifacts/progressive-upgrades/continuation-v1/model.pt",
+  "imitation-v2": "artifacts/progressive-upgrades/continuation-v2/model.pt",
+  "ppo-shared": "artifacts/progressive-upgrades/ppo-proxy-v1/model.pt",
+  "ppo-specialist": {
+    "3": "artifacts/progressive-upgrades/ppo-specialist-3-v1/model.pt",
+    "4": "artifacts/progressive-upgrades/ppo-specialist-4-v1/model.pt"
+  }
+}

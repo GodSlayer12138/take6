@@ -1,0 +1,26 @@
+{
+  "name": "bullhead-king",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/start-local.mjs",
+    "dev:web": "vite",
+    "start": "node scripts/start-local.mjs --production",
+    "build": "vite build",
+    "benchmark": "node scripts/benchmark.mjs",
+    "data:train": "node scripts/generate-training-data.mjs",
+    "train:gpu": "conda run -n ntw-ai python training/train_policy.py",
+    "preview": "vite preview",
+    "test": "node --test",
+    "models:check": "python tools/organize_models.py --check"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}

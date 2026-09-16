@@ -1,0 +1,11 @@
+{
+  "plan_sha256": "bc35f7e7cc9f1175f670f60e3fb6ccb1c3eb6ad491ecf4319ff4b94d83c7c9f4",
+  "sources": {
+    "training\\explore_small_strategies.py": "fc9d98a46561251473cf64d95beaf4ff321e08d6405187cfec315bb05c165944",
+    "training\\small_player_env.py": "5b6e7601050bd567d52023afdd76c5c15733877f7084fc4c3255fba40b08aa1f",
+    "training\\train_policy.py": "66e4ee68aa14dfa007f146fa15fec4123b8370b97a9b7084956a5cb38243a253"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.11.0+cu128",
+  "smoke": false
+}

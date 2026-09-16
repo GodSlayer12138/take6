@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "completed_blocks": {
+    "3": 2048,
+    "4": 826
+  },
+  "audited_games": 18896,
+  "trace_before_resume_sha256": "03fd68b621507b65c970c1e09e7f38846ea1c707661ca3732f9e66e461a65926",
+  "new_workers": 8,
+  "policy": "Exact same frozen manifest, original seeds and remaining tasks; no win-rate or significance inspection",
+  "timing_note": "Worker allocation changed; decision timings include varying resource contention"
+}

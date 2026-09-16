@@ -1,0 +1,3339 @@
+{
+  "mode": "adaptive5",
+  "total_games": 60400,
+  "entrants": 151,
+  "games_per_entrant": 2000,
+  "independent_blocks": 12080,
+  "ranking": [
+    {
+      "id": "ntw-policy-v2-kr10k-awr",
+      "name": "ntw-policy-v2-kr10k-awr",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.266375,
+      "ci95": [
+        0.24841666666666667,
+        0.2845020833333333
+      ],
+      "mean_bullheads": 10.5225,
+      "mean_rank": 2.761,
+      "mean_decision_ms": 0.6057296650005631,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 1
+    },
+    {
+      "id": "ntw-policy-v2-distill4-all_h50_t12",
+      "name": "ntw-policy-v2-distill4-all_h50_t12",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2569166666666666,
+      "ci95": [
+        0.23850000000000002,
+        0.27575000000000005
+      ],
+      "mean_bullheads": 10.115,
+      "mean_rank": 2.7435,
+      "mean_decision_ms": 0.6113522349999763,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 2
+    },
+    {
+      "id": "ntw-policy-v2-distill4-all_h25_t08",
+      "name": "ntw-policy-v2-distill4-all_h25_t08",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2550833333333333,
+      "ci95": [
+        0.23691666666666666,
+        0.27366666666666667
+      ],
+      "mean_bullheads": 10.135,
+      "mean_rank": 2.7545,
+      "mean_decision_ms": 0.6051465300007234,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 3
+    },
+    {
+      "id": "ntw-adaptive-rl",
+      "name": "ntw-adaptive-rl",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24883333333333332,
+      "ci95": [
+        0.23208333333333336,
+        0.2659166666666667
+      ],
+      "mean_bullheads": 10.5315,
+      "mean_rank": 2.81025,
+      "mean_decision_ms": 0.5579619800001676,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 4
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-regret",
+      "name": "ntw-policy-v2-ex3-seat-regret",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24499999999999997,
+      "ci95": [
+        0.22774791666666666,
+        0.2635
+      ],
+      "mean_bullheads": 10.482,
+      "mean_rank": 2.811,
+      "mean_decision_ms": 0.6043492500004541,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 5
+    },
+    {
+      "id": "ntw-policy-v2-distill4-new_h25_t08",
+      "name": "ntw-policy-v2-distill4-new_h25_t08",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24266666666666664,
+      "ci95": [
+        0.22683333333333333,
+        0.2590854166666666
+      ],
+      "mean_bullheads": 10.397,
+      "mean_rank": 2.7925,
+      "mean_decision_ms": 0.6023298350004327,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 6
+    },
+    {
+      "id": "ntw-policy-v2-hi42-ft-h25",
+      "name": "ntw-policy-v2-hi42-ft-h25",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2418333333333333,
+      "ci95": [
+        0.22591666666666668,
+        0.2584166666666667
+      ],
+      "mean_bullheads": 10.581,
+      "mean_rank": 2.84025,
+      "mean_decision_ms": 0.6123286050003574,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 7
+    },
+    {
+      "id": "ntw-policy-v2-arenappo4",
+      "name": "ntw-policy-v2-arenappo4",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24141666666666664,
+      "ci95": [
+        0.22508333333333333,
+        0.258
+      ],
+      "mean_bullheads": 10.7565,
+      "mean_rank": 2.829,
+      "mean_decision_ms": 0.6046522000000161,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 8
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-awr-b",
+      "name": "ntw-policy-v2-kr10k-awr-b",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2409583333333333,
+      "ci95": [
+        0.22320833333333337,
+        0.25875
+      ],
+      "mean_bullheads": 10.5885,
+      "mean_rank": 2.8055,
+      "mean_decision_ms": 0.6038545399999287,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 9
+    },
+    {
+      "id": "ntw-policy-v2-distill3-history-i050",
+      "name": "ntw-policy-v2-distill3-history-i050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24074999999999996,
+      "ci95": [
+        0.22475,
+        0.25716875
+      ],
+      "mean_bullheads": 10.482,
+      "mean_rank": 2.802,
+      "mean_decision_ms": 0.613466680000811,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 10
+    },
+    {
+      "id": "final-agent",
+      "name": "牧场终极冠军（54 张主版本）",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2404166666666666,
+      "ci95": [
+        0.22091666666666668,
+        0.2599166666666667
+      ],
+      "mean_bullheads": 10.3355,
+      "mean_rank": 2.74375,
+      "mean_decision_ms": 76.52220695000034,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 11
+    },
+    {
+      "id": "ntw-policy-v2-distill2-ppo3-i025",
+      "name": "ntw-policy-v2-distill2-ppo3-i025",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.24033333333333332,
+      "ci95": [
+        0.22358333333333336,
+        0.25766666666666665
+      ],
+      "mean_bullheads": 10.5425,
+      "mean_rank": 2.818,
+      "mean_decision_ms": 0.6110832199994881,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 12
+    },
+    {
+      "id": "ntw-policy-v2-distill2-ppo3-i050",
+      "name": "ntw-policy-v2-distill2-ppo3-i050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2395833333333333,
+      "ci95": [
+        0.22200000000000003,
+        0.2575
+      ],
+      "mean_bullheads": 10.51,
+      "mean_rank": 2.80775,
+      "mean_decision_ms": 0.5988217650003561,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 13
+    },
+    {
+      "id": "ntw-adaptive-selfplay-v10",
+      "name": "ntw-adaptive-selfplay-v10",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23945833333333327,
+      "ci95": [
+        0.2220416666666667,
+        0.25783333333333336
+      ],
+      "mean_bullheads": 10.3495,
+      "mean_rank": 2.7925,
+      "mean_decision_ms": 0.5667624699999417,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 14
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-swa-a051015",
+      "name": "ntw-policy-v2-kr10k-swa-a051015",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23895833333333338,
+      "ci95": [
+        0.2219166666666667,
+        0.2562916666666667
+      ],
+      "mean_bullheads": 10.636,
+      "mean_rank": 2.8295,
+      "mean_decision_ms": 0.6103537000008467,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 15
+    },
+    {
+      "id": "ntw-compact-focal-t05-v1",
+      "name": "ntw-compact-focal-t05-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23791666666666664,
+      "ci95": [
+        0.22033229166666668,
+        0.2555020833333333
+      ],
+      "mean_bullheads": 10.4515,
+      "mean_rank": 2.806,
+      "mean_decision_ms": 0.27747648500035427,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 16
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-avg-a10-b10",
+      "name": "ntw-policy-v2-kr10k-avg-a10-b10",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23766666666666664,
+      "ci95": [
+        0.22091666666666668,
+        0.2546666666666667
+      ],
+      "mean_bullheads": 10.388,
+      "mean_rank": 2.81225,
+      "mean_decision_ms": 0.6129213899997086,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 17
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-early5",
+      "name": "ntw-policy-v2-ex3-seat-early5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23749999999999996,
+      "ci95": [
+        0.2206666666666667,
+        0.25475000000000003
+      ],
+      "mean_bullheads": 10.836,
+      "mean_rank": 2.84125,
+      "mean_decision_ms": 0.6155237049999871,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 18
+    },
+    {
+      "id": "ntw-policy-v2-arenappo4-u20-i30",
+      "name": "ntw-policy-v2-arenappo4-u20-i30",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2374166666666666,
+      "ci95": [
+        0.21975,
+        0.25508333333333333
+      ],
+      "mean_bullheads": 10.5045,
+      "mean_rank": 2.80675,
+      "mean_decision_ms": 0.6095540650005451,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 19
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-early5-a25",
+      "name": "ntw-policy-v2-ex3-seat-early5-a25",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23641666666666666,
+      "ci95": [
+        0.21858125000000003,
+        0.25416875
+      ],
+      "mean_bullheads": 10.636,
+      "mean_rank": 2.8265,
+      "mean_decision_ms": 0.5997837199999443,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 20
+    },
+    {
+      "id": "ntw-policy-v2-champion3-b070",
+      "name": "ntw-policy-v2-champion3-b070",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23441666666666666,
+      "ci95": [
+        0.21716458333333336,
+        0.2520833333333333
+      ],
+      "mean_bullheads": 11.337,
+      "mean_rank": 2.89025,
+      "mean_decision_ms": 0.6084137249998902,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 21
+    },
+    {
+      "id": "ntw-policy-v2-faithful1",
+      "name": "ntw-policy-v2-faithful1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23424999999999993,
+      "ci95": [
+        0.21725000000000003,
+        0.2516666666666667
+      ],
+      "mean_bullheads": 10.7885,
+      "mean_rank": 2.8245,
+      "mean_decision_ms": 0.608095115000736,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 22
+    },
+    {
+      "id": "ntw-policy-v2-real4-awr-combined",
+      "name": "ntw-policy-v2-real4-awr-combined",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2334583333333333,
+      "ci95": [
+        0.21608333333333335,
+        0.2515
+      ],
+      "mean_bullheads": 10.658,
+      "mean_rank": 2.82425,
+      "mean_decision_ms": 0.6099284100002995,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 23
+    },
+    {
+      "id": "ntw-policy-v2-distill3-history",
+      "name": "ntw-policy-v2-distill3-history",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23287499999999997,
+      "ci95": [
+        0.21591666666666667,
+        0.25020833333333337
+      ],
+      "mean_bullheads": 10.243,
+      "mean_rank": 2.80875,
+      "mean_decision_ms": 0.6033896550006372,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 24
+    },
+    {
+      "id": "ntw-policy-v2-ex3-hi-early5",
+      "name": "ntw-policy-v2-ex3-hi-early5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23274999999999998,
+      "ci95": [
+        0.21483333333333335,
+        0.251
+      ],
+      "mean_bullheads": 10.5855,
+      "mean_rank": 2.8375,
+      "mean_decision_ms": 0.5919611700002522,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 25
+    },
+    {
+      "id": "ntw-policy-v2-distill2-ppo3-i075",
+      "name": "ntw-policy-v2-distill2-ppo3-i075",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2320833333333333,
+      "ci95": [
+        0.21475000000000002,
+        0.25
+      ],
+      "mean_bullheads": 10.4105,
+      "mean_rank": 2.831,
+      "mean_decision_ms": 0.6047838399992641,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 26
+    },
+    {
+      "id": "ntw-policy-v2-champion3-b035",
+      "name": "ntw-policy-v2-champion3-b035",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.232,
+      "ci95": [
+        0.2144166666666667,
+        0.24983333333333335
+      ],
+      "mean_bullheads": 10.843,
+      "mean_rank": 2.839,
+      "mean_decision_ms": 0.6001959900007322,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 27
+    },
+    {
+      "id": "ntw-adaptive-selfplay-v10-best",
+      "name": "ntw-adaptive-selfplay-v10-best",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23166666666666666,
+      "ci95": [
+        0.21508333333333332,
+        0.24816875
+      ],
+      "mean_bullheads": 10.4145,
+      "mean_rank": 2.803,
+      "mean_decision_ms": 0.5610025050004841,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 28
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-early5-a75",
+      "name": "ntw-policy-v2-ex3-seat-early5-a75",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23154166666666665,
+      "ci95": [
+        0.21533333333333338,
+        0.249
+      ],
+      "mean_bullheads": 10.7975,
+      "mean_rank": 2.8575,
+      "mean_decision_ms": 0.6036119550002251,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 29
+    },
+    {
+      "id": "ntw-policy-v2-distill3-history-i065",
+      "name": "ntw-policy-v2-distill3-history-i065",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23124999999999998,
+      "ci95": [
+        0.21441666666666667,
+        0.24875
+      ],
+      "mean_bullheads": 10.5835,
+      "mean_rank": 2.8165,
+      "mean_decision_ms": 0.611562674999954,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 30
+    },
+    {
+      "id": "ntw-compact-focal-v1",
+      "name": "ntw-compact-focal-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23116666666666666,
+      "ci95": [
+        0.2144166666666667,
+        0.24841666666666667
+      ],
+      "mean_bullheads": 10.8045,
+      "mean_rank": 2.87125,
+      "mean_decision_ms": 0.2780953149999042,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 31
+    },
+    {
+      "id": "ntw-champion-v2",
+      "name": "ntw-champion-v2",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23008333333333333,
+      "ci95": [
+        0.21308333333333335,
+        0.24716874999999996
+      ],
+      "mean_bullheads": 10.814,
+      "mean_rank": 2.851,
+      "mean_decision_ms": 0.5667009300001754,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 32
+    },
+    {
+      "id": "ntw-policy-v2-hi42-i075",
+      "name": "ntw-policy-v2-hi42-i075",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.23,
+      "ci95": [
+        0.21299791666666668,
+        0.24775208333333334
+      ],
+      "mean_bullheads": 10.472,
+      "mean_rank": 2.8235,
+      "mean_decision_ms": 0.6022212450008709,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 33
+    },
+    {
+      "id": "ntw-policy-v2-oldcf-anchor40",
+      "name": "ntw-policy-v2-oldcf-anchor40",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22958333333333328,
+      "ci95": [
+        0.21325000000000002,
+        0.24608333333333335
+      ],
+      "mean_bullheads": 10.768,
+      "mean_rank": 2.852,
+      "mean_decision_ms": 0.6088975350009602,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 34
+    },
+    {
+      "id": "ntw-compact2-external_mcs",
+      "name": "ntw-compact2-external_mcs",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22858333333333328,
+      "ci95": [
+        0.21183333333333337,
+        0.2455
+      ],
+      "mean_bullheads": 10.7485,
+      "mean_rank": 2.86475,
+      "mean_decision_ms": 0.03952343000079927,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 35
+    },
+    {
+      "id": "ntw-policy-v2-interp-b05-b15-025",
+      "name": "ntw-policy-v2-interp-b05-b15-025",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22695833333333332,
+      "ci95": [
+        0.20991666666666667,
+        0.24408541666666664
+      ],
+      "mean_bullheads": 11.3275,
+      "mean_rank": 2.91175,
+      "mean_decision_ms": 0.6063721899995983,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 36
+    },
+    {
+      "id": "ntw-policy-v2-faithful1-u30i15",
+      "name": "ntw-policy-v2-faithful1-u30i15",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22691666666666666,
+      "ci95": [
+        0.20975000000000002,
+        0.243959375
+      ],
+      "mean_bullheads": 10.903,
+      "mean_rank": 2.8715,
+      "mean_decision_ms": 0.6109190199995319,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 37
+    },
+    {
+      "id": "ntw-champion",
+      "name": "ntw-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22691666666666663,
+      "ci95": [
+        0.21024791666666667,
+        0.24450000000000002
+      ],
+      "mean_bullheads": 10.7325,
+      "mean_rank": 2.8365,
+      "mean_decision_ms": 0.5650233950000192,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 38
+    },
+    {
+      "id": "ntw-policy-v2-hi42-i025",
+      "name": "ntw-policy-v2-hi42-i025",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22691666666666663,
+      "ci95": [
+        0.21133333333333332,
+        0.24283333333333332
+      ],
+      "mean_bullheads": 10.8045,
+      "mean_rank": 2.87325,
+      "mean_decision_ms": 0.6083083649986468,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 39
+    },
+    {
+      "id": "ntw-adaptive-arena-v8-distill",
+      "name": "ntw-adaptive-arena-v8-distill",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22654166666666664,
+      "ci95": [
+        0.20945729166666666,
+        0.24337604166666663
+      ],
+      "mean_bullheads": 10.7675,
+      "mean_rank": 2.85125,
+      "mean_decision_ms": 0.5627074299996028,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 40
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-top3",
+      "name": "ntw-policy-v2-ex3-seat-top3",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22591666666666663,
+      "ci95": [
+        0.20891666666666667,
+        0.24308333333333337
+      ],
+      "mean_bullheads": 11.3725,
+      "mean_rank": 2.92325,
+      "mean_decision_ms": 0.6134098199997927,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 41
+    },
+    {
+      "id": "ntw-adaptive-arena-v7-restored",
+      "name": "ntw-adaptive-arena-v7-restored",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22566666666666663,
+      "ci95": [
+        0.2081666666666667,
+        0.2434166666666667
+      ],
+      "mean_bullheads": 11.1095,
+      "mean_rank": 2.883,
+      "mean_decision_ms": 0.5610982249995394,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 42
+    },
+    {
+      "id": "ntw-policy-v2-faithful1-u60i15",
+      "name": "ntw-policy-v2-faithful1-u60i15",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22524999999999995,
+      "ci95": [
+        0.2084166666666667,
+        0.24241666666666667
+      ],
+      "mean_bullheads": 10.889,
+      "mean_rank": 2.841,
+      "mean_decision_ms": 0.6235490399998098,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 43
+    },
+    {
+      "id": "ntw-policy-v2-arenappo5",
+      "name": "ntw-policy-v2-arenappo5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22508333333333333,
+      "ci95": [
+        0.20791666666666672,
+        0.24225000000000002
+      ],
+      "mean_bullheads": 10.798,
+      "mean_rank": 2.8495,
+      "mean_decision_ms": 0.6171848149999695,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 44
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t120-i050",
+      "name": "ntw-policy-v2-distill2-t120-i050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22475000000000003,
+      "ci95": [
+        0.20775,
+        0.2426666666666667
+      ],
+      "mean_bullheads": 11.0455,
+      "mean_rank": 2.871,
+      "mean_decision_ms": 0.616118414999832,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 45
+    },
+    {
+      "id": "ntw-policy-v2-cf-v3-opt20",
+      "name": "ntw-policy-v2-cf-v3-opt20",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22466666666666665,
+      "ci95": [
+        0.20750000000000005,
+        0.24225000000000002
+      ],
+      "mean_bullheads": 11.232,
+      "mean_rank": 2.89325,
+      "mean_decision_ms": 0.6083171750003455,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 46
+    },
+    {
+      "id": "ntw-compact-counterfactual-v4-fpi2-conservative",
+      "name": "ntw-compact-counterfactual-v4-fpi2-conservative",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22416666666666663,
+      "ci95": [
+        0.20741666666666667,
+        0.24183541666666666
+      ],
+      "mean_bullheads": 11.653,
+      "mean_rank": 2.935,
+      "mean_decision_ms": 0.27605918999950935,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 47
+    },
+    {
+      "id": "ntw-adaptive-arena-v5",
+      "name": "ntw-adaptive-arena-v5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22333333333333327,
+      "ci95": [
+        0.20666666666666667,
+        0.24
+      ],
+      "mean_bullheads": 11.245,
+      "mean_rank": 2.9035,
+      "mean_decision_ms": 0.55627343000012,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 48
+    },
+    {
+      "id": "ntw-policy-v2-ex3-hi-full",
+      "name": "ntw-policy-v2-ex3-hi-full",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22224999999999998,
+      "ci95": [
+        0.20550000000000002,
+        0.23941874999999999
+      ],
+      "mean_bullheads": 10.509,
+      "mean_rank": 2.8175,
+      "mean_decision_ms": 0.6084097849995971,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 49
+    },
+    {
+      "id": "ntw-policy-v2-hi42-i050",
+      "name": "ntw-policy-v2-hi42-i050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22216666666666668,
+      "ci95": [
+        0.20533333333333334,
+        0.23916666666666667
+      ],
+      "mean_bullheads": 10.773,
+      "mean_rank": 2.862,
+      "mean_decision_ms": 0.5994050149998759,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 50
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-early5-a50",
+      "name": "ntw-policy-v2-ex3-seat-early5-a50",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22174999999999995,
+      "ci95": [
+        0.20508333333333337,
+        0.23883333333333334
+      ],
+      "mean_bullheads": 10.69,
+      "mean_rank": 2.831,
+      "mean_decision_ms": 0.6094311500005835,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 51
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-mid-a05-a15",
+      "name": "ntw-policy-v2-kr10k-mid-a05-a15",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22166666666666665,
+      "ci95": [
+        0.20483333333333334,
+        0.23908333333333334
+      ],
+      "mean_bullheads": 10.714,
+      "mean_rank": 2.85075,
+      "mean_decision_ms": 0.6004188700006119,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 52
+    },
+    {
+      "id": "ntw-policy-v2-faithful1-u30i30",
+      "name": "ntw-policy-v2-faithful1-u30i30",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2212083333333333,
+      "ci95": [
+        0.20416666666666664,
+        0.23866666666666667
+      ],
+      "mean_bullheads": 11.2525,
+      "mean_rank": 2.90525,
+      "mean_decision_ms": 0.6210097400003559,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 53
+    },
+    {
+      "id": "ntw-policy-v2-ppo3",
+      "name": "ntw-policy-v2-ppo3",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.22112499999999996,
+      "ci95": [
+        0.20416562500000002,
+        0.23845833333333333
+      ],
+      "mean_bullheads": 10.6405,
+      "mean_rank": 2.875,
+      "mean_decision_ms": 0.6088536550001749,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 54
+    },
+    {
+      "id": "ntw-adaptive5",
+      "name": "ntw-adaptive5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21962499999999993,
+      "ci95": [
+        0.20279166666666668,
+        0.23608437499999999
+      ],
+      "mean_bullheads": 10.9855,
+      "mean_rank": 2.8695,
+      "mean_decision_ms": 0.5609053949993931,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 55
+    },
+    {
+      "id": "ntw-policy-v2-cfres-v1",
+      "name": "ntw-policy-v2-cfres-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2194583333333333,
+      "ci95": [
+        0.20341666666666666,
+        0.2358333333333333
+      ],
+      "mean_bullheads": 11.316,
+      "mean_rank": 2.91575,
+      "mean_decision_ms": 0.6061765800001914,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 56
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-avg-a10-b05",
+      "name": "ntw-policy-v2-kr10k-avg-a10-b05",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21933333333333332,
+      "ci95": [
+        0.2029166666666667,
+        0.23616666666666666
+      ],
+      "mean_bullheads": 10.835,
+      "mean_rank": 2.84875,
+      "mean_decision_ms": 0.6127476400000157,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 57
+    },
+    {
+      "id": "hybrid-ensemble",
+      "name": "双模型共识＋搜索",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.219,
+      "ci95": [
+        0.20116666666666666,
+        0.23725000000000002
+      ],
+      "mean_bullheads": 10.674,
+      "mean_rank": 2.82025,
+      "mean_decision_ms": 11.16126263999986,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 58
+    },
+    {
+      "id": "ntw-policy-v2-onpolicy2-b15",
+      "name": "ntw-policy-v2-onpolicy2-b15",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2189583333333333,
+      "ci95": [
+        0.20245833333333338,
+        0.2359166666666667
+      ],
+      "mean_bullheads": 11.1185,
+      "mean_rank": 2.8965,
+      "mean_decision_ms": 0.6133186250002777,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 59
+    },
+    {
+      "id": "ntw-policy-v2-compact-fullhist-v1",
+      "name": "ntw-policy-v2-compact-fullhist-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2188333333333333,
+      "ci95": [
+        0.2025,
+        0.23525
+      ],
+      "mean_bullheads": 11.074,
+      "mean_rank": 2.88325,
+      "mean_decision_ms": 0.24337732000029252,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 60
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t120-i065",
+      "name": "ntw-policy-v2-distill2-t120-i065",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2185833333333333,
+      "ci95": [
+        0.20225,
+        0.23533333333333334
+      ],
+      "mean_bullheads": 11.324,
+      "mean_rank": 2.932,
+      "mean_decision_ms": 0.6137556999995886,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 61
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t080-i050",
+      "name": "ntw-policy-v2-distill2-t080-i050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21804166666666663,
+      "ci95": [
+        0.20170833333333335,
+        0.23437604166666665
+      ],
+      "mean_bullheads": 11.062,
+      "mean_rank": 2.91225,
+      "mean_decision_ms": 0.6114916099999125,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 62
+    },
+    {
+      "id": "ntw-policy-v2-distill1-t120",
+      "name": "ntw-policy-v2-distill1-t120",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21758333333333335,
+      "ci95": [
+        0.2009166666666667,
+        0.23458333333333337
+      ],
+      "mean_bullheads": 11.584,
+      "mean_rank": 2.9505,
+      "mean_decision_ms": 0.6117966250000224,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 63
+    },
+    {
+      "id": "ntw-policy-v2-arenappo4-u20-i20",
+      "name": "ntw-policy-v2-arenappo4-u20-i20",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21741666666666662,
+      "ci95": [
+        0.2001666666666667,
+        0.2345
+      ],
+      "mean_bullheads": 10.9105,
+      "mean_rank": 2.87575,
+      "mean_decision_ms": 0.6086247199998234,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 64
+    },
+    {
+      "id": "ntw-policy-v2-ex3-seat-early4",
+      "name": "ntw-policy-v2-ex3-seat-early4",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21691666666666667,
+      "ci95": [
+        0.1996666666666667,
+        0.23425
+      ],
+      "mean_bullheads": 11.236,
+      "mean_rank": 2.9015,
+      "mean_decision_ms": 0.6055293649993132,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 65
+    },
+    {
+      "id": "ntw-policy-v2-hi42-ft-soft",
+      "name": "ntw-policy-v2-hi42-ft-soft",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21687499999999996,
+      "ci95": [
+        0.20145833333333335,
+        0.23204166666666665
+      ],
+      "mean_bullheads": 10.963,
+      "mean_rank": 2.8765,
+      "mean_decision_ms": 0.6070515950003431,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 66
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t080",
+      "name": "ntw-policy-v2-distill2-t080",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21679166666666663,
+      "ci95": [
+        0.20070833333333332,
+        0.23316666666666666
+      ],
+      "mean_bullheads": 11.205,
+      "mean_rank": 2.9545,
+      "mean_decision_ms": 0.6054266900005201,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 67
+    },
+    {
+      "id": "ntw-policy-v2-distill1-interp-075",
+      "name": "ntw-policy-v2-distill1-interp-075",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21637499999999998,
+      "ci95": [
+        0.1987916666666667,
+        0.23425
+      ],
+      "mean_bullheads": 11.2545,
+      "mean_rank": 2.92375,
+      "mean_decision_ms": 0.6006145500007807,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 68
+    },
+    {
+      "id": "ntw-adaptive-arena-v4",
+      "name": "ntw-adaptive-arena-v4",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21604166666666666,
+      "ci95": [
+        0.19962500000000002,
+        0.23370833333333332
+      ],
+      "mean_bullheads": 11.2125,
+      "mean_rank": 2.908,
+      "mean_decision_ms": 0.5621346449997663,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 69
+    },
+    {
+      "id": "ntw-policy-v2-distill1-interp-050",
+      "name": "ntw-policy-v2-distill1-interp-050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21566666666666665,
+      "ci95": [
+        0.19891666666666666,
+        0.23266666666666666
+      ],
+      "mean_bullheads": 11.127,
+      "mean_rank": 2.92,
+      "mean_decision_ms": 0.5982299200006753,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 70
+    },
+    {
+      "id": "ntw-policy-v2-arenappo4-u20-i10",
+      "name": "ntw-policy-v2-arenappo4-u20-i10",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21466666666666662,
+      "ci95": [
+        0.1985,
+        0.23083541666666665
+      ],
+      "mean_bullheads": 11.0575,
+      "mean_rank": 2.9335,
+      "mean_decision_ms": 0.6007130749996884,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 71
+    },
+    {
+      "id": "ntw-policy-v2-interp-b05-b15-075",
+      "name": "ntw-policy-v2-interp-b05-b15-075",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21429166666666666,
+      "ci95": [
+        0.19758333333333333,
+        0.23129166666666667
+      ],
+      "mean_bullheads": 11.505,
+      "mean_rank": 2.93625,
+      "mean_decision_ms": 0.6094891250000499,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 72
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t120-i035",
+      "name": "ntw-policy-v2-distill2-t120-i035",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21425,
+      "ci95": [
+        0.19766666666666666,
+        0.23075000000000004
+      ],
+      "mean_bullheads": 11.2295,
+      "mean_rank": 2.8925,
+      "mean_decision_ms": 0.6095870200004481,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 73
+    },
+    {
+      "id": "ntw-adaptive5-v1",
+      "name": "ntw-adaptive5-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.214125,
+      "ci95": [
+        0.19679166666666667,
+        0.23179270833333332
+      ],
+      "mean_bullheads": 10.943,
+      "mean_rank": 2.89975,
+      "mean_decision_ms": 0.5617812749997427,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 74
+    },
+    {
+      "id": "ntw-policy-v2-interp-b05-b15-050",
+      "name": "ntw-policy-v2-interp-b05-b15-050",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2139166666666666,
+      "ci95": [
+        0.19774999999999998,
+        0.2306666666666667
+      ],
+      "mean_bullheads": 11.277,
+      "mean_rank": 2.89925,
+      "mean_decision_ms": 0.6083275300005515,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 75
+    },
+    {
+      "id": "ntw-context-external_mcs",
+      "name": "ntw-context-external_mcs",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.213,
+      "ci95": [
+        0.19558333333333336,
+        0.2305
+      ],
+      "mean_bullheads": 10.7845,
+      "mean_rank": 2.87025,
+      "mean_decision_ms": 0.08301702500010993,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 76
+    },
+    {
+      "id": "ntw-counterfactual-gated-v1",
+      "name": "ntw-counterfactual-gated-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21275,
+      "ci95": [
+        0.19508333333333333,
+        0.231
+      ],
+      "mean_bullheads": 12.3325,
+      "mean_rank": 3.0145,
+      "mean_decision_ms": 0.6264221300004206,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 77
+    },
+    {
+      "id": "ntw-adaptive-arena-v6",
+      "name": "ntw-adaptive-arena-v6",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21233333333333332,
+      "ci95": [
+        0.1944979166666667,
+        0.2305
+      ],
+      "mean_bullheads": 11.012,
+      "mean_rank": 2.85925,
+      "mean_decision_ms": 0.569706340000073,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 78
+    },
+    {
+      "id": "ntw-compact-counterfactual-final",
+      "name": "ntw-compact-counterfactual-final",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.21083333333333332,
+      "ci95": [
+        0.19358333333333333,
+        0.22825000000000004
+      ],
+      "mean_bullheads": 11.99,
+      "mean_rank": 2.9695,
+      "mean_decision_ms": 0.2766980449994871,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 79
+    },
+    {
+      "id": "ntw-adaptive-rl-v3",
+      "name": "ntw-adaptive-rl-v3",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20975,
+      "ci95": [
+        0.19258125,
+        0.22758333333333336
+      ],
+      "mean_bullheads": 10.9895,
+      "mean_rank": 2.8935,
+      "mean_decision_ms": 0.5652467849994356,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 80
+    },
+    {
+      "id": "ntw-policy-v2-distill1-interp-025",
+      "name": "ntw-policy-v2-distill1-interp-025",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2095,
+      "ci95": [
+        0.19283333333333336,
+        0.22633333333333333
+      ],
+      "mean_bullheads": 10.902,
+      "mean_rank": 2.8735,
+      "mean_decision_ms": 0.6033089050005694,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 81
+    },
+    {
+      "id": "ntw-policy-v2-faithful1-u60i30",
+      "name": "ntw-policy-v2-faithful1-u60i30",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20858333333333332,
+      "ci95": [
+        0.19208333333333336,
+        0.22491666666666668
+      ],
+      "mean_bullheads": 11.0095,
+      "mean_rank": 2.8985,
+      "mean_decision_ms": 0.6144569450003089,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 82
+    },
+    {
+      "id": "ntw-policy-v2-onpolicy2-b05",
+      "name": "ntw-policy-v2-onpolicy2-b05",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20849999999999996,
+      "ci95": [
+        0.19258333333333333,
+        0.22508333333333333
+      ],
+      "mean_bullheads": 11.1915,
+      "mean_rank": 2.89775,
+      "mean_decision_ms": 0.6060568950001219,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 83
+    },
+    {
+      "id": "ntw-context2-external",
+      "name": "ntw-context2-external",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2079583333333333,
+      "ci95": [
+        0.19133333333333336,
+        0.2245427083333333
+      ],
+      "mean_bullheads": 11.0495,
+      "mean_rank": 2.91025,
+      "mean_decision_ms": 0.14017806499928337,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 84
+    },
+    {
+      "id": "ntw-policy-v2-distill1-t060",
+      "name": "ntw-policy-v2-distill1-t060",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20774999999999996,
+      "ci95": [
+        0.19041666666666668,
+        0.22558541666666662
+      ],
+      "mean_bullheads": 11.3375,
+      "mean_rank": 2.93075,
+      "mean_decision_ms": 0.6063170999996623,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 85
+    },
+    {
+      "id": "ntw-policy-v2-cf-real-early5",
+      "name": "ntw-policy-v2-cf-real-early5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2075833333333333,
+      "ci95": [
+        0.19175,
+        0.22425
+      ],
+      "mean_bullheads": 11.615,
+      "mean_rank": 2.97575,
+      "mean_decision_ms": 0.6065618199994948,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 86
+    },
+    {
+      "id": "ntw-adaptive-counterfactual-v9",
+      "name": "ntw-adaptive-counterfactual-v9",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2070833333333333,
+      "ci95": [
+        0.19025000000000003,
+        0.22383333333333336
+      ],
+      "mean_bullheads": 11.389,
+      "mean_rank": 2.921,
+      "mean_decision_ms": 0.5553402549998054,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 87
+    },
+    {
+      "id": "ntw-policy-v2-cf-v3-opt35",
+      "name": "ntw-policy-v2-cf-v3-opt35",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2068333333333333,
+      "ci95": [
+        0.190790625,
+        0.2236260416666667
+      ],
+      "mean_bullheads": 11.298,
+      "mean_rank": 2.9035,
+      "mean_decision_ms": 0.6105909949996421,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 88
+    },
+    {
+      "id": "ntw-policy-v2-cf-real-full",
+      "name": "ntw-policy-v2-cf-real-full",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20625,
+      "ci95": [
+        0.18891666666666665,
+        0.22383333333333333
+      ],
+      "mean_bullheads": 12.0515,
+      "mean_rank": 3.01,
+      "mean_decision_ms": 0.6133945850007891,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 89
+    },
+    {
+      "id": "ntw-compact-counterfactual-v4-fpi2",
+      "name": "ntw-compact-counterfactual-v4-fpi2",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20624999999999993,
+      "ci95": [
+        0.1894166666666667,
+        0.22333333333333336
+      ],
+      "mean_bullheads": 11.569,
+      "mean_rank": 2.9445,
+      "mean_decision_ms": 0.27342063999970323,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 90
+    },
+    {
+      "id": "ntw-counterfactual-ensemble-new75",
+      "name": "ntw-counterfactual-ensemble-new75",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20554166666666662,
+      "ci95": [
+        0.18845833333333334,
+        0.22241666666666668
+      ],
+      "mean_bullheads": 12.293,
+      "mean_rank": 3.02725,
+      "mean_decision_ms": 0.5472386749996718,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 91
+    },
+    {
+      "id": "ntw-policy-v2-arena1",
+      "name": "ntw-policy-v2-arena1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20449999999999996,
+      "ci95": [
+        0.1881666666666667,
+        0.22075000000000003
+      ],
+      "mean_bullheads": 11.752,
+      "mean_rank": 2.97075,
+      "mean_decision_ms": 0.6042197199995019,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 92
+    },
+    {
+      "id": "ntw-policy-v2-kr10k-reinforce",
+      "name": "ntw-policy-v2-kr10k-reinforce",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20408333333333334,
+      "ci95": [
+        0.18741666666666668,
+        0.22125208333333332
+      ],
+      "mean_bullheads": 11.546,
+      "mean_rank": 2.94,
+      "mean_decision_ms": 0.6089984549994301,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 93
+    },
+    {
+      "id": "ntw-compact-counterfactual-v4-fpi2-newonly",
+      "name": "ntw-compact-counterfactual-v4-fpi2-newonly",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20370833333333335,
+      "ci95": [
+        0.187125,
+        0.22033437499999997
+      ],
+      "mean_bullheads": 11.8505,
+      "mean_rank": 2.982,
+      "mean_decision_ms": 0.27411691500012697,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 94
+    },
+    {
+      "id": "ntw-policy-v2-onpolicy-win1",
+      "name": "ntw-policy-v2-onpolicy-win1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2035416666666666,
+      "ci95": [
+        0.18645833333333336,
+        0.22004270833333334
+      ],
+      "mean_bullheads": 11.585,
+      "mean_rank": 2.9505,
+      "mean_decision_ms": 0.6065047899999267,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 95
+    },
+    {
+      "id": "hybrid-specialist",
+      "name": "五人专用＋搜索",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20274999999999996,
+      "ci95": [
+        0.18541666666666667,
+        0.22058333333333333
+      ],
+      "mean_bullheads": 11.002,
+      "mean_rank": 2.881,
+      "mean_decision_ms": 10.544011434999708,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 96
+    },
+    {
+      "id": "ntw-compact-external_mcs",
+      "name": "ntw-compact-external_mcs",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20249999999999996,
+      "ci95": [
+        0.18641666666666665,
+        0.21875
+      ],
+      "mean_bullheads": 11.582,
+      "mean_rank": 2.98925,
+      "mean_decision_ms": 0.03773790999939867,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 97
+    },
+    {
+      "id": "ntw-compact2-champion",
+      "name": "ntw-compact2-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2023333333333333,
+      "ci95": [
+        0.18525,
+        0.22033333333333335
+      ],
+      "mean_bullheads": 11.4105,
+      "mean_rank": 2.94125,
+      "mean_decision_ms": 0.04177594000008993,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 98
+    },
+    {
+      "id": "ntw-adaptive-rl-v3b",
+      "name": "ntw-adaptive-rl-v3b",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20141666666666666,
+      "ci95": [
+        0.18458125,
+        0.21875
+      ],
+      "mean_bullheads": 11.555,
+      "mean_rank": 2.964,
+      "mean_decision_ms": 0.5614906050000001,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 99
+    },
+    {
+      "id": "ntw-policy-v2-onpolicy1",
+      "name": "ntw-policy-v2-onpolicy1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.20116666666666666,
+      "ci95": [
+        0.1844166666666667,
+        0.21825
+      ],
+      "mean_bullheads": 11.523,
+      "mean_rank": 2.938,
+      "mean_decision_ms": 0.6046883750002167,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 100
+    },
+    {
+      "id": "hybrid-rl",
+      "name": "终局强化＋搜索",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.2010833333333333,
+      "ci95": [
+        0.1841666666666667,
+        0.21833333333333335
+      ],
+      "mean_bullheads": 11.207,
+      "mean_rank": 2.92225,
+      "mean_decision_ms": 10.57609456499967,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 101
+    },
+    {
+      "id": "ntw-policy-v2-oldcf-anchor10",
+      "name": "ntw-policy-v2-oldcf-anchor10",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1980833333333333,
+      "ci95": [
+        0.18183333333333335,
+        0.21450000000000002
+      ],
+      "mean_bullheads": 11.606,
+      "mean_rank": 2.98,
+      "mean_decision_ms": 0.5988192250003376,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 102
+    },
+    {
+      "id": "ntw-compact-counterfactual-v3-opt35-w256",
+      "name": "ntw-compact-counterfactual-v3-opt35-w256",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.19791666666666666,
+      "ci95": [
+        0.18083333333333335,
+        0.215
+      ],
+      "mean_bullheads": 12.3995,
+      "mean_rank": 3.06375,
+      "mean_decision_ms": 0.3845624849999936,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 103
+    },
+    {
+      "id": "ntw-policy-v2-cf-real-soft",
+      "name": "ntw-policy-v2-cf-real-soft",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.19687499999999997,
+      "ci95": [
+        0.18012499999999998,
+        0.21362604166666668
+      ],
+      "mean_bullheads": 12.176,
+      "mean_rank": 3.01125,
+      "mean_decision_ms": 0.6054585849995773,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 104
+    },
+    {
+      "id": "ntw-compact-counterfactual-v3-opt20-w384",
+      "name": "ntw-compact-counterfactual-v3-opt20-w384",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1950833333333333,
+      "ci95": [
+        0.17883333333333332,
+        0.21141666666666667
+      ],
+      "mean_bullheads": 12.2945,
+      "mean_rank": 3.05825,
+      "mean_decision_ms": 0.6612625549999575,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 105
+    },
+    {
+      "id": "ntw-policy-v2-distill2-t120",
+      "name": "ntw-policy-v2-distill2-t120",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1941666666666666,
+      "ci95": [
+        0.17866666666666667,
+        0.20966666666666664
+      ],
+      "mean_bullheads": 11.1075,
+      "mean_rank": 2.95075,
+      "mean_decision_ms": 0.60892482500066,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 106
+    },
+    {
+      "id": "ntw-policy-v2-proxyppo1",
+      "name": "ntw-policy-v2-proxyppo1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.19108333333333333,
+      "ci95": [
+        0.17458125,
+        0.20758333333333334
+      ],
+      "mean_bullheads": 11.4375,
+      "mean_rank": 2.981,
+      "mean_decision_ms": 0.6139464249999985,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 107
+    },
+    {
+      "id": "ntw-policy-v2-oldcf-opt20",
+      "name": "ntw-policy-v2-oldcf-opt20",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.19066666666666662,
+      "ci95": [
+        0.175,
+        0.20666666666666664
+      ],
+      "mean_bullheads": 12.1255,
+      "mean_rank": 3.04275,
+      "mean_decision_ms": 0.6065435850003806,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 108
+    },
+    {
+      "id": "ntw-compact-counterfactual-v3-opt20-w192",
+      "name": "ntw-compact-counterfactual-v3-opt20-w192",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1895,
+      "ci95": [
+        0.17329166666666665,
+        0.20583333333333337
+      ],
+      "mean_bullheads": 12.46,
+      "mean_rank": 3.08875,
+      "mean_decision_ms": 0.2731431600003884,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 109
+    },
+    {
+      "id": "ntw-policy-v2",
+      "name": "ntw-policy-v2",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.18649999999999997,
+      "ci95": [
+        0.17016666666666666,
+        0.20258541666666666
+      ],
+      "mean_bullheads": 12.2425,
+      "mean_rank": 3.08025,
+      "mean_decision_ms": 0.6006049250005024,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 110
+    },
+    {
+      "id": "ntw-proxy2-external",
+      "name": "ntw-proxy2-external",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.18266666666666662,
+      "ci95": [
+        0.16683333333333336,
+        0.19875
+      ],
+      "mean_bullheads": 12.0685,
+      "mean_rank": 3.07325,
+      "mean_decision_ms": 0.6104061099991956,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 111
+    },
+    {
+      "id": "ntw-policy-v2-offline1",
+      "name": "ntw-policy-v2-offline1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1823333333333333,
+      "ci95": [
+        0.16733333333333333,
+        0.198
+      ],
+      "mean_bullheads": 12.269,
+      "mean_rank": 3.0845,
+      "mean_decision_ms": 0.6004175500008385,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 112
+    },
+    {
+      "id": "ntw-policy-v2-run1",
+      "name": "ntw-policy-v2-run1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.18125,
+      "ci95": [
+        0.16533333333333336,
+        0.19725
+      ],
+      "mean_bullheads": 11.6615,
+      "mean_rank": 3.02075,
+      "mean_decision_ms": 0.6095295850000999,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 113
+    },
+    {
+      "id": "ntw-proxy-external",
+      "name": "ntw-proxy-external",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.17454166666666662,
+      "ci95": [
+        0.15866666666666668,
+        0.19029270833333334
+      ],
+      "mean_bullheads": 12.2695,
+      "mean_rank": 3.1005,
+      "mean_decision_ms": 0.6143691399998444,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 114
+    },
+    {
+      "id": "ntw-policy-v2-counterfactual",
+      "name": "ntw-policy-v2-counterfactual",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.17399999999999996,
+      "ci95": [
+        0.15783333333333335,
+        0.19041666666666665
+      ],
+      "mean_bullheads": 12.7355,
+      "mean_rank": 3.1245,
+      "mean_decision_ms": 0.6117564649996599,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 115
+    },
+    {
+      "id": "ntw-compact-counterfactual-old-pw25",
+      "name": "ntw-compact-counterfactual-old-pw25",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.17224999999999996,
+      "ci95": [
+        0.15708333333333335,
+        0.18791666666666665
+      ],
+      "mean_bullheads": 13.6275,
+      "mean_rank": 3.20325,
+      "mean_decision_ms": 0.276681030000154,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 116
+    },
+    {
+      "id": "ntw-context-champion",
+      "name": "ntw-context-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.17208333333333334,
+      "ci95": [
+        0.15724791666666668,
+        0.18725000000000003
+      ],
+      "mean_bullheads": 12.465,
+      "mean_rank": 3.09825,
+      "mean_decision_ms": 0.08313473999982914,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 117
+    },
+    {
+      "id": "ntw-counterfactual-ensemble-new50",
+      "name": "ntw-counterfactual-ensemble-new50",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.16987499999999997,
+      "ci95": [
+        0.15358229166666668,
+        0.186625
+      ],
+      "mean_bullheads": 13.516,
+      "mean_rank": 3.21125,
+      "mean_decision_ms": 0.5426717449991137,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 118
+    },
+    {
+      "id": "champion-search",
+      "name": "牧场冠军 v2 搜索",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.16454166666666667,
+      "ci95": [
+        0.14850000000000002,
+        0.18125
+      ],
+      "mean_bullheads": 12.2905,
+      "mean_rank": 3.08,
+      "mean_decision_ms": 9.75131095999995,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 119
+    },
+    {
+      "id": "ntw-policy-v2-pretrain",
+      "name": "ntw-policy-v2-pretrain",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.16291666666666665,
+      "ci95": [
+        0.147,
+        0.17883333333333332
+      ],
+      "mean_bullheads": 12.5355,
+      "mean_rank": 3.12225,
+      "mean_decision_ms": 0.5972388150003018,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 120
+    },
+    {
+      "id": "ntw-compact-counterfactual-t05-r25-v1",
+      "name": "ntw-compact-counterfactual-t05-r25-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.16216666666666665,
+      "ci95": [
+        0.14691666666666667,
+        0.1775
+      ],
+      "mean_bullheads": 14.1445,
+      "mean_rank": 3.24275,
+      "mean_decision_ms": 0.2726982050010924,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 121
+    },
+    {
+      "id": "ntw-counterfactual-ensemble-new25",
+      "name": "ntw-counterfactual-ensemble-new25",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.15858333333333335,
+      "ci95": [
+        0.14399791666666667,
+        0.17375
+      ],
+      "mean_bullheads": 13.957,
+      "mean_rank": 3.2455,
+      "mean_decision_ms": 0.5411418899994799,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 122
+    },
+    {
+      "id": "ntw-policy-v2-real4-reinforce-combined",
+      "name": "ntw-policy-v2-real4-reinforce-combined",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.15666666666666665,
+      "ci95": [
+        0.14108333333333334,
+        0.1731666666666667
+      ],
+      "mean_bullheads": 14.109,
+      "mean_rank": 3.2715,
+      "mean_decision_ms": 0.6029165099997325,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 123
+    },
+    {
+      "id": "ntw-context2-champion",
+      "name": "ntw-context2-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1545,
+      "ci95": [
+        0.14,
+        0.1690833333333333
+      ],
+      "mean_bullheads": 13.259,
+      "mean_rank": 3.21125,
+      "mean_decision_ms": 0.13765811500008346,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 124
+    },
+    {
+      "id": "ntw-policy-v2-reinforce1",
+      "name": "ntw-policy-v2-reinforce1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.15358333333333335,
+      "ci95": [
+        0.13825,
+        0.1691666666666667
+      ],
+      "mean_bullheads": 13.5175,
+      "mean_rank": 3.21075,
+      "mean_decision_ms": 0.6079183500002424,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 125
+    },
+    {
+      "id": "dirv-6200",
+      "name": "DirV 等时版 6,200 局",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1535,
+      "ci95": [
+        0.13808125000000002,
+        0.1690833333333333
+      ],
+      "mean_bullheads": 13.57,
+      "mean_rank": 3.253,
+      "mean_decision_ms": 88.32254889483157,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 126
+    },
+    {
+      "id": "ntw-compact-counterfactual-old-opt20",
+      "name": "ntw-compact-counterfactual-old-opt20",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1525,
+      "ci95": [
+        0.13783333333333334,
+        0.16733333333333333
+      ],
+      "mean_bullheads": 14.221,
+      "mean_rank": 3.27025,
+      "mean_decision_ms": 0.27693884000005403,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 127
+    },
+    {
+      "id": "ntw-classic5-rl",
+      "name": "ntw-classic5-rl",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.151,
+      "ci95": [
+        0.13583333333333333,
+        0.1665833333333333
+      ],
+      "mean_bullheads": 14.3185,
+      "mean_rank": 3.315,
+      "mean_decision_ms": 0.5600740199996443,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 128
+    },
+    {
+      "id": "ntw-compact-counterfactual-t2-v1",
+      "name": "ntw-compact-counterfactual-t2-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1494166666666667,
+      "ci95": [
+        0.13516666666666666,
+        0.1637520833333333
+      ],
+      "mean_bullheads": 14.123,
+      "mean_rank": 3.276,
+      "mean_decision_ms": 0.2770733900002023,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 129
+    },
+    {
+      "id": "ntw-classic5-arena-v4",
+      "name": "ntw-classic5-arena-v4",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.14891666666666664,
+      "ci95": [
+        0.13425,
+        0.16416666666666668
+      ],
+      "mean_bullheads": 14.0675,
+      "mean_rank": 3.28425,
+      "mean_decision_ms": 0.5645620450004318,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 130
+    },
+    {
+      "id": "ntw-compact-counterfactual-v1",
+      "name": "ntw-compact-counterfactual-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.14508333333333337,
+      "ci95": [
+        0.13083333333333333,
+        0.15991666666666668
+      ],
+      "mean_bullheads": 14.8715,
+      "mean_rank": 3.33325,
+      "mean_decision_ms": 0.27826640000051533,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 131
+    },
+    {
+      "id": "dirv-10000",
+      "name": "DirV 复现版 10,000 局",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.14466666666666667,
+      "ci95": [
+        0.12925,
+        0.15991666666666668
+      ],
+      "mean_bullheads": 14.423,
+      "mean_rank": 3.3305,
+      "mean_decision_ms": 88.16112238972273,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 132
+    },
+    {
+      "id": "ntw-compact-counterfactual-t05-v1",
+      "name": "ntw-compact-counterfactual-t05-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1418333333333333,
+      "ci95": [
+        0.128,
+        0.156
+      ],
+      "mean_bullheads": 14.165,
+      "mean_rank": 3.28725,
+      "mean_decision_ms": 0.2820325700003203,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 133
+    },
+    {
+      "id": "ntw-structured-opponent-external-v1",
+      "name": "ntw-structured-opponent-external-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.14066666666666663,
+      "ci95": [
+        0.12608333333333335,
+        0.15516666666666665
+      ],
+      "mean_bullheads": 13.727,
+      "mean_rank": 3.31075,
+      "mean_decision_ms": 0.14670343500012595,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 134
+    },
+    {
+      "id": "ntw-proxy2-champion",
+      "name": "ntw-proxy2-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.140375,
+      "ci95": [
+        0.12537500000000001,
+        0.1560416666666667
+      ],
+      "mean_bullheads": 14.085,
+      "mean_rank": 3.31875,
+      "mean_decision_ms": 0.6041235099995143,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 135
+    },
+    {
+      "id": "ntw-compact-champion",
+      "name": "ntw-compact-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1374166666666667,
+      "ci95": [
+        0.12333333333333332,
+        0.15191666666666667
+      ],
+      "mean_bullheads": 13.7375,
+      "mean_rank": 3.2795,
+      "mean_decision_ms": 0.03718885999960007,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 136
+    },
+    {
+      "id": "mcs",
+      "name": "公开 MCS 适配版",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.137,
+      "ci95": [
+        0.12283229166666665,
+        0.15125
+      ],
+      "mean_bullheads": 13.2825,
+      "mean_rank": 3.24875,
+      "mean_decision_ms": 0.7215309349993685,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 137
+    },
+    {
+      "id": "ntw-champion-v1",
+      "name": "ntw-champion-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.13683333333333333,
+      "ci95": [
+        0.12274791666666665,
+        0.15125
+      ],
+      "mean_bullheads": 13.536,
+      "mean_rank": 3.28925,
+      "mean_decision_ms": 0.559654694999312,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 138
+    },
+    {
+      "id": "ntw-classic5",
+      "name": "ntw-classic5",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1355,
+      "ci95": [
+        0.12091458333333331,
+        0.15066874999999996
+      ],
+      "mean_bullheads": 14.2785,
+      "mean_rank": 3.348,
+      "mean_decision_ms": 0.5742369500006093,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 139
+    },
+    {
+      "id": "ntw-compact-counterfactual-old-pw10",
+      "name": "ntw-compact-counterfactual-old-pw10",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.13541666666666666,
+      "ci95": [
+        0.12075000000000001,
+        0.15016666666666667
+      ],
+      "mean_bullheads": 14.9815,
+      "mean_rank": 3.386,
+      "mean_decision_ms": 0.2753205649991824,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 140
+    },
+    {
+      "id": "ntw-classic5-rl-v3",
+      "name": "ntw-classic5-rl-v3",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1345,
+      "ci95": [
+        0.12033333333333335,
+        0.14891666666666667
+      ],
+      "mean_bullheads": 14.32,
+      "mean_rank": 3.37,
+      "mean_decision_ms": 0.5573136400000096,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 141
+    },
+    {
+      "id": "ntw-context3-champion",
+      "name": "ntw-context3-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.132625,
+      "ci95": [
+        0.11766666666666666,
+        0.14804270833333333
+      ],
+      "mean_bullheads": 14.085,
+      "mean_rank": 3.29625,
+      "mean_decision_ms": 0.2765592600005459,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 142
+    },
+    {
+      "id": "ntw-structured-counterfactual-v1",
+      "name": "ntw-structured-counterfactual-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1325833333333333,
+      "ci95": [
+        0.11883333333333333,
+        0.14633333333333332
+      ],
+      "mean_bullheads": 15.234,
+      "mean_rank": 3.405,
+      "mean_decision_ms": 0.2410031950002672,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 143
+    },
+    {
+      "id": "ntw-proxy-champion",
+      "name": "ntw-proxy-champion",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.13175,
+      "ci95": [
+        0.11749791666666665,
+        0.147
+      ],
+      "mean_bullheads": 14.4715,
+      "mean_rank": 3.36275,
+      "mean_decision_ms": 0.6089932800001426,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 144
+    },
+    {
+      "id": "ntw-structured-opponent-champion-v1",
+      "name": "ntw-structured-opponent-champion-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.1315,
+      "ci95": [
+        0.1175,
+        0.14575
+      ],
+      "mean_bullheads": 14.184,
+      "mean_rank": 3.337,
+      "mean_decision_ms": 0.25285471499961654,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 145
+    },
+    {
+      "id": "ntw-structured-counterfactual-old-opt20",
+      "name": "ntw-structured-counterfactual-old-opt20",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.12841666666666668,
+      "ci95": [
+        0.11441666666666667,
+        0.1427520833333333
+      ],
+      "mean_bullheads": 15.603,
+      "mean_rank": 3.4295,
+      "mean_decision_ms": 0.2472669400000504,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 146
+    },
+    {
+      "id": "ntw-compact-focal-hard-v1",
+      "name": "ntw-compact-focal-hard-v1",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.126375,
+      "ci95": [
+        0.11337500000000002,
+        0.13962604166666667
+      ],
+      "mean_bullheads": 14.0295,
+      "mean_rank": 3.38775,
+      "mean_decision_ms": 0.2763117800003375,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 147
+    },
+    {
+      "id": "alpha-2000",
+      "name": "Alpha 复现版 2,000 局",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.11191666666666668,
+      "ci95": [
+        0.09966666666666667,
+        0.12466666666666666
+      ],
+      "mean_bullheads": 13.909,
+      "mean_rank": 3.35375,
+      "mean_decision_ms": 89.52417336010257,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 148
+    },
+    {
+      "id": "ntw-policy-v2-ppo2",
+      "name": "ntw-policy-v2-ppo2",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.10658333333333336,
+      "ci95": [
+        0.09316666666666666,
+        0.12008333333333333
+      ],
+      "mean_bullheads": 16.2925,
+      "mean_rank": 3.54825,
+      "mean_decision_ms": 0.6129597700011382,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 149
+    },
+    {
+      "id": "ntw-policy-v2-counter-only",
+      "name": "ntw-policy-v2-counter-only",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.08675,
+      "ci95": [
+        0.07508333333333335,
+        0.099
+      ],
+      "mean_bullheads": 17.375,
+      "mean_rank": 3.70075,
+      "mean_decision_ms": 0.6060829599999253,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 150
+    },
+    {
+      "id": "random",
+      "name": "随机策略（校准基线）",
+      "games": 2000,
+      "independent_blocks": 400,
+      "win_rate": 0.03625,
+      "ci95": [
+        0.0285,
+        0.044250000000000005
+      ],
+      "mean_bullheads": 20.839,
+      "mean_rank": 4.179,
+      "mean_decision_ms": 0.004171829999054346,
+      "seat_counts": [
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "rank": 151
+    }
+  ],
+  "audit": "Victory shares recalculated; complete unique blocks; exact equal appearances and seat balance.",
+  "protocol": {
+    "mode": "adaptive5",
+    "epochs": 80,
+    "seed": 60821001,
+    "workers": 6,
+    "manifest_sha256": "5bc075483a5e6f4158ebd7a1eff567f9a0754c7094eb0be49a407e5c38f5fd1b"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "purpose": "development",
+  "games": 4480,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 384,
+        "win_rate": 0.3849826388888889,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 9.317708333333332,
+        "mean_decision_ms": 10.14504388020833
+      },
+      {
+        "version": "gpu64-neural",
+        "games": 384,
+        "win_rate": 0.4674479166666667,
+        "delta_pp": 8.246527777777779,
+        "delta_ci95_pp": [
+          1.6059027777777954,
+          15.017361111111082
+        ],
+        "adjusted_one_sided_lower_pp": 1.6059027777777954,
+        "mean_bullheads": 8.333333333333334,
+        "mean_decision_ms": 96.14626033855606
+      },
+      {
+        "version": "gpu128-neural",
+        "games": 384,
+        "win_rate": 0.5104166666666667,
+        "delta_pp": 12.543402777777779,
+        "delta_ci95_pp": [
+          5.989583333333365,
+          19.401041666666664
+        ],
+        "adjusted_one_sided_lower_pp": 5.989583333333365,
+        "mean_bullheads": 7.875,
+        "mean_decision_ms": 99.35852466144297
+      },
+      {
+        "version": "gpu64-proxy",
+        "games": 384,
+        "win_rate": 0.44921875,
+        "delta_pp": 6.423611111111112,
+        "delta_ci95_pp": [
+          -0.7812500000000111,
+          13.758680555555483
+        ],
+        "adjusted_one_sided_lower_pp": -0.7812500000000111,
+        "mean_bullheads": 8.729166666666668,
+        "mean_decision_ms": 119.75246695311247
+      },
+      {
+        "version": "gpu128-proxy",
+        "games": 384,
+        "win_rate": 0.5481770833333333,
+        "delta_pp": 16.319444444444443,
+        "delta_ci95_pp": [
+          10.069444444444464,
+          22.6139322916666
+        ],
+        "adjusted_one_sided_lower_pp": 10.069444444444464,
+        "mean_bullheads": 7.786458333333334,
+        "mean_decision_ms": 120.08274145831876
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 512,
+        "win_rate": 0.29264322916666663,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 10.412109375,
+        "mean_decision_ms": 11.168356484374728
+      },
+      {
+        "version": "gpu64-neural",
+        "games": 512,
+        "win_rate": 0.341796875,
+        "delta_pp": 4.915364583333334,
+        "delta_ci95_pp": [
+          -0.06510416666666852,
+          9.830729166666668
+        ],
+        "adjusted_one_sided_lower_pp": -0.06510416666666852,
+        "mean_bullheads": 9.193359375,
+        "mean_decision_ms": 91.11087197268262
+      },
+      {
+        "version": "gpu128-neural",
+        "games": 512,
+        "win_rate": 0.3961588541666667,
+        "delta_pp": 10.351562499999998,
+        "delta_ci95_pp": [
+          4.752604166666669,
+          15.885416666666663
+        ],
+        "adjusted_one_sided_lower_pp": 4.752604166666669,
+        "mean_bullheads": 8.5234375,
+        "mean_decision_ms": 93.15132949222118
+      },
+      {
+        "version": "gpu64-proxy",
+        "games": 512,
+        "win_rate": 0.4052734375,
+        "delta_pp": 11.263020833333334,
+        "delta_ci95_pp": [
+          6.022135416666669,
+          16.407063802083268
+        ],
+        "adjusted_one_sided_lower_pp": 6.022135416666669,
+        "mean_bullheads": 8.3984375,
+        "mean_decision_ms": 110.38408660157302
+      },
+      {
+        "version": "gpu128-proxy",
+        "games": 512,
+        "win_rate": 0.38736979166666663,
+        "delta_pp": 9.47265625,
+        "delta_ci95_pp": [
+          4.5572916666666625,
+          14.420572916666668
+        ],
+        "adjusted_one_sided_lower_pp": 4.5572916666666625,
+        "mean_bullheads": 8.107421875,
+        "mean_decision_ms": 112.67832359374097
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "0a426d341957d92c5dbd5c9093b42708da09135f96aa5fdd42c955356aa371b7"
+}

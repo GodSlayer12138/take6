@@ -1,0 +1,625 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-15T18:37:48+08:00",
+  "scope": "2-4 players research; existing web compatibility retained; comparisons are specific to their rules and opponent pools.",
+  "active_baseline": "distill2048-specialist2048",
+  "accepted_upgrades": 3,
+  "policy": "Logical catalog only. Original absolute-path manifests remain unchanged. Files are not a standalone deployment bundle.",
+  "entries": [
+    {
+      "id": "champion-3p4p-104",
+      "tier": "primary",
+      "policy_id": "distill2048-specialist2048",
+      "players": [
+        3,
+        4
+      ],
+      "deck_size": 104,
+      "reason": "Latest independently accepted upgrade; preserve its exact archived runtime and all frozen dependencies.",
+      "files": [
+        {
+          "path": "artifacts/progressive-upgrades/development-007/distill2048-specialist2048.json",
+          "bytes": 724,
+          "sha256": "b37e9695c730077c25c2fd625f80037084222562bf902f953740f508226cf199"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-007/source-snapshot/training/progressive_planner.py",
+          "bytes": 19567,
+          "sha256": "d13fe787963964c479d673bcf6a365f92cccd30f8e92e8b79e247a6635204d19"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive5-v1.pt",
+          "bytes": 446219,
+          "sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive-rl-v3b.pt",
+          "bytes": 446261,
+          "sha256": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20"
+        },
+        {
+          "path": "artifacts/models/ntw-champion-v2.pt",
+          "bytes": 446205,
+          "sha256": "fdcec7395838d33d7980335249b92dc1d62254c633d3f3e95ba49b030240d413"
+        },
+        {
+          "path": "artifacts/small-player-iterations/v4/model.pt",
+          "bytes": 1831679,
+          "sha256": "6dfd0c54afa1fb247441af93f691f7892849dcd48e25c2b799fbcbdf25366cdd"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/dirv-10000.pt",
+          "bytes": 446007,
+          "sha256": "d63e47e25c5af2da0b2160c406b46cc7d1f1b4215c38b36a3d43b22e3d3de8ac"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/alpha-2000.pt",
+          "bytes": 446007,
+          "sha256": "b33af960990939cb3ff55e1b5b8b313a974e98f535e3bfd2010a813d6230f56b"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/mcs.pt",
+          "bytes": 445461,
+          "sha256": "623003eea2fa49a26a86ab479df4762b39149853c2b205ce02a3b9657de6ab39"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/champion-search.pt",
+          "bytes": 446077,
+          "sha256": "31720446b809cc5081217dc7ea931f99f5dd5928b2ab7d5ef1f872a83b02554d"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/ppo-specialist-4-v1/model.pt",
+          "bytes": 445425,
+          "sha256": "b4b98537a13227854b3b21417e67d236865807a391b146c940b9ad794ff7702a"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/continuation-v2/model.pt",
+          "bytes": 445489,
+          "sha256": "d80f6f460183376fec44dfb8667ddd1c59a67a36224f5b6542222c20ff102504"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-007/source-snapshot/training/progressive_torch_env.py",
+          "bytes": 7394,
+          "sha256": "65c2cfe7e9a2f6e4fc7c1d9df7a66c8a222b9e8b4674e7b0bd5dc2ccdfc2e87e"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/certificate-004/results.json",
+      "results": {
+        "3": [
+          {
+            "version": "reference",
+            "games": 6144,
+            "win_rate": 0.5508626302083334,
+            "delta_pp": 0.0,
+            "delta_ci95_pp": [
+              0.0,
+              0.0
+            ],
+            "adjusted_one_sided_lower_pp": 0.0,
+            "mean_bullheads": 6.892415364583334,
+            "mean_decision_ms": 592.6005009667928
+          },
+          {
+            "version": "distill2048-specialist2048",
+            "games": 6144,
+            "win_rate": 0.5835774739583333,
+            "delta_pp": 3.271484375,
+            "delta_ci95_pp": [
+              1.7089843750000222,
+              4.836697048610973
+            ],
+            "adjusted_one_sided_lower_pp": 0.8897569444443642,
+            "mean_bullheads": 6.545247395833334,
+            "mean_decision_ms": 688.5575685286478
+          }
+        ],
+        "4": [
+          {
+            "version": "reference",
+            "games": 8192,
+            "win_rate": 0.45252482096354163,
+            "delta_pp": 0.0,
+            "delta_ci95_pp": [
+              0.0,
+              0.0
+            ],
+            "adjusted_one_sided_lower_pp": 0.0,
+            "mean_bullheads": 7.559814453125,
+            "mean_decision_ms": 727.6961798889158
+          },
+          {
+            "version": "distill2048-specialist2048",
+            "games": 8192,
+            "win_rate": 0.47794596354166663,
+            "delta_pp": 2.5421142578125004,
+            "delta_ci95_pp": [
+              1.1484781901041574,
+              3.9449055989583313
+            ],
+            "adjusted_one_sided_lower_pp": 0.3967272440592448,
+            "mean_bullheads": 6.929443359375,
+            "mean_decision_ms": 802.0959714575305
+          }
+        ]
+      },
+      "integrated_in_browser": true,
+      "web_entrypoint": "src/web/ai-router.js",
+      "backend": "server/champion_api.py"
+    },
+    {
+      "id": "specialist-2p-104",
+      "tier": "primary",
+      "policy_id": "v6",
+      "players": [
+        2
+      ],
+      "deck_size": 104,
+      "reason": "Two-player improvement survived candidate and player-count multiplicity checks; no corresponding 3/4-player claim.",
+      "files": [
+        {
+          "path": "artifacts/small-player-exploration/v6/model.json",
+          "bytes": 3883381,
+          "sha256": "1b51f3d9851521bedce71c8a8260506d509fdc7604b7331e94b553868e996e6e"
+        }
+      ],
+      "runtime": "scripts/small-strategy-runtime.mjs",
+      "evidence": "artifacts/small-player-exploration/classic2-results.json",
+      "results": {
+        "version": "v6",
+        "games": 512,
+        "win_rate": 0.556640625,
+        "ci95": [
+          0.515625,
+          0.595703125
+        ],
+        "delta_pp": 9.1796875,
+        "delta_ci95_pp": [
+          3.80859375,
+          14.55078125
+        ],
+        "delta_familywise95_pp": [
+          2.734375,
+          15.8203125
+        ],
+        "mean_bullheads": 7.400390625,
+        "mean_decision_ms": 0.5432753125000772,
+        "rank": 1
+      },
+      "integrated_in_browser": true,
+      "web_entrypoint": "src/web/ai-router.js"
+    },
+    {
+      "id": "browser-legacy",
+      "tier": "compatibility",
+      "policy_id": "neural_hybrid",
+      "reason": "Legacy browser fallback for rules without a certified specialist, and historical arena opponents; loaded on demand.",
+      "entrypoint": "src/game/ai-core.js",
+      "files": [
+        {
+          "path": "src/game/models/ntw-champion.json",
+          "bytes": 1148076,
+          "sha256": "a27c7a54d151e49b374db2e35540da546d431b8e9c9571f16ccc8f94bb439233"
+        },
+        {
+          "path": "src/game/models/ntw-classic5.json",
+          "bytes": 1147815,
+          "sha256": "9312255085021ed92403aeefadbbbe033fdfbeb6ea69f2a0d379f30348606fcc"
+        },
+        {
+          "path": "src/game/models/ntw-adaptive-rl.json",
+          "bytes": 1148191,
+          "sha256": "0b0e0a2fee7f6d8219a1e2435bb97df4cb56af12aa62a4e637b378818d02b8d4"
+        },
+        {
+          "path": "src/game/models/ntw-classic5-rl.json",
+          "bytes": 1147559,
+          "sha256": "2087fcb15a73efc85342395b7f8911ca4d262d895055ba976f39ebf9693f5c31"
+        },
+        {
+          "path": "src/game/models/ntw-adaptive5.json",
+          "bytes": 1147877,
+          "sha256": "2c87f53549a8729b081faa7cf4e2b6b7de2e94987cef63afbc28b6ef32f00792"
+        },
+        {
+          "path": "artifacts/models/ntw-policy-v2-distill2-t120-i050.json",
+          "bytes": 3604608,
+          "sha256": "601a1014ce45a472708f16901226da87e6b0f187c546f0e64dd670c1c1a6656e"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-champion.json",
+          "bytes": 21801,
+          "sha256": "5019e61ada2f6940e18c29bda8a2c49d82c706d9ad8c9a58b6eee2fd5fe442a3"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-external_mcs.json",
+          "bytes": 21778,
+          "sha256": "ca5803d7eb1eeb8f09887e4ef37fa6c36b1dad09c8b2d854492ad470469fe18e"
+        },
+        {
+          "path": "artifacts/models/ntw-context-champion.json",
+          "bytes": 51955,
+          "sha256": "855ce55be5be555d067a96a1252ae34616fa7a729129053d55427ce3402dd0f1"
+        },
+        {
+          "path": "artifacts/models/ntw-context-external_mcs.json",
+          "bytes": 51877,
+          "sha256": "2e887b7c9202fbdd6bb724d87af6b27821166a84698950c8f9ca2d4223b7ae80"
+        },
+        {
+          "path": "artifacts/models/ntw-context2-champion.json",
+          "bytes": 191963,
+          "sha256": "e1371e20097f7f698329847ef133df7b4b6b5a14ff74f8d461cccf23352764ce"
+        },
+        {
+          "path": "artifacts/models/ntw-context2-external.json",
+          "bytes": 191712,
+          "sha256": "f25882787b9f5099b0e7cb99fb57ae63759810b7e84657de75f8eee98c2180ca"
+        },
+        {
+          "path": "artifacts/models/ntw-compact2-champion.json",
+          "bytes": 21823,
+          "sha256": "8d2bbcc44fc71e1d8441797aef4d2d80f0b164116e3afb6cc2279ae3dfb54e59"
+        },
+        {
+          "path": "artifacts/models/ntw-compact2-external_mcs.json",
+          "bytes": 21809,
+          "sha256": "3f8497006f9c0dbb283cb90f8d60b6bd8b2874c10598fdca9f0d4b8a3980c037"
+        },
+        {
+          "path": "artifacts/models/ntw-policy-v2-distill2-t120.json",
+          "bytes": 3603872,
+          "sha256": "51b99e2fc4b1c37787e8ae661d5e8549ef93cfa874ce89a081323b15866235a8"
+        },
+        {
+          "path": "artifacts/models/ntw-policy-v2-kr10k-avg-a10-b05.json",
+          "bytes": 3605288,
+          "sha256": "a1db911599f54d901224cab27906644940368af02cc3bb55f93e38d05c857953"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-focal-v1.json",
+          "bytes": 478571,
+          "sha256": "0d1962b77fbbe09458e66bf4efb81bfd5085f3130844c9679f4e54c77a097ff4"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-focal-t05-v1.json",
+          "bytes": 479211,
+          "sha256": "1cdbbdda2dea5495e5100974614b419bcfcca52304021f9dacf930d94752ae70"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-counterfactual-final.json",
+          "bytes": 480478,
+          "sha256": "7cae3f1fa6b8a1d89f87b0af7e21edef12ccff2ee0a4671aaa39fb49673fb703"
+        },
+        {
+          "path": "artifacts/models/ntw-compact-counterfactual-t05-v1.json",
+          "bytes": 479949,
+          "sha256": "e1bcef14636cfd4a0ecea030277159fdb9cf25e54403d549e6f20606d742e76a"
+        },
+        {
+          "path": "artifacts/models/ntw-policy-v2-compact-fullhist-v1.json",
+          "bytes": 1275431,
+          "sha256": "51cf2b7c4cbef386384c086b1caec0a2297b1b2c59ae5a27a7968578c60564e0"
+        },
+        {
+          "path": "artifacts/models/ntw-value-v2-real4.json",
+          "bytes": 3604055,
+          "sha256": "3f0b37b171aec5ad145373ca91b2e4340c62c1c378b88b6682211e040bcd213b"
+        },
+        {
+          "path": "artifacts/models/ntw-value-v2-kr10k-cost.json",
+          "bytes": 3604038,
+          "sha256": "e47242392952a2afbf79333273d537bf29e4ce2268bb95a52b2626eab0707de3"
+        },
+        {
+          "path": "artifacts/models/ntw-winvalue-v2-real4.json",
+          "bytes": 3605066,
+          "sha256": "faa23c0aa94631a90cbec6b3f368c10a6b9f16431ed0ee52b0cea45345c395c4"
+        },
+        {
+          "path": "artifacts/models/ntw-winvalue-v2-kr-new.json",
+          "bytes": 3604890,
+          "sha256": "0107439e2f76f83588d9cc392a19cf32f69353a3eddf403f98745feccb5760a1"
+        },
+        {
+          "path": "artifacts/models/ntw-winvalue-v2-kr-mixed.json",
+          "bytes": 3604727,
+          "sha256": "9572c26c01e22e3f71ec3159a88aa77dd00af7fc0709e7925cf6a843bc53d97c"
+        },
+        {
+          "path": "artifacts/models/ntw-hand-posterior-v1.json",
+          "bytes": 4174671,
+          "sha256": "8a158363d47eb0c9753e3c53c33c42dea32ee076f03135b547644a9b98da82e8"
+        },
+        {
+          "path": "artifacts/models/ntw-portfolio-gate-v1.json",
+          "bytes": 649307,
+          "sha256": "e179979674af50e65bd6d78d1f6b16cf2138786c5caea369037c437b5cc26cb9"
+        },
+        {
+          "path": "artifacts/models/ntw-search-gate-v1.json",
+          "bytes": 655134,
+          "sha256": "86f3d40cd1ccb8fef7786401a38b4c5ce3cfc43b2bab4696809e71de848d1fa9"
+        },
+        {
+          "path": "artifacts/models/ntw-search-residual-v2.json",
+          "bytes": 1301097,
+          "sha256": "eb0e46ba193c5038ceac14752c81c70c1cb9d678e3cfbb5b3e48163b5eb9a4f7"
+        }
+      ],
+      "historical_5p_recipe": "artifacts/models/ntw-final-v1.json",
+      "evidence": "docs/TECHNICAL_REPORT.md"
+    },
+    {
+      "id": "fast-neural-baseline",
+      "tier": "baseline",
+      "policy_id": "ntw-adaptive5-v1",
+      "reason": "Fast standalone baseline, historical 4-player league point leader and a required planner dependency; not a new strength claim.",
+      "files": [
+        {
+          "path": "artifacts/local-tournament/exports/ntw-adaptive5-v1.json",
+          "bytes": 3657954,
+          "sha256": "35c9b722281177219c59e72e2b01a8dedd72c8b8afc15beea6fa0ae2b8afd977"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive5-v1.pt",
+          "bytes": 446219,
+          "sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7"
+        }
+      ],
+      "evidence": "artifacts/small-player-exploration/classic2-results.json"
+    },
+    {
+      "id": "starting-v5",
+      "tier": "baseline",
+      "policy_id": "v5",
+      "reason": "Starting reference of the independently certified upgrade chain.",
+      "files": [
+        {
+          "path": "artifacts/small-player-exploration/v5/model.json",
+          "bytes": 3880995,
+          "sha256": "e4798288cd409d00035a4f36a9f91604ab91ff0024eb3c9d3fca1c7bb17d84f2"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/certificate-001/results.json"
+    },
+    {
+      "id": "accepted-upgrade-1",
+      "tier": "baseline",
+      "policy_id": "gpu128-proxy",
+      "reason": "Required predecessor for replay, regression comparisons and the original acceptance chain.",
+      "files": [
+        {
+          "path": "artifacts/progressive-upgrades/development-002/gpu128-proxy.json",
+          "bytes": 252,
+          "sha256": "8352d5838f3fc229022dfbed3af9668acec9010df106dcadbff7528d1260af4e"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-002/source-snapshot/training/progressive_planner.py",
+          "bytes": 14099,
+          "sha256": "0b78d68287d0d94a89cbf9730b9ecd73bb279c6225ea2af8ffb4a088da8db809"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive5-v1.pt",
+          "bytes": 446219,
+          "sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive-rl-v3b.pt",
+          "bytes": 446261,
+          "sha256": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20"
+        },
+        {
+          "path": "artifacts/models/ntw-champion-v2.pt",
+          "bytes": 446205,
+          "sha256": "fdcec7395838d33d7980335249b92dc1d62254c633d3f3e95ba49b030240d413"
+        },
+        {
+          "path": "artifacts/small-player-iterations/v4/model.pt",
+          "bytes": 1831679,
+          "sha256": "6dfd0c54afa1fb247441af93f691f7892849dcd48e25c2b799fbcbdf25366cdd"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v1/dirv-10000.pt",
+          "bytes": 446007,
+          "sha256": "6bb69f1a3a5d9f14297713c7ee817a76542e29a726b449cc2fee028e287b41b9"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v1/alpha-2000.pt",
+          "bytes": 446007,
+          "sha256": "6d63113952b0473267dd8c6bc52d96b9b5dee1193b90f2a2d8026352147f6014"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v1/mcs.pt",
+          "bytes": 445461,
+          "sha256": "85cd4e9cacb884aa0f1de4cf5b4382abe987f057ae21032f78c609cb7472e7e3"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v1/champion-search.pt",
+          "bytes": 446077,
+          "sha256": "f105efd50de7c5d161e0a9bc6f1da3583acd0e84c2751cf2a203bae9a7dd82d4"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-002/source-snapshot/training/progressive_torch_env.py",
+          "bytes": 7394,
+          "sha256": "65c2cfe7e9a2f6e4fc7c1d9df7a66c8a222b9e8b4674e7b0bd5dc2ccdfc2e87e"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/certificate-001/results.json"
+    },
+    {
+      "id": "accepted-upgrade-2",
+      "tier": "baseline",
+      "policy_id": "proxy-v2-512-lowprior",
+      "reason": "Required predecessor for replay, regression comparisons and the original acceptance chain.",
+      "files": [
+        {
+          "path": "artifacts/progressive-upgrades/development-003/proxy-v2-512-lowprior.json",
+          "bytes": 340,
+          "sha256": "ea614c1f3495b6041eff0f4b88b2fcf7e3d4d45cd26b003f5b1399ac92ab3992"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-003/source-snapshot/training/progressive_planner.py",
+          "bytes": 15055,
+          "sha256": "01195095e7503246dbb7f5eeed0fea87c66fcfcb6375eb0117c88b5ab347b75e"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive5-v1.pt",
+          "bytes": 446219,
+          "sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7"
+        },
+        {
+          "path": "artifacts/models/ntw-adaptive-rl-v3b.pt",
+          "bytes": 446261,
+          "sha256": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20"
+        },
+        {
+          "path": "artifacts/models/ntw-champion-v2.pt",
+          "bytes": 446205,
+          "sha256": "fdcec7395838d33d7980335249b92dc1d62254c633d3f3e95ba49b030240d413"
+        },
+        {
+          "path": "artifacts/small-player-iterations/v4/model.pt",
+          "bytes": 1831679,
+          "sha256": "6dfd0c54afa1fb247441af93f691f7892849dcd48e25c2b799fbcbdf25366cdd"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/dirv-10000.pt",
+          "bytes": 446007,
+          "sha256": "d63e47e25c5af2da0b2160c406b46cc7d1f1b4215c38b36a3d43b22e3d3de8ac"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/alpha-2000.pt",
+          "bytes": 446007,
+          "sha256": "b33af960990939cb3ff55e1b5b8b313a974e98f535e3bfd2010a813d6230f56b"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/mcs.pt",
+          "bytes": 445461,
+          "sha256": "623003eea2fa49a26a86ab479df4762b39149853c2b205ce02a3b9657de6ab39"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v2/champion-search.pt",
+          "bytes": 446077,
+          "sha256": "31720446b809cc5081217dc7ea931f99f5dd5928b2ab7d5ef1f872a83b02554d"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/development-003/source-snapshot/training/progressive_torch_env.py",
+          "bytes": 7394,
+          "sha256": "65c2cfe7e9a2f6e4fc7c1d9df7a66c8a222b9e8b4674e7b0bd5dc2ccdfc2e87e"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/certificate-002/results.json"
+    },
+    {
+      "id": "frozen-opponent-pool",
+      "tier": "baseline",
+      "policies": [
+        "ntw-adaptive-rl-v3b",
+        "ntw-adaptive-arena-v8-distill",
+        "ntw-champion",
+        "dirv-10000",
+        "alpha-2000",
+        "mcs",
+        "champion-search",
+        "random"
+      ],
+      "reason": "Keep actual evaluation opponents as well as learned proxies; they are different artifacts.",
+      "files": [
+        {
+          "path": "artifacts/local-tournament/exports/ntw-adaptive-rl-v3b.json",
+          "bytes": 3656259,
+          "sha256": "0170a85c3bb25d049745d6e7795444c02d74dc75a79e6d6c9337b710384f65fe"
+        },
+        {
+          "path": "artifacts/local-tournament/exports/ntw-adaptive-arena-v8-distill.json",
+          "bytes": 3656145,
+          "sha256": "fc72b70749858710390addf41b653bde0a74891f267d1f7f7cc614d361a1ec8d"
+        },
+        {
+          "path": "src/game/models/ntw-champion.json",
+          "bytes": 1148076,
+          "sha256": "a27c7a54d151e49b374db2e35540da546d431b8e9c9571f16ccc8f94bb439233"
+        },
+        {
+          "path": "artifacts/eth-reproduction/paper-dirv/checkpoint.pt",
+          "bytes": 1262481,
+          "sha256": "e79138f79a43c5b96d4703a35f8aabab7f82ce6775a858cfd2f2d25b04d05917"
+        },
+        {
+          "path": "artifacts/eth-reproduction/paper-alpha/checkpoint.pt",
+          "bytes": 755189,
+          "sha256": "3c76afe7682da1e3df769956511f62f008a8b2a2fd8998014b10987602dc89ff"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/protocol.json"
+    },
+    {
+      "id": "opponent-proxies-v3-devshift",
+      "tier": "research",
+      "reason": "Training and independent numerical audits passed; no accepted win-rate improvement. Preserve for future fresh development.",
+      "files": [
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/alpha-2000.json",
+          "bytes": 3655685,
+          "sha256": "9878c95318fd6fbb88003c09116a4e810b3ab7e20ca56e540d698da5fefdc4dd"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/alpha-2000.pt",
+          "bytes": 446113,
+          "sha256": "cfef5fcdff8f2c027dd59f9641ea6ad7172a251d755dcd09dafd27d70b1a8295"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/champion-search.json",
+          "bytes": 3655341,
+          "sha256": "63effa93104bc6c1317ca75cc90f57e7d2abc0248296a569c48bab18ddc59a99"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/champion-search.pt",
+          "bytes": 446183,
+          "sha256": "8cad88d1fd940b0132d5102d7dd2eddd0e5f9ebad9b3254aca362bae255e3df6"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/dirv-10000.json",
+          "bytes": 3655879,
+          "sha256": "f62425e485c57ef2d5bf28a41f0098b0fe07ecd56b763f392fe1e42817f3237e"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/dirv-10000.pt",
+          "bytes": 446113,
+          "sha256": "132263f1451026e09783c29312aa56a5b81162e8790bc4501192ccc7944b2d45"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/mcs.json",
+          "bytes": 3655548,
+          "sha256": "e42215f762473059304be78d285644330d647d015eea68343218ba5a3f28769a"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/mcs.pt",
+          "bytes": 445567,
+          "sha256": "b6b26c58ba5cdd928f5550df3de34d3df5881c93e74af7983edbeed8fd34443c"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift/independent-audit.json",
+      "training_directory": "artifacts/progressive-upgrades/opponent-proxies-v3-devshift"
+    },
+    {
+      "id": "continuation-v3-fourp",
+      "tier": "research",
+      "reason": "Training and independent numerical audits passed; no accepted win-rate improvement. Preserve for future fresh development.",
+      "files": [
+        {
+          "path": "artifacts/progressive-upgrades/continuation-v3-fourp/model.json",
+          "bytes": 3656261,
+          "sha256": "2d4032caca34109c1ccfaba77be8fb962e2c4aef6906e78480d3a75e3e817b3a"
+        },
+        {
+          "path": "artifacts/progressive-upgrades/continuation-v3-fourp/model.pt",
+          "bytes": 445979,
+          "sha256": "8630aa4f810e6d61590606fa93df9754e2e213bb5b87e1dff14216473b9f8b8d"
+        }
+      ],
+      "evidence": "artifacts/progressive-upgrades/continuation-v3-fourp/independent-audit.json",
+      "training_directory": "artifacts/progressive-upgrades/continuation-v3-fourp"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "policy": "belief-soft-256",
+  "clients": 4,
+  "streams": 4,
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 1436.8700307142196,
+  "wall_seconds": 55.857592000000295,
+  "source_trace_sha256": "cc10631dc9826d17f189a2c373ee379f0b40ea3b9eedbb764310bbac1865ae39",
+  "selected_inputs_sha256": "ab557e686575c5c948754fb57ab9fb43f7482e5c91037afe71e34f7f1275791d",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5"
+}

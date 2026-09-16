@@ -1,0 +1,64 @@
+{
+  "purpose": "certificate",
+  "games": 28672,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 6144,
+        "win_rate": 0.5306532118055556,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.454915364583334,
+        "mean_decision_ms": 551.4825126578668
+      },
+      {
+        "version": "proxy-v2-512-lowprior",
+        "games": 6144,
+        "win_rate": 0.5611436631944444,
+        "delta_pp": 3.049045138888889,
+        "delta_ci95_pp": [
+          1.3916015625000664,
+          4.701063368055614
+        ],
+        "adjusted_one_sided_lower_pp": 0.8300781250000592,
+        "mean_bullheads": 6.954752604166666,
+        "mean_decision_ms": 1102.0368724446514
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 8192,
+        "win_rate": 0.40403238932291663,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 8.4698486328125,
+        "mean_decision_ms": 409.36952510982536
+      },
+      {
+        "version": "proxy-v2-512-lowprior",
+        "games": 8192,
+        "win_rate": 0.44677734375,
+        "delta_pp": 4.274495442708334,
+        "delta_ci95_pp": [
+          2.8442382812499947,
+          5.712890625000011
+        ],
+        "adjusted_one_sided_lower_pp": 2.3579915364583353,
+        "mean_bullheads": 7.6876220703125,
+        "mean_decision_ms": 446.206130975336
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "34551874138483b94f0e3c369ce81b347ae465ee4a3c75e093e783666f9f0c56"
+}

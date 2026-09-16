@@ -1,0 +1,42 @@
+{
+  "format": "ntw-final-agent-v1",
+  "name": "牧场终极冠军",
+  "rules": {
+    "playerCount": 5,
+    "deckMode": "adaptive",
+    "deckSize": 54,
+    "hiddenOpponentHands": false
+  },
+  "strategy": "neural_hybrid_v2_q4443333_crn_ex3_cp5_cf_bm8_p0_ls_e50_u_bh4_hc_bt5_kr_iw15_zxtt_kq_fq3_kx10",
+  "samples": 18,
+  "models": {
+    "rootPolicy": "ntw-policy-v2-distill2-t120-i050.json",
+    "counterfactualContinuation": "ntw-compact-counterfactual-final.json"
+  },
+  "training": {
+    "environment": "D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "counterfactualTrainStates": 50000,
+    "counterfactualValidationStates": 10000,
+    "selectionEpoch": 57,
+    "anchorWeight": 0.2
+  },
+  "validation": {
+    "counterfactualRegretBefore": 3.626884494357639,
+    "counterfactualRegretAfter": 3.5847540690104167,
+    "counterfactualTop1Before": 0.28255555555555556,
+    "counterfactualTop1After": 0.29544444444444445,
+    "onlineReplacementGames": 500,
+    "onlineReplacementWinDeltaPP": 2.7,
+    "onlineReplacementWinDeltaCI95PP": [-2.5701334028815945, 7.970133402881594]
+  },
+  "lockedPredecessorEvaluation": {
+    "games": 2000,
+    "seed": 3610000000,
+    "baseline": "neural_hybrid",
+    "winDeltaPP": 7.266666666666666,
+    "winDeltaCI95PP": [4.45920562950479, 10.074127703828543],
+    "scoreDelta": -0.996,
+    "rankDelta": -0.18225
+  }
+}

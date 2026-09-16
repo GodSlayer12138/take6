@@ -1,0 +1,10 @@
+{
+  "format": "ntw-progressive-planner-v1",
+  "name": "rollout64-neural",
+  "params": {
+    "worlds": 64,
+    "opponents": "neural",
+    "prior_weight": 0.01,
+    "bullhead_weight": 0.002
+  }
+}

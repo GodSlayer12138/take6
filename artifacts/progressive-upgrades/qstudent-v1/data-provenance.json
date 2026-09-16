@@ -1,0 +1,5 @@
+{
+  "source_trace_sha256": "0a426d341957d92c5dbd5c9093b42708da09135f96aa5fdd42c955356aa371b7",
+  "states": 1024,
+  "information": "Own current hand, public rows/history/scores only; hypothetical remaining hands sampled by teacher"
+}

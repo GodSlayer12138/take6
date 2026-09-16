@@ -1,0 +1,17 @@
+{
+  "action": "user-authorized-resume",
+  "at": "2026-09-11T02:03:31.437505+08:00",
+  "run": "certificate-003",
+  "authorization": "User explicitly said to continue",
+  "saved_blocks": {
+    "3": 2048,
+    "4": 1793
+  },
+  "same_manifest_and_seeds": true,
+  "runner_session": 45747,
+  "service_session": 91523,
+  "awake_helper_session": 75645,
+  "monitor_cell": "10",
+  "audit": "certificate-003/resume-audit-20260911-0159.json",
+  "validation": "certificate-003/resume-validation-20260911-0200.json"
+}

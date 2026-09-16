@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-12T19:10:20.324758+08:00",
+  "models": {
+    "dirv-10000": {
+      "epoch": 10,
+      "independent_validation": {
+        "old": {
+          "states": 8820,
+          "nll": 1.0982665178201825,
+          "accuracy": 0.5806122448979592
+        },
+        "new": {
+          "states": 2376,
+          "nll": 1.0300167530010287,
+          "accuracy": 0.6140572390572391
+        }
+      },
+      "exact_pt_json_weights": true
+    },
+    "alpha-2000": {
+      "epoch": 3,
+      "independent_validation": {
+        "old": {
+          "states": 8739,
+          "nll": 1.5699304205685698,
+          "accuracy": 0.34809474768280124
+        },
+        "new": {
+          "states": 2727,
+          "nll": 1.5682103069418987,
+          "accuracy": 0.3527686101943528
+        }
+      },
+      "exact_pt_json_weights": true
+    },
+    "mcs": {
+      "epoch": 4,
+      "independent_validation": {
+        "old": {
+          "states": 8910,
+          "nll": 1.5494627093609663,
+          "accuracy": 0.3613916947250281
+        },
+        "new": {
+          "states": 2304,
+          "nll": 1.5486680528929424,
+          "accuracy": 0.3654513888888889
+        }
+      },
+      "exact_pt_json_weights": true
+    },
+    "champion-search": {
+      "epoch": 4,
+      "independent_validation": {
+        "old": {
+          "states": 9693,
+          "nll": 1.0974082818900954,
+          "accuracy": 0.5316207572474982
+        },
+        "new": {
+          "states": 2475,
+          "nll": 1.1156565454090988,
+          "accuracy": 0.5127272727272727
+        }
+      },
+      "exact_pt_json_weights": true
+    }
+  },
+  "protocol_sha256": "d841923cb732b39146c207cc83b356959c3775d2294f07cb989655569dc227ac",
+  "complete_sha256": "2790ae811eb582e384c7fc791dbd9931eee3bf91434b43f09cc6cf9ff31a09c4",
+  "auditor_sha256": "a327c0be80fffb58888f41669c846aa977c1f366a529eb05ef029b2499df9454",
+  "whole_deal_train_validation_disjoint": true,
+  "source_and_output_hashes_checked": true,
+  "all_48_epoch_records_checked": true,
+  "certificate_and_incomplete_development_outcomes_read": false,
+  "game_strength": "No game-strength inference; this audit does not accept an upgrade."
+}

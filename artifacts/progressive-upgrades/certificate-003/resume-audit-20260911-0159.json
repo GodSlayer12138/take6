@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "time": "2026-09-11T02:00:00.100646+08:00",
+  "scope": "User-authorized resume; frozen manifest, source and weight hashes plus every saved game replayed; no outcome statistics computed",
+  "blocks": {
+    "3": 2048,
+    "4": 1793
+  },
+  "games": 26632,
+  "trace_sha256": "f61b59607de4ddbabbfa6422fdc3de4c848771e0234c8c0aa9ef61a617baca2d",
+  "manifest_sha256": "234b8ff3e3f280fe5369de648e83f08c2dd492547bc78beb0ba5975a7bef32a9",
+  "source_and_weight_hashes_verified": true,
+  "transport_source_hashes_verified": true,
+  "opponent_seed_and_seat_rotations_verified": true,
+  "outcome_statistics_computed": false
+}

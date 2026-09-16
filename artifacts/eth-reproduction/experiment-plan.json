@@ -1,0 +1,38 @@
+{
+  "format": "ntw-eth-dirv-experiment-plan-v1",
+  "created": "2026-09-08",
+  "paper": "https://pub.tik.ee.ethz.ch/students/2021-HS/GA-2021-02.pdf",
+  "target": "Independent method reproduction of section 5.6 / table 5.7; not original author checkpoints",
+  "rules": {"players": 4, "cards": 104, "turns": 10, "forcedRowTieBreak": "first row index"},
+  "training": {
+    "alpha": {"games": 2000, "simulations": 50, "seed": 60811001},
+    "dirv": {"games": 10000, "simulations": 50, "seed": 60812001},
+    "population": "four independent networks of the same kind, all learn once after each full game",
+    "selection": "final checkpoint, fixed agent index 0; never select using evaluation results"
+  },
+  "primaryEvaluation": {
+    "deals": 100, "rotationsPerDeal": 4, "games": 400, "seed": 60813001,
+    "alphaSimulations": 50, "dirvSimulations": 200,
+    "opponents": ["alpha", "dirv", "random1", "random2"],
+    "metric": "dirv minus alpha fractional first-place win share, in percentage points",
+    "interval": "95% paired percentile bootstrap over independent deal groups; 10000 resamples"
+  },
+  "secondaryEvaluation": {
+    "deals": 250, "rotationsPerDeal": 4, "games": 1000, "seed": 60814001,
+    "alphaSimulations": 50, "dirvSimulations": 200,
+    "purpose": "predeclared independent replication without parameter changes"
+  },
+  "timeMatchedEvaluation": {
+    "checkpointSelection": "After Alpha completes 2000 games, capture the current completed DirV checkpoint without inspecting win rates; verify training elapsed times differ by at most 5%",
+    "deals": 100, "rotationsPerDeal": 4, "games": 400, "seed": 60815001,
+    "alphaSimulations": 50, "dirvSimulations": 200,
+    "purpose": "Additional predeclared comparison at approximately equal measured training time; separately verify decision time ratio"
+  },
+  "interpretation": [
+    "Report whether the primary interval excludes zero; do not stop early for significance.",
+    "Report both training elapsed time and decision mean/p95; the paper's simulation ratio need not give equal time on this implementation.",
+    "A count-matched result is not a time-matched claim when timing differs materially.",
+    "The paper's 40% vs 29% is a reference observation, not an optimization target.",
+    "A single pair of training seeds does not establish stability across training initializations."
+  ]
+}

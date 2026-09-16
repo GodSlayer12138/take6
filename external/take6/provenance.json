@@ -1,0 +1,191 @@
+{
+  "repository": "https://github.com/GiovanniGatti/take6",
+  "commit": "d498ab89fb74f9175e5ce1b0897eba1d5b3ffb7c",
+  "tree": "d498ab89fb74f9175e5ce1b0897eba1d5b3ffb7c",
+  "retrieved_at": "2026-09-15T15:28:12+08:00",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 119,
+      "git_blob_sha1": "e3ce9e84873bae472d987204cf8bfa5960966ea0",
+      "sha256": "cc76e21af75c94f90d70b79722d6632a35e45986a1cb21a72f5ffb182ec3bc81"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1181,
+      "git_blob_sha1": "2269e1b7f2deaa2ed495b9665ba1c0df7fc9a2f4",
+      "sha256": "2400be332ea655d7ae810d3a64b28e5472e3230d08af4d2d3be7ebba004a7389"
+    },
+    {
+      "path": "deploy.py",
+      "bytes": 5804,
+      "git_blob_sha1": "742230a438c72797b0c04bd37adf4eff973a8257",
+      "sha256": "980b7db2e8990d51918125a2fd9f0718ed63dceaa4e0f7ff40de60af6699d5c3"
+    },
+    {
+      "path": "human_against_machines.py",
+      "bytes": 5943,
+      "git_blob_sha1": "2ec587c0d24256806bb5a1cbbaca062938db13ef",
+      "sha256": "473a158b02a93fa628ea493e92fd1eb3170a9c87573e872a95f7e38175c48195"
+    },
+    {
+      "path": "machine_against_humans.py",
+      "bytes": 6002,
+      "git_blob_sha1": "ca3cdcd688fe5c1f8df96ccf00a924d6350a0787",
+      "sha256": "0edecd010900a60f3caae42fc6d29705b276599c0d3d279a0bc8a45cb63edd09"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 162,
+      "git_blob_sha1": "cf8e1952652073b47961ff793aa9a1db7afec11e",
+      "sha256": "7dd181d2e7c351e8367d150b7a10941a1adaace5993d7986a11ccbdc02b8c0af"
+    },
+    {
+      "path": "setup.py",
+      "bytes": 551,
+      "git_blob_sha1": "4acd466efb0043e48a404c32124dbb18e292bab4",
+      "sha256": "51967645da69d218e24609e562e382dcace4e9458c0fca16ee030194af4e9d5f"
+    },
+    {
+      "path": "src/entry/train.py",
+      "bytes": 25096,
+      "git_blob_sha1": "84e1291f7418ca703504a21ec565c0015add0e54",
+      "sha256": "205c310bb516a04605fbd09e47323860eb13aea370661f7549c8914c437dfeae"
+    },
+    {
+      "path": "src/take6/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/take6/aztools/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/take6/aztools/checkconf.py",
+      "bytes": 2988,
+      "git_blob_sha1": "5c45d6b5147df29217a93ac793194e9013b38355",
+      "sha256": "6f55859b3197a2289dfc57e906cfe80c357b75cf63e181d9fe88839c5087cc1d"
+    },
+    {
+      "path": "src/take6/aztools/checkpoint.py",
+      "bytes": 3514,
+      "git_blob_sha1": "e8be6110af8e28285d6b73f1c58fa1581df9e42c",
+      "sha256": "9e3a8a429deb37639181d5f4bd000a0c2c8a0505b6bf0539c2cc6962a8947ad2"
+    },
+    {
+      "path": "src/take6/aztools/hyperdriveconf.py",
+      "bytes": 3755,
+      "git_blob_sha1": "1fe3631b628ee65da1c5b2ec9db5bfcd181b97b4",
+      "sha256": "91f9e8f1bc34a8a8afd91262e194dd1aa25254041a24f916b12a9f6cc00d1d62"
+    },
+    {
+      "path": "src/take6/aztools/workspace.py",
+      "bytes": 618,
+      "git_blob_sha1": "a500c3134aba01cd20706c95f55bcd7de4c3880b",
+      "sha256": "1669f5707175f70dccf1b21b82b9a7207366394bf92456eb05ba40d6a0aa948d"
+    },
+    {
+      "path": "src/take6/env.py",
+      "bytes": 17780,
+      "git_blob_sha1": "eae774428b825847d2ad5d1a14b04596efc9b2bd",
+      "sha256": "3b8dd2507cbcaa29dc4c513c75f0d1c3da3ebd27d06891ada4d4223917ad28c6"
+    },
+    {
+      "path": "src/take6/model.py",
+      "bytes": 2166,
+      "git_blob_sha1": "dec533506fd81ad5adce9d1eb06d717069c1b56c",
+      "sha256": "be8beacb03e865d02f67a33ad520e6abaa742d854e94108bb19570ce4cab9938"
+    },
+    {
+      "path": "src/take6/policy.py",
+      "bytes": 4008,
+      "git_blob_sha1": "7763399bec91c200eb0ea351cbff619812b9d632",
+      "sha256": "a27d957c37acd718d3dbef120afb933d60cd722a5cb5db95596200cb0f297209"
+    },
+    {
+      "path": "src/take6/ppo.py",
+      "bytes": 2749,
+      "git_blob_sha1": "da642bea07d90ebf899a1a82a371c530efe610e4",
+      "sha256": "c8fee82933ca999d660caffef3e4e7fb6d5327477f8ca06dcec1fe6672a97bcf"
+    },
+    {
+      "path": "src/take6/py.typed",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/take6/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/take6/test_env.py",
+      "bytes": 13312,
+      "git_blob_sha1": "752141cba97dfe265c0a541031127e26e52b9c3a",
+      "sha256": "cb3530b51089c304f70de7948f910befccb53ab9374cc1a3fb45b366f8e03108"
+    },
+    {
+      "path": "tests/take6/tools.py",
+      "bytes": 1064,
+      "git_blob_sha1": "3dbd8788014ae77cab460458bf5ab5625cec8d61",
+      "sha256": "9c5a3936f4990c6f00820f497df70797bfcd8f91c0fe953ea4ebfbbdcb9f4261"
+    },
+    {
+      "path": "trained-anns/2-players-expert",
+      "bytes": 7103321,
+      "git_blob_sha1": "2dc3c3e295189e7c17d7e75e8d4e1d0fd91436eb",
+      "sha256": "07e61704ea1fe25962a9729aa3be85ae4e0e0699ea6d4de2934089b0ec2af592"
+    },
+    {
+      "path": "trained-anns/4-players-standard",
+      "bytes": 7103323,
+      "git_blob_sha1": "108b97163273adb62bc655d5932402eb2cf3e7b9",
+      "sha256": "9fa31c83130e38cb28a92a373d0e78f4d4d9cc6544be27cd4a55ed2be0b32ebf"
+    }
+  ],
+  "upstream_paths": [
+    ".gitignore",
+    "25-10-2022 - Team meeting - take6.pptx",
+    "README.md",
+    "deploy.py",
+    "docker/cpu/Dockerfile",
+    "docker/gpu/Dockerfile",
+    "human_against_machines.py",
+    "machine_against_humans.py",
+    "requirements.txt",
+    "setup.py",
+    "src/.amlignore",
+    "src/entry/train.py",
+    "src/take6/__init__.py",
+    "src/take6/aztools/__init__.py",
+    "src/take6/aztools/checkconf.py",
+    "src/take6/aztools/checkpoint.py",
+    "src/take6/aztools/hyperdriveconf.py",
+    "src/take6/aztools/workspace.py",
+    "src/take6/env.py",
+    "src/take6/model.py",
+    "src/take6/policy.py",
+    "src/take6/ppo.py",
+    "src/take6/py.typed",
+    "tests/__init__.py",
+    "tests/take6/__init__.py",
+    "tests/take6/test_env.py",
+    "tests/take6/tools.py",
+    "trained-anns/2-players-expert",
+    "trained-anns/4-players-standard",
+    "trained-anns/5-players-standard"
+  ],
+  "scope": "Local evaluation of original 2-player and 4-player weights. No upstream scripts executed by this downloader. No license file present in the retrieved tree; no redistribution license inferred."
+}

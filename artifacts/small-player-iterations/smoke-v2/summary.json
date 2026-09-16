@@ -1,0 +1,18 @@
+{
+  "version": "v2",
+  "selected_update": 1,
+  "total_training_games": 32,
+  "initial": "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt",
+  "initial_sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+  "development_baseline": {
+    "4": 0.2734375
+  },
+  "development_delta": -0.0390625,
+  "seconds": 0.49874139996245503,
+  "protocol": "D:\\code\\ntw\\artifacts\\small-player-iterations\\smoke-v2\\protocol.json",
+  "training_players": [
+    4
+  ],
+  "checkpoint_sha256": "fda7c9944f911f5c944beb2daf36a72d65e72825f837118d7fc9bcf430d9078b",
+  "json_sha256": "fcf065a5c41aa2802305e2f4501383e7d88e657e35c7f9ccd788b74d07bbd93b"
+}

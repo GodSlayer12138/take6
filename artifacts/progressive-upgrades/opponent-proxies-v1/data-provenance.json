@@ -1,0 +1,16 @@
+{
+  "source_sha256": {
+    "artifacts\\small-player-iterations\\heldout-blocks.jsonl": "8b66335493f83d6a497fbfa1293e393e1a6e208945416db7ff041ee82099c27e",
+    "artifacts\\small-player-exploration\\heldout-blocks.jsonl": "eda9a2935513e6477566de862a7800b1888a61655d0c6244fc1f1479f206d614"
+  },
+  "states": 106740,
+  "unique_deals": 1347,
+  "counts_by_type": {
+    "dirv-10000": 25038,
+    "alpha-2000": 27342,
+    "mcs": 26334,
+    "champion-search": 28026
+  },
+  "validation_states": 22158,
+  "training_validation_deals_disjoint": true
+}

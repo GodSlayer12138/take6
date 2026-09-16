@@ -1,0 +1,5 @@
+{
+  "status": "interrupted",
+  "reason": "Additional validation clients exceeded Windows commit/GPU capacity while 16 original workers were active; retry same frozen transport-validation manifest after certificate-001 finishes",
+  "counts_as_certificate": false
+}

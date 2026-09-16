@@ -1,0 +1,111 @@
+{
+  "purpose": "Byte-exact documentation and maintainer backup before final-model documentation consolidation; model/evaluation artifacts are untouched.",
+  "archive": "artifacts/documentation-archive/2026-09-15-before-final-docs.zip",
+  "files": [
+    {
+      "path": "docs/AI_EVALUATION_SCOPE.md",
+      "bytes": 1633,
+      "sha256": "039145bfa07da894d4b0722dc76f1e6a32d3631d98342e6e5838158dde792048"
+    },
+    {
+      "path": "docs/ETH_REPRODUCTION.md",
+      "bytes": 6790,
+      "sha256": "8a8d15b3f1990a02b640691a9828c550a20d875e157c83a0cc5b3a0c4465e672"
+    },
+    {
+      "path": "docs/ETH_REPRODUCTION_RESULTS.md",
+      "bytes": 2615,
+      "sha256": "9f0ff52c1a9ccb00461d30922b141278c6c896baa4cc9da904561ef2e1204e2d"
+    },
+    {
+      "path": "docs/EXTERNAL_AI_ADAPTER.md",
+      "bytes": 3717,
+      "sha256": "9ed8eec68f45d2f919a2baf7b625debca835c83cdf286c94abed0a6238f57e95"
+    },
+    {
+      "path": "docs/GPU_TRAINING.md",
+      "bytes": 7257,
+      "sha256": "13eaa706128b42c42803949564b3dbc793320979707ea46aa03f7295e172979d"
+    },
+    {
+      "path": "docs/LOCAL_MODEL_TOURNAMENT.md",
+      "bytes": 3614,
+      "sha256": "48845c6be08613075631937dd3436464c02b37365ba6d184275d9aff4bc36da8"
+    },
+    {
+      "path": "docs/LOCAL_MODEL_TOURNAMENT_PROTOCOL.md",
+      "bytes": 5099,
+      "sha256": "cd2e754147f3b66dd8faea9c996afd37a598d64c55a8edf7710abae2a272fb5f"
+    },
+    {
+      "path": "docs/PROGRESSIVE_UPGRADES.md",
+      "bytes": 19187,
+      "sha256": "775777b50e931e5a529db7288f85733ef75ee3ff05d34c1f1262eb9a91b4c21d"
+    },
+    {
+      "path": "docs/PROGRESSIVE_UPGRADES_RESULTS.md",
+      "bytes": 8995,
+      "sha256": "e05957e6176dc5b7d0d18083ecf1b911c151bd53ebddc25b0d41e95fa2ce698a"
+    },
+    {
+      "path": "docs/PROJECT_HISTORY.md",
+      "bytes": 10586,
+      "sha256": "6ec7fb48f206533fed6d97329122d5fc7ef7c8ab8d0ad64419b00684216ce763"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1406,
+      "sha256": "7466c889b09ba5a261637a0af746a3f0dab5c1d656bdd6b3f985477d265efdc2"
+    },
+    {
+      "path": "docs/SMALL_PLAYER_EXPLORATION.md",
+      "bytes": 5920,
+      "sha256": "7f4ed75435bac752e8a7b2a8cefb2928942636e77a45b114ec62f3bbd153e901"
+    },
+    {
+      "path": "docs/SMALL_PLAYER_EXPLORATION_PROTOCOL.md",
+      "bytes": 7113,
+      "sha256": "2a919cbdb5f967e3f08103ed2c82b7d0496ae0b2fe3b2ef6f1ce11875dab43b8"
+    },
+    {
+      "path": "docs/SMALL_PLAYER_ITERATIONS.md",
+      "bytes": 5043,
+      "sha256": "dfee065f13ee77a962a5a9d726bbf39e11376f319f07be69d096745c0c1421df"
+    },
+    {
+      "path": "docs/SMALL_PLAYER_TRAINING_PROTOCOL.md",
+      "bytes": 5206,
+      "sha256": "19db0f5c7f460be947c18da60261435214b4b8cd12404428be4e51c0158887e7"
+    },
+    {
+      "path": "docs/TAKE6_EVALUATION.md",
+      "bytes": 15302,
+      "sha256": "f5ee79c14393e9d3eabdfa1f9da02b44775fb1974d3d4f4580025044120e9a1a"
+    },
+    {
+      "path": "docs/TECHNICAL_REPORT.md",
+      "bytes": 31773,
+      "sha256": "065353bbc15daa72921ac48c488b7a30e0ab2807e2fdef6c0d035fb1d34abf18"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4863,
+      "sha256": "9e72bd9b09f6ef1a0bfe4ee5702665ffd7a26aef926abe4908e905996c957c1a"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 6804,
+      "sha256": "c924281cf926a449658170f6330bb9a2ae5d8cd0dcb9201f857ee8c090c23fbf"
+    },
+    {
+      "path": "tools/report_take6.py",
+      "bytes": 8262,
+      "sha256": "c7b7eb756db47528a50f0fb85204ca12f47e3703d71f46e6487d2ad5ed727f1a"
+    },
+    {
+      "path": "tools/organize_models.py",
+      "bytes": 12353,
+      "sha256": "4547b741ae633c3d271789c211e497f5475284bb3226010ce09095fc5e45da5e"
+    }
+  ]
+}

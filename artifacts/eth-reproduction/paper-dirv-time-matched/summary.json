@@ -1,0 +1,8 @@
+{
+  "kind": "dirv",
+  "games": 6200,
+  "seconds": 1594.7504638999817,
+  "alpha_seconds": 1597.670151999977,
+  "training_time_ratio": 0.998172533863551,
+  "selection": "Current saved checkpoint when Alpha finished; selected by elapsed time only, before any formal evaluation"
+}

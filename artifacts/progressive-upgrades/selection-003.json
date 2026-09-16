@@ -1,0 +1,51 @@
+{
+  "candidate": "hybrid-wide-specialist",
+  "development": "development-006",
+  "predecessor": "proxy-v2-512-lowprior",
+  "criterion": {
+    "criterion": "Among candidates with at least +0.5 percentage point observed gain in BOTH modes, maximize the smaller of the two paired development gains; tie-break by mean gain, then lexicographic policy ID.",
+    "deals_per_player_count": 256,
+    "no_interim_selection": true,
+    "certificate_uses_new_independent_seeds": true,
+    "if_none_eligible": "Continue development; do not promote a non-improving candidate."
+  },
+  "ranking": [
+    {
+      "candidate": "hybrid-wide-specialist",
+      "delta_3_pp": 6.423611111111112,
+      "delta_4_pp": 3.2470703125,
+      "minimum_delta_pp": 3.2470703125,
+      "mean_delta_pp": 4.835340711805555,
+      "eligible": true
+    },
+    {
+      "candidate": "hybrid-pair-distill",
+      "delta_3_pp": 0.39062500000000033,
+      "delta_4_pp": 0.9358723958333336,
+      "minimum_delta_pp": 0.39062500000000033,
+      "mean_delta_pp": 0.663248697916667,
+      "eligible": false
+    },
+    {
+      "candidate": "specialist-prior-1024",
+      "delta_3_pp": 0.390625,
+      "delta_4_pp": 3.2470703125,
+      "minimum_delta_pp": 0.390625,
+      "mean_delta_pp": 1.81884765625,
+      "eligible": false
+    },
+    {
+      "candidate": "two-card-512",
+      "delta_3_pp": 5.685763888888889,
+      "delta_4_pp": -1.7171223958333333,
+      "minimum_delta_pp": -1.7171223958333333,
+      "mean_delta_pp": 1.9843207465277781,
+      "eligible": false
+    }
+  ],
+  "manifest_sha256": "6028b132eaba6bf28316bb6a6cd8fefe1c8a9de9c77d46141d0a4844241bf605",
+  "results_sha256": "d14316edf946060e717262d11ab49c9569c444f1893e854ac11a76fa2d804289",
+  "trace_sha256": "7d26e7e885f59761c8c83162c1ab4e07ba246ca2707b27d8bb046fc887bea27e",
+  "selected_at": "2026-09-10T10:44:20.427826+08:00",
+  "basis": "Complete frozen development only; no certificate-003 games yet"
+}

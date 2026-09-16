@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "feature_and_rule_test_cases": "360 turns, 5940 candidate vectors",
+  "unit_tests": 3,
+  "export_browser_torch_matching_decisions": 108,
+  "mixed_version_replayed_games": 36
+}

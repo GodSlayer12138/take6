@@ -1,0 +1,279 @@
+{
+  "completed_at": "2026-09-15T16:13:25+08:00",
+  "audited_games": 1280,
+  "protocol_sha256": "a8c0fc8fbd1cf39d1c70e5ceb7dd2f6c5748bc5ec3d4e8d0f7a50794a1248d6d",
+  "trace_sha256": "82e33cc7e4b0b34c40964efa97902f7173f24d918e5493116180c475069be96d",
+  "independent_deals_total": 384,
+  "paired_sensitivity_deals": 64,
+  "summaries": {
+    "four104_project": {
+      "independent_deals": 128,
+      "games": 512,
+      "ranking": [
+        {
+          "id": "distill2048-specialist2048",
+          "games": 512,
+          "first_share": 0.44596354166666663,
+          "ci95": [
+            0.4059244791666667,
+            0.4873046875
+          ],
+          "mean_bullheads": 8.09765625,
+          "mean_decision_ms": 254.0872284960983,
+          "seat_counts": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "id": "dirv-10000",
+          "games": 512,
+          "first_share": 0.22037760416666669,
+          "ci95": [
+            0.18424479166666669,
+            0.25748697916666663
+          ],
+          "mean_bullheads": 12.4140625,
+          "mean_decision_ms": 148.98912460937942,
+          "seat_counts": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "id": "mcs",
+          "games": 512,
+          "first_share": 0.17740885416666669,
+          "ci95": [
+            0.14453125,
+            0.2109375
+          ],
+          "mean_bullheads": 12.798828125,
+          "mean_decision_ms": 1.2292810546890531,
+          "seat_counts": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "id": "take6-4",
+          "games": 512,
+          "first_share": 0.15625,
+          "ci95": [
+            0.1279296875,
+            0.1865234375
+          ],
+          "mean_bullheads": 13.68359375,
+          "mean_decision_ms": 0.6410166601551026,
+          "seat_counts": [
+            128,
+            128,
+            128,
+            128
+          ]
+        }
+      ],
+      "ours": "distill2048-specialist2048",
+      "take6": "take6-4",
+      "delta_first_share_pp": 28.971354166666668,
+      "delta_ci95_pp": [
+        23.079427083333332,
+        34.92838541666667
+      ],
+      "ours_same_table_score_share": 0.693359375,
+      "same_table_score_ci95": [
+        0.654296875,
+        0.732421875
+      ]
+    },
+    "four104_take6_rules": {
+      "independent_deals": 64,
+      "games": 256,
+      "ranking": [
+        {
+          "id": "distill2048-specialist2048",
+          "games": 256,
+          "first_share": 0.439453125,
+          "ci95": [
+            0.380859375,
+            0.501953125
+          ],
+          "mean_bullheads": 7.5546875,
+          "mean_decision_ms": 165.90022523437682,
+          "seat_counts": [
+            64,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "id": "dirv-10000",
+          "games": 256,
+          "first_share": 0.212890625,
+          "ci95": [
+            0.1640625,
+            0.263671875
+          ],
+          "mean_bullheads": 12.75,
+          "mean_decision_ms": 88.43291765621686,
+          "seat_counts": [
+            64,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "id": "take6-4",
+          "games": 256,
+          "first_share": 0.189453125,
+          "ci95": [
+            0.146484375,
+            0.236328125
+          ],
+          "mean_bullheads": 13.140625,
+          "mean_decision_ms": 0.44252460939659954,
+          "seat_counts": [
+            64,
+            64,
+            64,
+            64
+          ]
+        },
+        {
+          "id": "mcs",
+          "games": 256,
+          "first_share": 0.158203125,
+          "ci95": [
+            0.109375,
+            0.208984375
+          ],
+          "mean_bullheads": 13.53515625,
+          "mean_decision_ms": 0.7392730078109707,
+          "seat_counts": [
+            64,
+            64,
+            64,
+            64
+          ]
+        }
+      ],
+      "ours": "distill2048-specialist2048",
+      "take6": "take6-4",
+      "delta_first_share_pp": 25.0,
+      "delta_ci95_pp": [
+        16.40625,
+        33.7890625
+      ],
+      "ours_same_table_score_share": 0.6640625,
+      "same_table_score_ci95": [
+        0.607421875,
+        0.720703125
+      ]
+    },
+    "two24_native": {
+      "independent_deals": 128,
+      "games": 256,
+      "ranking": [
+        {
+          "id": "take6-2",
+          "games": 256,
+          "first_share": 0.654296875,
+          "ci95": [
+            0.59765625,
+            0.708984375
+          ],
+          "mean_bullheads": 4.9296875,
+          "mean_decision_ms": 0.42538640623845936,
+          "seat_counts": [
+            128,
+            128
+          ]
+        },
+        {
+          "id": "web-adaptive2",
+          "games": 256,
+          "first_share": 0.345703125,
+          "ci95": [
+            0.291015625,
+            0.40234375
+          ],
+          "mean_bullheads": 7.24609375,
+          "mean_decision_ms": 1.7504900000009,
+          "seat_counts": [
+            128,
+            128
+          ]
+        }
+      ],
+      "ours": "web-adaptive2",
+      "take6": "take6-2",
+      "delta_first_share_pp": -30.859375,
+      "delta_ci95_pp": [
+        -41.796875,
+        -19.53125
+      ],
+      "ours_same_table_score_share": 0.345703125,
+      "same_table_score_ci95": [
+        0.291015625,
+        0.40234375
+      ]
+    },
+    "two104_transfer": {
+      "independent_deals": 128,
+      "games": 256,
+      "ranking": [
+        {
+          "id": "v6",
+          "games": 256,
+          "first_share": 0.703125,
+          "ci95": [
+            0.6484375,
+            0.755859375
+          ],
+          "mean_bullheads": 5.578125,
+          "mean_decision_ms": 0.7125184374993296,
+          "seat_counts": [
+            128,
+            128
+          ]
+        },
+        {
+          "id": "take6-2",
+          "games": 256,
+          "first_share": 0.296875,
+          "ci95": [
+            0.244140625,
+            0.3515625
+          ],
+          "mean_bullheads": 10.33984375,
+          "mean_decision_ms": 0.36023128906563784,
+          "seat_counts": [
+            128,
+            128
+          ]
+        }
+      ],
+      "ours": "v6",
+      "take6": "take6-2",
+      "delta_first_share_pp": 40.625,
+      "delta_ci95_pp": [
+        29.6875,
+        51.171875
+      ],
+      "ours_same_table_score_share": 0.703125,
+      "same_table_score_ci95": [
+        0.6484375,
+        0.755859375
+      ]
+    }
+  },
+  "audit": "Every action legal, all scores and first shares replayed independently, every scheduled deal and complete seat rotation present, frozen dependencies verified."
+}

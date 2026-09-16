@@ -1,0 +1,9 @@
+{
+  "kind": "single-gpu-service",
+  "sources": {
+    "training/run_progressive_with_service.py": "1dfda6bedccc21a1f8147ad7bdca461344016fd0bd4700799052c4aee920d274",
+    "training/progressive_inference_service.py": "006b804e7b4acf88068a706b364cc166c8c7903794fa43e4993a90824e4c2aa1"
+  },
+  "policy": "Original archived Planner.choose calls; authenticated local IPC only; decision time includes queue and transport",
+  "source_verification": "Transport source hashes checked before games and again before result publication"
+}

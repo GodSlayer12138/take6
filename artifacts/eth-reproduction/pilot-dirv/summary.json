@@ -1,0 +1,10 @@
+{
+  "format": "ntw-eth-dirv-reimplementation-v1",
+  "kind": "dirv",
+  "games": 25,
+  "seconds": 28.961024300020654,
+  "seconds_per_game": 1.1584409720008262,
+  "device": "cpu",
+  "checkpoint": "D:\\code\\ntw\\artifacts\\eth-reproduction\\pilot-dirv\\checkpoint.pt",
+  "selection": "Fixed final checkpoint; agent index 0, no best-of-four selection"
+}

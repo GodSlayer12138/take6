@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "checks": 42,
+  "scope": "Final two cards agree with ordinary rollout; plans are legal and use public information; graph and original execution agree",
+  "source_sha256": "d13fe787963964c479d673bcf6a365f92cccd30f8e92e8b79e247a6635204d19"
+}

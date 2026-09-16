@@ -1,0 +1,29 @@
+{
+  "games_per_model_per_player_count": 4096,
+  "players": [
+    3,
+    4
+  ],
+  "deck_size": 104,
+  "seed_namespace": "continuation-comparison-002",
+  "source_sha256": "a68b62b7e03f81e25c913bde8ee6027ce7c099cdeb0f2c654b3ab1775afc2769",
+  "models": {
+    "base": "artifacts/models/ntw-adaptive5-v1.pt",
+    "imitation-v1": "artifacts/progressive-upgrades/continuation-v1/model.pt",
+    "imitation-v2": "artifacts/progressive-upgrades/continuation-v2/model.pt",
+    "ppo-shared": "artifacts/progressive-upgrades/ppo-proxy-v1/model.pt",
+    "ppo-specialist": {
+      "3": "artifacts/progressive-upgrades/ppo-specialist-3-v1/model.pt",
+      "4": "artifacts/progressive-upgrades/ppo-specialist-4-v1/model.pt"
+    }
+  },
+  "weights_sha256": {
+    "artifacts/progressive-upgrades/continuation-v2/model.pt": "d80f6f460183376fec44dfb8667ddd1c59a67a36224f5b6542222c20ff102504",
+    "artifacts/models/ntw-adaptive5-v1.pt": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+    "artifacts/progressive-upgrades/ppo-specialist-4-v1/model.pt": "b4b98537a13227854b3b21417e67d236865807a391b146c940b9ad794ff7702a",
+    "artifacts/progressive-upgrades/continuation-v1/model.pt": "2a2c8033621a3581205b523cfee97d717b0cbf819b517ba57479b3ee3264f3dd",
+    "artifacts/progressive-upgrades/ppo-specialist-3-v1/model.pt": "8e38515e61144c399ef65a0feb38747999331275927b7ab3f40a58b529190e06",
+    "artifacts/progressive-upgrades/ppo-proxy-v1/model.pt": "9f1baf52946194b9aa9676720cfef2977e1203ced72904bbfd65fd94b741d694"
+  },
+  "role": "Development on learned opponent proxies; does not count as formal game-strength certification"
+}

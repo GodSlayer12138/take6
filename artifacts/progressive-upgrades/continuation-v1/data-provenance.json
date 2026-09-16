@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "development-002": {
+      "trace_sha256": "0a426d341957d92c5dbd5c9093b42708da09135f96aa5fdd42c955356aa371b7",
+      "teachers": [
+        "gpu128-proxy"
+      ]
+    }
+  },
+  "unique_deals": 256,
+  "states": 8064,
+  "validation_states": 2079,
+  "information": "Own current hand and public state; imitate development planner action",
+  "split": "Grouped by original deal seed; no certificate games"
+}

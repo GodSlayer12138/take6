@@ -1,0 +1,92 @@
+{
+  "players": 2,
+  "independent_deals": 256,
+  "total_games": 2048,
+  "ranking": [
+    {
+      "version": "v6",
+      "games": 512,
+      "win_rate": 0.556640625,
+      "ci95": [
+        0.515625,
+        0.595703125
+      ],
+      "delta_pp": 9.1796875,
+      "delta_ci95_pp": [
+        3.80859375,
+        14.55078125
+      ],
+      "delta_familywise95_pp": [
+        2.734375,
+        15.8203125
+      ],
+      "mean_bullheads": 7.400390625,
+      "mean_decision_ms": 0.5432753125000772,
+      "rank": 1
+    },
+    {
+      "version": "v5",
+      "games": 512,
+      "win_rate": 0.470703125,
+      "ci95": [
+        0.427734375,
+        0.5126953125
+      ],
+      "delta_pp": 0.5859375,
+      "delta_ci95_pp": [
+        -2.24609375,
+        3.41796875
+      ],
+      "delta_familywise95_pp": [
+        -2.9296875,
+        4.1015625
+      ],
+      "mean_bullheads": 8.021484375,
+      "mean_decision_ms": 10.993317617187381,
+      "rank": 2
+    },
+    {
+      "version": "v7",
+      "games": 512,
+      "win_rate": 0.466796875,
+      "ci95": [
+        0.42578125,
+        0.5078125
+      ],
+      "delta_pp": 0.1953125,
+      "delta_ci95_pp": [
+        -2.1484375,
+        2.5390625
+      ],
+      "delta_familywise95_pp": [
+        -2.734375,
+        3.02734375
+      ],
+      "mean_bullheads": 8.044921875,
+      "mean_decision_ms": 0.5245805078127206,
+      "rank": 3
+    },
+    {
+      "version": "baseline",
+      "games": 512,
+      "win_rate": 0.46484375,
+      "ci95": [
+        0.4228515625,
+        0.5068359375
+      ],
+      "delta_pp": 0.0,
+      "delta_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "delta_familywise95_pp": [
+        0.0,
+        0.0
+      ],
+      "mean_bullheads": 8.05078125,
+      "mean_decision_ms": 0.5328629882810219,
+      "rank": 4
+    }
+  ],
+  "inference": "Paired deal-block bootstrap 20,000; familywise intervals use Bonferroni across three candidate-baseline comparisons within this player count."
+}

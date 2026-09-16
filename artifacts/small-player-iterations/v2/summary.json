@@ -1,0 +1,18 @@
+{
+  "version": "v2",
+  "selected_update": 48,
+  "total_training_games": 16384,
+  "initial": "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt",
+  "initial_sha256": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+  "development_baseline": {
+    "4": 0.2478841145930346
+  },
+  "development_delta": 0.01025390625,
+  "seconds": 14.379030599957332,
+  "protocol": "D:\\code\\ntw\\artifacts\\small-player-iterations\\v2\\protocol.json",
+  "training_players": [
+    4
+  ],
+  "checkpoint_sha256": "6bdfb5baecde2df5b6aedc5461d46892209aeff9a3e9aee52ab50fb4086eada4",
+  "json_sha256": "7b4db0f6da37189328f8d9bc6f97ef195d0033d4ee9554e6d704525e4ee81a9d"
+}

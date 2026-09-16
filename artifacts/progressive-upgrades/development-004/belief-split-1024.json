@@ -1,0 +1,22 @@
+{
+  "format": "ntw-progressive-planner-v1",
+  "name": "belief-split-1024",
+  "params": {
+    "engine": "torch",
+    "device": "cuda",
+    "opponents": "actual-proxy",
+    "proxy_directory": "artifacts/progressive-upgrades/opponent-proxies-v2",
+    "prior_weight": 0.003,
+    "bullhead_weight": 0.002,
+    "worlds": 1024,
+    "belief_oversample": 4,
+    "belief_history": 3,
+    "belief_strength": 0.35,
+    "player_overrides": {
+      "4": {
+        "belief_history": 5,
+        "belief_strength": 0.7
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "policy": "two-card-512",
+  "clients": 8,
+  "streams": 2,
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 472.3115171425369,
+  "wall_seconds": 80.3246891000017,
+  "source_trace_sha256": "a54786897a734dc578cda02cb99728b050932ff3127aa9f37a108cd96cfc5d75",
+  "archive_policy_by_players": {
+    "3": "two-card-512",
+    "4": "two-card-512"
+  },
+  "selected_inputs_sha256": "92818098b787697b15f7b0b67688d7f9dafb8741215c1ea7dd2723cd84235dea",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5",
+  "verifier_sha256": "aa3e751f355f3211c384d8af0206e585423a1a59e7562e0bb72f26f8aca914ba"
+}

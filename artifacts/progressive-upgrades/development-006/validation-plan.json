@@ -1,0 +1,33 @@
+{
+  "streams": 2,
+  "clients": 8,
+  "reason": "Limit CUDA graph cache memory while checking concurrent execution before new development games.",
+  "checks": [
+    {
+      "policy": "reference",
+      "archive": "development-003",
+      "archive_policy": "proxy-v2-512-lowprior"
+    },
+    {
+      "policy": "specialist-prior-1024",
+      "archive": "development-004"
+    },
+    {
+      "policy": "two-card-512",
+      "archive": "development-005"
+    },
+    {
+      "policy": "hybrid-wide-specialist",
+      "archive": "development-004",
+      "archive_policy_3": "wide-2048",
+      "archive_policy_4": "specialist-prior-1024"
+    },
+    {
+      "policy": "hybrid-pair-distill",
+      "archive": "development-005",
+      "archive_policy_3": "two-card-256",
+      "archive_policy_4": "distill-v2-1024"
+    }
+  ],
+  "verifier_sha256": "aa3e751f355f3211c384d8af0206e585423a1a59e7562e0bb72f26f8aca914ba"
+}

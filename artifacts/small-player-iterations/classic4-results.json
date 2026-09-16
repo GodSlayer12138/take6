@@ -1,0 +1,92 @@
+{
+  "players": 4,
+  "independent_deals": 512,
+  "total_games": 8192,
+  "ranking": [
+    {
+      "version": "baseline",
+      "games": 2048,
+      "win_rate": 0.2757975260416667,
+      "ci95": [
+        0.25626627604166663,
+        0.29541015625
+      ],
+      "delta_pp": 0.0,
+      "delta_ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "delta_familywise95_pp": [
+        0.0,
+        0.0
+      ],
+      "mean_bullheads": 10.56884765625,
+      "mean_decision_ms": 0.5692396093748234,
+      "rank": 1
+    },
+    {
+      "version": "v2",
+      "games": 2048,
+      "win_rate": 0.272216796875,
+      "ci95": [
+        0.25349934895833337,
+        0.29093424479166663
+      ],
+      "delta_pp": -0.3580729166666667,
+      "delta_ci95_pp": [
+        -2.1323649088541696,
+        1.456705729166663
+      ],
+      "delta_familywise95_pp": [
+        -2.5553385416666687,
+        1.8310546875000018
+      ],
+      "mean_bullheads": 10.8349609375,
+      "mean_decision_ms": 0.550711171875049,
+      "rank": 2
+    },
+    {
+      "version": "v4",
+      "games": 2048,
+      "win_rate": 0.2705078125,
+      "ci95": [
+        0.2509765625,
+        0.290283203125
+      ],
+      "delta_pp": -0.5289713541666667,
+      "delta_ci95_pp": [
+        -2.6041666666666687,
+        1.5462239583333315
+      ],
+      "delta_familywise95_pp": [
+        -3.043619791666663,
+        1.9938151041666685
+      ],
+      "mean_bullheads": 10.4921875,
+      "mean_decision_ms": 0.5510973242187246,
+      "rank": 3
+    },
+    {
+      "version": "v3",
+      "games": 2048,
+      "win_rate": 0.26546223958333337,
+      "ci95": [
+        0.24625651041666666,
+        0.2847493489583333
+      ],
+      "delta_pp": -1.0335286458333333,
+      "delta_ci95_pp": [
+        -2.8647867838541754,
+        0.830078125
+      ],
+      "delta_familywise95_pp": [
+        -3.2552083333333344,
+        1.2288411458333315
+      ],
+      "mean_bullheads": 10.65234375,
+      "mean_decision_ms": 0.5571274511719324,
+      "rank": 4
+    }
+  ],
+  "inference": "Paired deal-block bootstrap 20,000; familywise intervals use Bonferroni across three candidate-baseline comparisons within this player count."
+}

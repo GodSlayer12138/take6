@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "branches": {
+    "v5": {
+      "original_weights_unchanged": true,
+      "selection": "development only",
+      "new_training_games": 0
+    },
+    "v6": {
+      "strategy_evaluation_games": 294912,
+      "independent_training_deals": 12288,
+      "coefficients_trained": 81,
+      "selection": "development only"
+    },
+    "v7": {
+      "root_games": 384,
+      "public_states": 1536,
+      "hypothetical_completion_rollouts": 282624,
+      "parameters_changed": {
+        "2": true,
+        "3": true,
+        "4": true
+      },
+      "selection": "development only"
+    }
+  },
+  "new_heldout_seeds_disjoint_from_previous": true,
+  "previous_experiment_frozen_sources_unchanged": true
+}

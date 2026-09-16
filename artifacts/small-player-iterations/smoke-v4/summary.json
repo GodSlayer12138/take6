@@ -1,0 +1,23 @@
+{
+  "version": "v4",
+  "selected_update": 2,
+  "total_training_games": 32,
+  "initial": "D:\\code\\ntw\\artifacts\\small-player-iterations\\smoke-v3\\model.pt",
+  "initial_sha256": "843846215152aa23198b56d6c8dcc0eb4eda645137c1915b0877ac719609a657",
+  "development_baseline": {
+    "2": 0.5390625,
+    "3": 0.4296875,
+    "4": 0.2734375
+  },
+  "development_delta": -0.0125,
+  "seconds": 0.4100153999752365,
+  "protocol": "D:\\code\\ntw\\artifacts\\small-player-iterations\\smoke-v4\\protocol.json",
+  "training_players": [
+    4,
+    2,
+    4,
+    3
+  ],
+  "checkpoint_sha256": "96125a9d64022042ac309bfbfca4ad456b0056606dfa2d5d60432d3b8e61d8e2",
+  "json_sha256": "43fab42be082e826a3e6e8c0cc981236e5d9c090ae82296eaeda7a8dc23bca17"
+}

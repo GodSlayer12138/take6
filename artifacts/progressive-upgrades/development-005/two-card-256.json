@@ -1,0 +1,17 @@
+{
+  "format": "ntw-progressive-planner-v1",
+  "name": "two-card-256",
+  "params": {
+    "engine": "torch",
+    "device": "cuda",
+    "opponents": "actual-proxy",
+    "proxy_directory": "artifacts/progressive-upgrades/opponent-proxies-v2",
+    "prior_weight": 0.003,
+    "bullhead_weight": 0.002,
+    "worlds": 256,
+    "cuda_graphs": true,
+    "graph_max_batch": 16384,
+    "pair_worlds": 256,
+    "pair_topk": 3
+  }
+}

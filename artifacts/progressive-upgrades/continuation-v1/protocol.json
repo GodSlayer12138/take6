@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "development-002": [
+      "gpu128-proxy"
+    ]
+  },
+  "epochs": 20,
+  "lr": 0.0001,
+  "temperature": 1.0,
+  "loss": "cross entropy against selected development planner actions",
+  "source_sha256": "d68b1c7d1dd0d68916eada6020320dece96721a7c1d507a11513ccf2584513a2"
+}

@@ -1,0 +1,5 @@
+{
+  "kind": "inline-development",
+  "source_sha256": "547b2373e1730c1a0d94f95ac48a581bfffb98b5f4963fd1478b1e36f639405a",
+  "policy": "Frozen archived policies, same schedule and replay audit; one local process to limit commit memory"
+}

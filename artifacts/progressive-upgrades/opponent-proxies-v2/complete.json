@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "initial": {
+    "dirv-10000": {
+      "states": 8820,
+      "accuracy": 0.3566893424036281,
+      "nll": 1.6287180443199314
+    },
+    "alpha-2000": {
+      "states": 8739,
+      "accuracy": 0.29900446275317544,
+      "nll": 1.6911157773252836
+    },
+    "mcs": {
+      "states": 8910,
+      "accuracy": 0.30381593714927047,
+      "nll": 1.6614332916225514
+    },
+    "champion-search": {
+      "states": 9693,
+      "accuracy": 0.3225007737542556,
+      "nll": 1.6050596537265838
+    }
+  },
+  "best_validation_nll": {
+    "dirv-10000": 1.1321258237302438,
+    "alpha-2000": 1.5726452670417643,
+    "mcs": 1.5525736473759952,
+    "champion-search": 1.115310029817245
+  },
+  "epochs": 16,
+  "states": 144306,
+  "validation_states": 36162,
+  "source_sha256": "b7f73710bca67ab770023cfcedbcd5f3fea7a7fe666d896d7fdcbcff544679bd"
+}

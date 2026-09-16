@@ -1,0 +1,85 @@
+{
+  "training_games": 131072,
+  "initial": {
+    "4": {
+      "win_rate": 0.3561604842543602,
+      "bullheads": 9.12109375
+    }
+  },
+  "best_development_mean": 0.3874104842543602,
+  "evaluations": [
+    {
+      "update": 32,
+      "results": {
+        "4": {
+          "win_rate": 0.3580322340130806,
+          "bullheads": 9.12841796875
+        }
+      }
+    },
+    {
+      "update": 64,
+      "results": {
+        "4": {
+          "win_rate": 0.3571370393037796,
+          "bullheads": 9.07666015625
+        }
+      }
+    },
+    {
+      "update": 96,
+      "results": {
+        "4": {
+          "win_rate": 0.3550211563706398,
+          "bullheads": 8.9443359375
+        }
+      }
+    },
+    {
+      "update": 128,
+      "results": {
+        "4": {
+          "win_rate": 0.3778076171875,
+          "bullheads": 8.74169921875
+        }
+      }
+    },
+    {
+      "update": 160,
+      "results": {
+        "4": {
+          "win_rate": 0.3868408128619194,
+          "bullheads": 8.578125
+        }
+      }
+    },
+    {
+      "update": 192,
+      "results": {
+        "4": {
+          "win_rate": 0.3765869215130806,
+          "bullheads": 8.5869140625
+        }
+      }
+    },
+    {
+      "update": 224,
+      "results": {
+        "4": {
+          "win_rate": 0.3817952424287796,
+          "bullheads": 8.51025390625
+        }
+      }
+    },
+    {
+      "update": 256,
+      "results": {
+        "4": {
+          "win_rate": 0.3874104842543602,
+          "bullheads": 8.5546875
+        }
+      }
+    }
+  ],
+  "selected_checkpoint_exists": true
+}

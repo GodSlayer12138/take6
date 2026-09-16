@@ -1,0 +1,7 @@
+{
+  "mode": "adaptive5",
+  "epochs": 80,
+  "seed": 60821001,
+  "workers": 6,
+  "manifest_sha256": "5bc075483a5e6f4158ebd7a1eff567f9a0754c7094eb0be49a407e5c38f5fd1b"
+}

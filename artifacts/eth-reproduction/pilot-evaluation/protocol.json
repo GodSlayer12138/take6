@@ -1,0 +1,29 @@
+{
+  "command": "evaluate",
+  "alpha": "artifacts/eth-reproduction/pilot-alpha/checkpoint.pt",
+  "dirv": "artifacts/eth-reproduction/pilot-dirv/checkpoint.pt",
+  "deals": 5,
+  "alpha_simulations": 50,
+  "dirv_simulations": 200,
+  "output": "artifacts/eth-reproduction/pilot-evaluation",
+  "seed": 60803001,
+  "device": "cpu",
+  "threads": 1,
+  "format": "ntw-eth-dirv-reimplementation-v1",
+  "paper": "https://pub.tik.ee.ethz.ch/students/2021-HS/GA-2021-02.pdf",
+  "source_sha256": {
+    "training\\reproduce_eth_dirv.py": "53dd09fc8c0b5d44a8e9cfdd2d6bfb01e6308e16ee7843e86a6cdee2fa37f6c3",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\agents\\mcts.py": "7bb49235fe29befe0c61cd3f1453d117a996a4f9de24f012c48517e28809bcbc",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\env.py": "371848b8599e1963685c2259c1d21ddce0681604f5be45066d94b2e957e0fc7c",
+    "external\\rl-6-nimmt\\rl_6_nimmt\\utils\\preprocessing.py": "f1600616ba2758094b24252b1862ff2708e8b11b20f086aa3c3c84fd24ae9b67"
+  },
+  "checkpoint_sha256": {
+    "alpha": "5be9f84f45ee5598cb1e7baf04a818e24650566486bc6f9c79559faeca851e6c",
+    "dirv": "34c9ff82bc903102eb1b252a7006ba837ca81c3db3aa23e5b217593927083192"
+  },
+  "training_games": {
+    "alpha": 5,
+    "dirv": 25
+  },
+  "independent_unit": "deal seed; all four seat rotations stay in one bootstrap block"
+}

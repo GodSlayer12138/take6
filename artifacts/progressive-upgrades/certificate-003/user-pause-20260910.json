@@ -1,0 +1,80 @@
+{
+  "action": "user-requested-pause-for-exact-manifest-resume",
+  "requested_at": "2026-09-10T21:28:42.746624+08:00",
+  "run": "certificate-003",
+  "runner": {
+    "pid": 42324,
+    "parent": 59656,
+    "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" training/run_progressive_with_service.py --manifest artifacts/progressive-upgrades/certificate-003/manifest.json --service artifacts/progressive-upgrades/shared-service-003-resume-20260910-1535/state.json --workers 8"
+  },
+  "workers": [
+    {
+      "pid": 52488,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1408)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 49232,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1388)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 49144,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1316)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 51472,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1500)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 57644,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1504)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 47308,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1516)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 56212,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1420)\" \"--multiprocessing-fork\""
+    },
+    {
+      "pid": 52608,
+      "parent": 42324,
+      "command": "\"D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe\" \"-c\" \"from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=42324, pipe_handle=1576)\" \"--multiprocessing-fork\""
+    }
+  ],
+  "stopped_workers": [
+    52488,
+    49232,
+    49144,
+    51472,
+    57644,
+    47308,
+    56212,
+    52608
+  ],
+  "outcome_statistics_computed": false,
+  "resume_requires_explicit_user_instruction": true,
+  "updated_at": "2026-09-10T21:28:42.747664+08:00",
+  "status": "paused",
+  "paused_at": "2026-09-10T21:30:12.207772+08:00",
+  "completed_blocks": {
+    "3": 2048,
+    "4": 1793
+  },
+  "completed_games": 26632,
+  "trace_sha256": "f61b59607de4ddbabbfa6422fdc3de4c848771e0234c8c0aa9ef61a617baca2d",
+  "runner_exit_code": 1,
+  "runner_exit_reason": "Expected BrokenProcessPool after verified worker stop requested by user",
+  "service_exit_code": 0,
+  "awake_helper_exit_code": 0,
+  "awake_request_released": true,
+  "manifest_sha256": "234b8ff3e3f280fe5369de648e83f08c2dd492547bc78beb0ba5975a7bef32a9",
+  "verified_all_campaign_processes_stopped": true
+}

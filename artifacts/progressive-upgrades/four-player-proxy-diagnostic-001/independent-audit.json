@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-12T19:51:57.657686+08:00",
+  "verified_games": 24576,
+  "results": {
+    "proxy-v2": [
+      {
+        "model": "original-ppo4",
+        "delta_pp": 0.0,
+        "independent_ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "shared-distill-v2",
+        "delta_pp": -1.763916015625,
+        "independent_ci95_pp": [
+          -3.515625,
+          -0.008087158203129247
+        ]
+      },
+      {
+        "model": "fourp-distill-v3",
+        "delta_pp": 1.6215006510416665,
+        "independent_ci95_pp": [
+          -0.026448567708333218,
+          3.253173828125
+        ]
+      }
+    ],
+    "proxy-v3": [
+      {
+        "model": "original-ppo4",
+        "delta_pp": 0.0,
+        "independent_ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "shared-distill-v2",
+        "delta_pp": -0.6815592447916666,
+        "independent_ci95_pp": [
+          -2.4576822916666665,
+          1.0824076334635373
+        ]
+      },
+      {
+        "model": "fourp-distill-v3",
+        "delta_pp": 1.1576334635416667,
+        "independent_ci95_pp": [
+          -0.518798828125,
+          2.834116617838537
+        ]
+      }
+    ]
+  },
+  "all_sources_and_weights_checked": true,
+  "legal_actions_and_scores_replayed": true,
+  "independent_paired_statistics": true,
+  "certificate_or_incomplete_development_outcomes_read": false,
+  "auditor_sha256": "a9634337b8c7e72050cfd3f08d7a00b3e21ee0199a63d8081646b0781a2d1b1f",
+  "protocol_sha256": "7eddccfdf30b6dad14170a89a255583ee1afe91d5307cdf30ee4d6f02a72b693",
+  "results_sha256": "fc5633567bf20cfb752e2510e923eb4d7ba61d6b7447c8508e954bc0c7d8b98f",
+  "scope": "Development diagnostic against learned proxies only; does not accept an upgrade."
+}

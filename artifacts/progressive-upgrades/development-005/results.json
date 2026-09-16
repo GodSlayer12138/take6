@@ -1,0 +1,168 @@
+{
+  "purpose": "development",
+  "games": 1344,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 96,
+        "win_rate": 0.5729166666666666,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.208333333333334,
+        "mean_decision_ms": 76.57633333337041
+      },
+      {
+        "version": "graph-1024-control",
+        "games": 96,
+        "win_rate": 0.609375,
+        "delta_pp": 3.6458333333333344,
+        "delta_ci95_pp": [
+          -6.7708333333333375,
+          13.541666666666696
+        ],
+        "adjusted_one_sided_lower_pp": -6.7708333333333375,
+        "mean_bullheads": 6.625,
+        "mean_decision_ms": 80.83857166671655
+      },
+      {
+        "version": "distill-v2-1024",
+        "games": 96,
+        "win_rate": 0.5937499999999999,
+        "delta_pp": 2.0833333333333335,
+        "delta_ci95_pp": [
+          -10.41666666666668,
+          15.10416666666668
+        ],
+        "adjusted_one_sided_lower_pp": -10.41666666666668,
+        "mean_bullheads": 7.541666666666668,
+        "mean_decision_ms": 75.12960239589574
+      },
+      {
+        "version": "two-card-256",
+        "games": 96,
+        "win_rate": 0.65625,
+        "delta_pp": 8.333333333333332,
+        "delta_ci95_pp": [
+          -4.166666666666641,
+          20.3125
+        ],
+        "adjusted_one_sided_lower_pp": -4.166666666666641,
+        "mean_bullheads": 6.041666666666666,
+        "mean_decision_ms": 85.00260937511635
+      },
+      {
+        "version": "two-card-512",
+        "games": 96,
+        "win_rate": 0.6354166666666666,
+        "delta_pp": 6.25,
+        "delta_ci95_pp": [
+          -5.729166666666641,
+          17.70833333333336
+        ],
+        "adjusted_one_sided_lower_pp": -5.729166666666641,
+        "mean_bullheads": 6.447916666666666,
+        "mean_decision_ms": 121.17382437486413
+      },
+      {
+        "version": "two-card-distill-256",
+        "games": 96,
+        "win_rate": 0.6145833333333333,
+        "delta_pp": 4.166666666666666,
+        "delta_ci95_pp": [
+          -9.37499999999999,
+          16.666666666666668
+        ],
+        "adjusted_one_sided_lower_pp": -9.37499999999999,
+        "mean_bullheads": 7.072916666666667,
+        "mean_decision_ms": 78.87123020826341
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 128,
+        "win_rate": 0.3828125,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 8.78125,
+        "mean_decision_ms": 130.80107421871503
+      },
+      {
+        "version": "graph-1024-control",
+        "games": 128,
+        "win_rate": 0.3984375,
+        "delta_pp": 1.5625,
+        "delta_ci95_pp": [
+          -7.8125,
+          10.9375
+        ],
+        "adjusted_one_sided_lower_pp": -7.8125,
+        "mean_bullheads": 8.625,
+        "mean_decision_ms": 341.95737718767987
+      },
+      {
+        "version": "distill-v2-1024",
+        "games": 128,
+        "win_rate": 0.484375,
+        "delta_pp": 10.15625,
+        "delta_ci95_pp": [
+          1.5625,
+          18.75
+        ],
+        "adjusted_one_sided_lower_pp": 1.5625,
+        "mean_bullheads": 7.2109375,
+        "mean_decision_ms": 289.99977414060254
+      },
+      {
+        "version": "two-card-256",
+        "games": 128,
+        "win_rate": 0.4296875,
+        "delta_pp": 4.6875,
+        "delta_ci95_pp": [
+          -4.296875,
+          13.671875
+        ],
+        "adjusted_one_sided_lower_pp": -4.296875,
+        "mean_bullheads": 7.6875,
+        "mean_decision_ms": 252.10521507821682
+      },
+      {
+        "version": "two-card-512",
+        "games": 128,
+        "win_rate": 0.45703125,
+        "delta_pp": 7.421875,
+        "delta_ci95_pp": [
+          -1.953125,
+          17.1875
+        ],
+        "adjusted_one_sided_lower_pp": -1.953125,
+        "mean_bullheads": 7.796875,
+        "mean_decision_ms": 346.98550859353645
+      },
+      {
+        "version": "two-card-distill-256",
+        "games": 128,
+        "win_rate": 0.42057291666666663,
+        "delta_pp": 3.7760416666666665,
+        "delta_ci95_pp": [
+          -8.333333333333332,
+          15.625
+        ],
+        "adjusted_one_sided_lower_pp": -8.333333333333332,
+        "mean_bullheads": 8.359375,
+        "mean_decision_ms": 193.62613382788822
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "a54786897a734dc578cda02cb99728b050932ff3127aa9f37a108cd96cfc5d75"
+}

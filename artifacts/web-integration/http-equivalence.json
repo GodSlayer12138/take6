@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-15T14:38:01.155594+08:00",
+  "decisions": 70,
+  "by_players": {
+    "3": 30,
+    "4": 40
+  },
+  "concurrent_clients": 8,
+  "public_payload_fields": [
+    "hand",
+    "rows",
+    "seenCards",
+    "playerCount",
+    "deckSize",
+    "scores",
+    "seed"
+  ],
+  "archive": "development-008",
+  "archive_trace_sha256": "573dc6e531fdfb1b253761d10d78150e56a3c0d9421aee9cdffe7523e0170847",
+  "fixture_sha256": "bde61624d4eb3b6fd801215876fe0fd31d0d2d9dca43d37d3dc174676e416679",
+  "seconds": 9.632930100000522,
+  "scope": "HTTP adapter exactly reproduces completed development decisions; not a new strength test."
+}

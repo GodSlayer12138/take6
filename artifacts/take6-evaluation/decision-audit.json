@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "complete": true,
+  "games": 1280,
+  "decisions": 12800,
+  "exact_numpy_action_matches": 12800,
+  "numerical_boundary_cases": [],
+  "method": "Upstream public encoders, independent NumPy dense/ReLU/masked softmax, reconstructed RandomState uniforms, independent rule replay; adapter encoding and action methods not called.",
+  "observed_at": "2026-09-15T16:13:49+08:00",
+  "protocol_sha256": "a8c0fc8fbd1cf39d1c70e5ceb7dd2f6c5748bc5ec3d4e8d0f7a50794a1248d6d",
+  "script_sha256": "90c7d67f848a03a156ee873d862815dbce640d3809a9d15d00a77aa7d1e46e1a",
+  "trace_snapshot_sha256": "82e33cc7e4b0b34c40964efa97902f7173f24d918e5493116180c475069be96d"
+}

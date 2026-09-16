@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-10T15:34:49.605823+08:00",
+  "saved_blocks": 915,
+  "blocks_by_players": {
+    "3": 915,
+    "4": 0
+  },
+  "games_replayed": 5490,
+  "trace_prefix_sha256": "d9145f0d5d8c78583e525a3638b302f763247bf5e93f4d3c85874cdb1871b76e",
+  "manifest_sha256": "234b8ff3e3f280fe5369de648e83f08c2dd492547bc78beb0ba5975a7bef32a9",
+  "outcome_statistics_computed": false,
+  "resume_reason": "Previous monitor and exec handles are missing, and no Python process was found. Cause of process termination is unproven.",
+  "resume_policy": "Use the same frozen manifest, sources, weights, player counts and pre-reserved seeds; skip only the audited completed blocks."
+}

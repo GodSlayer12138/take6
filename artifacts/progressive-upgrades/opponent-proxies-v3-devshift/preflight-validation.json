@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-09-12T19:13:04.948823+08:00",
+  "performed_before_training": true,
+  "basis": "Retained output of the successful pre-training --check invocation in this session; recorded after training completion.",
+  "command": "python training/train_progressive_opponents_v3.py --check",
+  "source_sha256": "18590f1252202c44f973c9f83d32abd90d1ef59e434fe95c2bf6f0efb0289316",
+  "replayed_games": 8,
+  "checked_new_actions": 108,
+  "old_proxy_forward_backward_checks": 4,
+  "exact_optimizer_resume_checks": 1,
+  "device": "cpu",
+  "cuda_available": false,
+  "check_wrote_experiment_output": false
+}

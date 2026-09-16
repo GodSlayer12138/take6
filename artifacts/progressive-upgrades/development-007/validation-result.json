@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-11T02:44:07.582916+08:00",
+  "manifest_sha256": "4ef1225b8b0cc483c88432cc062c97ebaf8e2757fdf6bf345926d1776fd26568",
+  "expected_sha256": "9ea444742ffbd18072494548da1b2b1902ef224c5def585da13fc2544df0e142",
+  "verifier_sha256": "bb016a7c754d95029104e8d1f30871de87842805ca5d3e374e5639ad8aafd56b",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5",
+  "streams": 2,
+  "clients": 8,
+  "decisions": 350,
+  "decisions_by_policy": {
+    "reference": 70,
+    "pair512-specialist2048": 70,
+    "purewin2048-specialist2048": 70,
+    "belief2048-specialist2048": 70,
+    "distill2048-specialist2048": 70
+  },
+  "scope": "Every shared-service card matches serial direct inference on archived development observations; no new development or certificate outcomes are used."
+}

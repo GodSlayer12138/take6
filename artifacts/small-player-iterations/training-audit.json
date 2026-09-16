@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "games_by_player_count": {
+    "4": 81920,
+    "2": 12288,
+    "3": 12288
+  },
+  "total_games": 106496,
+  "versions": {
+    "v2": {
+      "updates": 64,
+      "games": 16384,
+      "selected_update": 48,
+      "parameters_changed": true,
+      "export_parameters_equal": true,
+      "opponent_sha256": {
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-rl-v3b.pt": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-arena-v8-distill.pt": "b1aad74279541c76e3fdefcb83e16269318c40888f4149b1532be1a650bee325"
+      }
+    },
+    "v3": {
+      "updates": 160,
+      "games": 40960,
+      "selected_update": 40,
+      "parameters_changed": true,
+      "export_parameters_equal": true,
+      "opponent_sha256": {
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-rl-v3b.pt": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-arena-v8-distill.pt": "b1aad74279541c76e3fdefcb83e16269318c40888f4149b1532be1a650bee325",
+        "D:\\code\\ntw\\artifacts\\small-player-iterations\\v2\\model.pt": "6bdfb5baecde2df5b6aedc5461d46892209aeff9a3e9aee52ab50fb4086eada4"
+      }
+    },
+    "v4": {
+      "updates": 192,
+      "games": 49152,
+      "selected_update": 192,
+      "parameters_changed": true,
+      "export_parameters_equal": true,
+      "opponent_sha256": {
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive5-v1.pt": "bad0cf0afa9c3ab6c130c712a8378a8e4af3c3736d993efbc59b6b92907d64b7",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-rl-v3b.pt": "5134a7a79368fb4acfc60d213fc8ba308a8d3c3eb7a8dd4eca063c8a6cd26b20",
+        "D:\\code\\ntw\\artifacts\\models\\ntw-adaptive-arena-v8-distill.pt": "b1aad74279541c76e3fdefcb83e16269318c40888f4149b1532be1a650bee325",
+        "D:\\code\\ntw\\artifacts\\small-player-iterations\\v2\\model.pt": "6bdfb5baecde2df5b6aedc5461d46892209aeff9a3e9aee52ab50fb4086eada4",
+        "D:\\code\\ntw\\artifacts\\small-player-iterations\\v3\\model.pt": "2b7756759b8b924a3d368f0eb0f30264be27552fc82b5c86305cb53075ab512b"
+      }
+    }
+  },
+  "checkpoints_and_source_hashes_match": true
+}

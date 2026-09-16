@@ -1,0 +1,2 @@
+# Frozen model and source digests require byte-identical checkouts on all OSes.
+* -text

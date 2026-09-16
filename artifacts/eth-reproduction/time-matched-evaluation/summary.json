@@ -1,0 +1,51 @@
+{
+  "format": "ntw-eth-dirv-reimplementation-v1",
+  "games": 400,
+  "independent_deals": 100,
+  "training_games": {
+    "alpha": 2000,
+    "dirv": 6200
+  },
+  "workers": 4,
+  "seconds": 160.10361560003366,
+  "win_share": {
+    "alpha": 0.37,
+    "dirv": 0.41125,
+    "random1": 0.105,
+    "random2": 0.11375
+  },
+  "strict_win_rate": {
+    "alpha": 0.3475,
+    "dirv": 0.385,
+    "random1": 0.0925,
+    "random2": 0.1025
+  },
+  "upstream_first_seat_tiebreak_win_rate": {
+    "alpha": 0.38,
+    "dirv": 0.405,
+    "random1": 0.105,
+    "random2": 0.11
+  },
+  "mean_bullheads": {
+    "alpha": 8.5175,
+    "dirv": 7.6175,
+    "random1": 15.565,
+    "random2": 15.4725
+  },
+  "dirv_minus_alpha_pp": 4.125,
+  "ci95_pp": [
+    -4.625,
+    13.0
+  ],
+  "decision_seconds": {
+    "alpha": {
+      "mean": 0.07628906464981264,
+      "p95": 0.15795945503341496
+    },
+    "dirv": {
+      "mean": 0.07859071842493723,
+      "p95": 0.1408665050199488
+    }
+  },
+  "interpretation": "Independent method reimplementation. Compare timing budgets separately; no original ETH weights."
+}

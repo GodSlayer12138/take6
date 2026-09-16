@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-12T19:25:52.457660+08:00",
+  "selected_epoch": 20,
+  "independent_validation": {
+    "initial": {
+      "states": 3708,
+      "nll": 1.5801535278609822,
+      "accuracy": 0.5679611650485437
+    },
+    "selected": {
+      "states": 3708,
+      "nll": 1.0787780755549745,
+      "accuracy": 0.5857605177993528
+    }
+  },
+  "all_twenty_epochs_checked": true,
+  "whole_deal_train_validation_disjoint": true,
+  "only_four_player_states_used": true,
+  "source_and_output_hashes_checked": true,
+  "exact_pt_json_weights": true,
+  "certificate_or_incomplete_development_outcomes_read": false,
+  "auditor_sha256": "e1af95e10726b6b2b48f413496bf98d4101cd24864e49733ab25ed2e407bb2c1",
+  "protocol_sha256": "82f6ad4b5e3f952f2c97e5834eb575ef1ee2d1187a6a8fe6deb60c9187782f2b",
+  "complete_sha256": "81978f3c68d8e99b48d81264928f71207a28030619510396927d06b6172064dd",
+  "interpretation": "Training audit only; does not establish a game win-rate improvement."
+}

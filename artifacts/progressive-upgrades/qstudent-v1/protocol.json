@@ -1,0 +1,29 @@
+{
+  "source_run": "development-002",
+  "source_candidate": "gpu128-proxy",
+  "states_per_player_count": 512,
+  "selection_seed": 90931001,
+  "epochs": 40,
+  "lr": 0.0001,
+  "temperature": 0.075,
+  "teacher": {
+    "engine": "torch",
+    "device": "cuda",
+    "worlds": 512,
+    "opponents": "actual-proxy",
+    "proxy_directory": "artifacts/progressive-upgrades/opponent-proxies-v2",
+    "prior_weight": 0.003,
+    "bullhead_weight": 0.002
+  },
+  "selection": "Minimum development validation regret under teacher values; not a game-strength certificate",
+  "split": "Whole source deal grouped across rotations and turns",
+  "source_sha256": {
+    "D:\\code\\ntw\\training\\train_progressive_qstudent.py": "66703fcafdb391aae77a33087d49d8bc29a358922a400ec4c0be65637c5bbb13",
+    "D:\\code\\ntw\\training\\progressive_planner.py": "01195095e7503246dbb7f5eeed0fea87c66fcfcb6375eb0117c88b5ab347b75e",
+    "D:\\code\\ntw\\training\\progressive_torch_env.py": "65c2cfe7e9a2f6e4fc7c1d9df7a66c8a222b9e8b4674e7b0bd5dc2ccdfc2e87e",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\dirv-10000.pt": "d63e47e25c5af2da0b2160c406b46cc7d1f1b4215c38b36a3d43b22e3d3de8ac",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\alpha-2000.pt": "b33af960990939cb3ff55e1b5b8b313a974e98f535e3bfd2010a813d6230f56b",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\mcs.pt": "623003eea2fa49a26a86ab479df4762b39149853c2b205ce02a3b9657de6ab39",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\opponent-proxies-v2\\champion-search.pt": "31720446b809cc5081217dc7ea931f99f5dd5928b2ab7d5ef1f872a83b02554d"
+  }
+}

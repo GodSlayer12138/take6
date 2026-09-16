@@ -1,0 +1,18 @@
+{
+  "version": "v3",
+  "selected_update": 40,
+  "total_training_games": 40960,
+  "initial": "D:\\code\\ntw\\artifacts\\small-player-iterations\\v2\\model.pt",
+  "initial_sha256": "6bdfb5baecde2df5b6aedc5461d46892209aeff9a3e9aee52ab50fb4086eada4",
+  "development_baseline": {
+    "4": 0.2478841145930346
+  },
+  "development_delta": 0.01546223959303461,
+  "seconds": 45.073005499958526,
+  "protocol": "D:\\code\\ntw\\artifacts\\small-player-iterations\\v3\\protocol.json",
+  "training_players": [
+    4
+  ],
+  "checkpoint_sha256": "2b7756759b8b924a3d368f0eb0f30264be27552fc82b5c86305cb53075ab512b",
+  "json_sha256": "31516cbdce43a103cd9ae9469c62c660312701012321c98ba7c583f26d8d8db4"
+}

@@ -1,0 +1,10 @@
+{
+  "format": "ntw-progressive-planner-v1",
+  "name": "rollout32-mixed",
+  "params": {
+    "worlds": 32,
+    "opponents": "mixed",
+    "prior_weight": 0.005,
+    "bullhead_weight": 0.002
+  }
+}

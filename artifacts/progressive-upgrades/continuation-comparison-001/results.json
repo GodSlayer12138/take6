@@ -1,0 +1,82 @@
+{
+  "results": {
+    "3": [
+      {
+        "model": "base",
+        "win_rate": 0.3955078125,
+        "delta_pp": 0.0,
+        "development_delta_ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "imitation",
+        "win_rate": 0.43693033854166663,
+        "delta_pp": 4.142252604166667,
+        "development_delta_ci95_pp": [
+          1.6520182291666665,
+          6.6326904296874964
+        ]
+      },
+      {
+        "model": "ppo",
+        "win_rate": 0.4444173177083333,
+        "delta_pp": 4.890950520833333,
+        "development_delta_ci95_pp": [
+          2.327473958333333,
+          7.3974609375
+        ]
+      },
+      {
+        "model": "qstudent",
+        "win_rate": 0.4161783854166667,
+        "delta_pp": 2.0670572916666665,
+        "development_delta_ci95_pp": [
+          -0.43151855468749994,
+          4.581705729166666
+        ]
+      }
+    ],
+    "4": [
+      {
+        "model": "base",
+        "win_rate": 0.3035481770833333,
+        "delta_pp": 0.0,
+        "development_delta_ci95_pp": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "model": "imitation",
+        "win_rate": 0.34879557291666663,
+        "delta_pp": 4.524739583333333,
+        "development_delta_ci95_pp": [
+          2.1563720703125,
+          6.974283854166666
+        ]
+      },
+      {
+        "model": "ppo",
+        "win_rate": 0.3543294270833333,
+        "delta_pp": 5.078125,
+        "development_delta_ci95_pp": [
+          2.563273111979167,
+          7.584635416666666
+        ]
+      },
+      {
+        "model": "qstudent",
+        "win_rate": 0.31640625,
+        "delta_pp": 1.2858072916666667,
+        "development_delta_ci95_pp": [
+          -1.050008138020833,
+          3.6539713541666665
+        ]
+      }
+    ]
+  },
+  "games": 16384,
+  "role": "Development evidence on learned opponent proxies; not real frozen opponents"
+}

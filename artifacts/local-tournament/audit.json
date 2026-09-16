@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "source_and_weight_hashes_match": true,
+  "games": 75248,
+  "modes": {
+    "adaptive5": {
+      "status": "passed",
+      "replayed_games": 60400,
+      "unique_blocks": 12080,
+      "trace_sha256": "d935cbebe7cad1aa7db0e13f47739f5ac28f517861af4a1d8a1c6335b040ccef",
+      "protocol_sha256": "dcd383b2214da87d6591a278dd1e31a89e6ebb416b407de7c492de6d16856d6d",
+      "schedule_and_deal_seeds_match": true,
+      "legal_complete_traces": true,
+      "scores_and_shares_match": true,
+      "equal_games_and_seats": true,
+      "opponent_pair_games_min": 0,
+      "opponent_pair_games_max": 195,
+      "unplayed_opponent_pairs": 150
+    },
+    "classic4": {
+      "status": "passed",
+      "replayed_games": 14848,
+      "unique_blocks": 3712,
+      "trace_sha256": "0d659ad79e4844d7affba221376273c07d0fb4d22b5c78aa5bfcad0118a93671",
+      "protocol_sha256": "66b7cceafe5033152209d04a3e4706dc16ac16e8b2aa4334ce4b4bcea0eb26e9",
+      "schedule_and_deal_seeds_match": true,
+      "legal_complete_traces": true,
+      "scores_and_shares_match": true,
+      "equal_games_and_seats": true,
+      "opponent_pair_games_min": 108,
+      "opponent_pair_games_max": 396,
+      "unplayed_opponent_pairs": 0
+    }
+  },
+  "analysis_source_sha256": "d2f0da3b83a66e5b9bf07ef365aacedb1b51671ce3f5309d681357a8532adc76"
+}

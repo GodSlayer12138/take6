@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "policy": "proxy-v2-512-lowprior",
+  "clients": 4,
+  "streams": 4,
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 210.74156499998935,
+  "wall_seconds": 7.966249900000548,
+  "source_trace_sha256": "05c402ef0e94edd693c549ac072ba9d382311412db007f5d7f035fda1ceb1445",
+  "selected_inputs_sha256": "00f002f6e493f3974e7c83bad1e5a1b03ee1cc716c9ef8fe3d7e87a5a5a5152d",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5"
+}

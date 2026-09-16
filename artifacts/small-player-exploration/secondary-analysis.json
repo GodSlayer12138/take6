@@ -1,0 +1,65 @@
+{
+  "scope": "Secondary analysis; descriptive opponent breakdown, no claims of individual-opponent significance. More conservative interval covers nine candidate-baseline comparisons across all three player counts. No model changes or selection.",
+  "v6_two_player_nine_comparison_interval_pp": [
+    1.5625,
+    16.938205295138786
+  ],
+  "opponents": [
+    {
+      "opponent": "alpha-2000",
+      "games_per_version": 76,
+      "baseline_win_rate": 0.40789473684210525,
+      "v6_win_rate": 0.5460526315789473,
+      "delta_pp": 13.815789473684209
+    },
+    {
+      "opponent": "champion-search",
+      "games_per_version": 64,
+      "baseline_win_rate": 0.359375,
+      "v6_win_rate": 0.5,
+      "delta_pp": 14.0625
+    },
+    {
+      "opponent": "dirv-10000",
+      "games_per_version": 74,
+      "baseline_win_rate": 0.3310810810810811,
+      "v6_win_rate": 0.4594594594594595,
+      "delta_pp": 12.83783783783784
+    },
+    {
+      "opponent": "mcs",
+      "games_per_version": 60,
+      "baseline_win_rate": 0.36666666666666664,
+      "v6_win_rate": 0.4,
+      "delta_pp": 3.3333333333333384
+    },
+    {
+      "opponent": "ntw-adaptive-arena-v8-distill",
+      "games_per_version": 54,
+      "baseline_win_rate": 0.5740740740740741,
+      "v6_win_rate": 0.6388888888888888,
+      "delta_pp": 6.481481481481477
+    },
+    {
+      "opponent": "ntw-adaptive-rl-v3b",
+      "games_per_version": 62,
+      "baseline_win_rate": 0.49193548387096775,
+      "v6_win_rate": 0.6854838709677419,
+      "delta_pp": 19.354838709677413
+    },
+    {
+      "opponent": "ntw-champion",
+      "games_per_version": 50,
+      "baseline_win_rate": 0.63,
+      "v6_win_rate": 0.59,
+      "delta_pp": -4.0000000000000036
+    },
+    {
+      "opponent": "random",
+      "games_per_version": 72,
+      "baseline_win_rate": 0.6180555555555556,
+      "v6_win_rate": 0.6527777777777778,
+      "delta_pp": 3.472222222222221
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "purpose": "certificate",
+  "games": 28672,
+  "results": {
+    "3": [
+      {
+        "version": "reference",
+        "games": 6144,
+        "win_rate": 0.5508626302083334,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 6.892415364583334,
+        "mean_decision_ms": 592.6005009667928
+      },
+      {
+        "version": "distill2048-specialist2048",
+        "games": 6144,
+        "win_rate": 0.5835774739583333,
+        "delta_pp": 3.271484375,
+        "delta_ci95_pp": [
+          1.7089843750000222,
+          4.836697048610973
+        ],
+        "adjusted_one_sided_lower_pp": 0.8897569444443642,
+        "mean_bullheads": 6.545247395833334,
+        "mean_decision_ms": 688.5575685286478
+      }
+    ],
+    "4": [
+      {
+        "version": "reference",
+        "games": 8192,
+        "win_rate": 0.45252482096354163,
+        "delta_pp": 0.0,
+        "delta_ci95_pp": [
+          0.0,
+          0.0
+        ],
+        "adjusted_one_sided_lower_pp": 0.0,
+        "mean_bullheads": 7.559814453125,
+        "mean_decision_ms": 727.6961798889158
+      },
+      {
+        "version": "distill2048-specialist2048",
+        "games": 8192,
+        "win_rate": 0.47794596354166663,
+        "delta_pp": 2.5421142578125004,
+        "delta_ci95_pp": [
+          1.1484781901041574,
+          3.9449055989583313
+        ],
+        "adjusted_one_sided_lower_pp": 0.3967272440592448,
+        "mean_bullheads": 6.929443359375,
+        "mean_decision_ms": 802.0959714575305
+      }
+    ]
+  },
+  "audit": "passed",
+  "trace_sha256": "0ceeea7193a5ca22ef4f858a0ed46d35ed64120a346b8b2983471e140875d5c0"
+}

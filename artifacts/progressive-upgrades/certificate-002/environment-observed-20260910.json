@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-09-10T04:44:45.165313+08:00",
+  "role": "Environment observed during the September 10 resumption; not an assertion about unavailable earlier environment metadata",
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "torch": "2.11.0+cu128",
+  "torch_cuda": "12.8",
+  "cuda_available": true,
+  "default_float32_matmul_precision": "highest",
+  "default_allow_tf32": false,
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU"
+}

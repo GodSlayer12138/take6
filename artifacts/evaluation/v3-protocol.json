@@ -1,0 +1,34 @@
+{
+  "format": "ntw-evaluation-protocol-v1",
+  "created": "2026-08-21",
+  "primary": {
+    "playerCount": 5,
+    "deckMode": "adaptive",
+    "games": 2000,
+    "baseSeed": 910000000,
+    "championSamples": 18,
+    "pool": ["candidate", "champion", "external_mcs", "cautious", "random"],
+    "baseline": "neural_hybrid",
+    "requiredAbsoluteWinRateGain": 0.10,
+    "pairedSeeds": true,
+    "status": "sealed-do-not-run-until-candidate-locked"
+  },
+  "secondary": {
+    "playerCount": 5,
+    "deckMode": "classic",
+    "games": 1000,
+    "baseSeed": 911000000,
+    "championSamples": 18,
+    "pool": ["candidate", "champion", "external_mcs", "cautious", "random"],
+    "baseline": "neural_hybrid",
+    "maximumAllowedAbsoluteWinRateRegression": 0.01,
+    "pairedSeeds": true,
+    "status": "sealed-do-not-run-until-candidate-locked"
+  },
+  "developmentSeedBases": [370000000, 380000000, 390000000, 410000000, 420000000],
+  "notes": [
+    "The sealed seeds must not be used for tuning, checkpoint selection, or debugging.",
+    "Baseline and candidate use identical deals, seat rotation, rules, and search budget.",
+    "No hidden opponent cards may enter observations or model features."
+  ]
+}

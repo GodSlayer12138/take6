@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "observed_at": "2026-09-12T18:24:47.954597+08:00",
+  "sources": {
+    "development-002": [
+      "gpu128-proxy"
+    ],
+    "development-003": [
+      "proxy-v2-256",
+      "belief-soft-256",
+      "proxy-v2-512-lowprior"
+    ]
+  },
+  "checked_sha256": {
+    "training\\train_progressive_continuation.py": "d68b1c7d1dd0d68916eada6020320dece96721a7c1d507a11513ccf2584513a2",
+    "artifacts\\progressive-upgrades\\development-002\\blocks.jsonl": "0a426d341957d92c5dbd5c9093b42708da09135f96aa5fdd42c955356aa371b7",
+    "artifacts\\progressive-upgrades\\development-003\\blocks.jsonl": "05c402ef0e94edd693c549ac072ba9d382311412db007f5d7f035fda1ceb1445",
+    "D:\\code\\ntw\\artifacts\\progressive-upgrades\\continuation-v2\\model.pt": "d80f6f460183376fec44dfb8667ddd1c59a67a36224f5b6542222c20ff102504"
+  },
+  "selected_replication_weight_matches": true,
+  "training_logs_and_completion_record_retained": true,
+  "certificate_data_used": false
+}

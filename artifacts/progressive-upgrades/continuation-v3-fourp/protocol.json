@@ -1,0 +1,52 @@
+{
+  "seed": 91237001,
+  "players": 4,
+  "epochs": 20,
+  "batch": 256,
+  "lr": 5e-05,
+  "weight_decay": 0.001,
+  "device": "cpu",
+  "cpu_threads": 2,
+  "row_permutation_augmentation": true,
+  "selection": "Minimum whole-deal validation cross entropy, including epoch zero; ties retain earlier epoch.",
+  "information": "Own current hand and public state, imitating the completed development search action.",
+  "role": "Development training only; no certificate or incomplete development data. Not a game-strength result.",
+  "completed_sources": {
+    "development-004": {
+      "teachers": [
+        "specialist-prior-1024"
+      ],
+      "manifest_sha256": "a051585cfa07ede9bed4a0fc393067d411003b9bc2443be170be9e059df1d089",
+      "result_sha256": "c4cc2f1f9c0cb3012f735cf733d796502cf9c3fa075dbcc6e6e87cad7d7d9b0a",
+      "trace_sha256": "35e7100ddb2c6cc4ca96ed0c0a3a0f06d0597f30b8d84e5a27ffb8f2c4f37434"
+    },
+    "development-006": {
+      "teachers": [
+        "hybrid-wide-specialist"
+      ],
+      "manifest_sha256": "6028b132eaba6bf28316bb6a6cd8fefe1c8a9de9c77d46141d0a4844241bf605",
+      "result_sha256": "d14316edf946060e717262d11ab49c9569c444f1893e854ac11a76fa2d804289",
+      "trace_sha256": "7d26e7e885f59761c8c83162c1ab4e07ba246ca2707b27d8bb046fc887bea27e"
+    },
+    "development-007": {
+      "teachers": [
+        "pair512-specialist2048"
+      ],
+      "manifest_sha256": "4ef1225b8b0cc483c88432cc062c97ebaf8e2757fdf6bf345926d1776fd26568",
+      "result_sha256": "5aeda711282c04942e9594dbd4cd6b23a530b1ab471c7002776b77f95a2e637e",
+      "trace_sha256": "7a2cf3302ebed458fa97bd01a58df17807296c33bb052c6455c179160340bd4c"
+    }
+  },
+  "initial_checkpoint": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\ppo-specialist-4-v1\\model.pt",
+  "initial_sha256": "b4b98537a13227854b3b21417e67d236865807a391b146c940b9ad794ff7702a",
+  "source_sha256": {
+    "training\\train_progressive_continuation_v3.py": "5b5498f4fdd78614edf9d314d59587067abe63c9c98a81b7e10d15f078f670e0",
+    "training\\train_progressive_continuation.py": "d68b1c7d1dd0d68916eada6020320dece96721a7c1d507a11513ccf2584513a2",
+    "training\\train_progressive_opponents_v3.py": "18590f1252202c44f973c9f83d32abd90d1ef59e434fe95c2bf6f0efb0289316",
+    "training\\explore_small_strategies.py": "fc9d98a46561251473cf64d95beaf4ff321e08d6405187cfec315bb05c165944",
+    "training\\small_player_env.py": "5b6e7601050bd567d52023afdd76c5c15733877f7084fc4c3255fba40b08aa1f",
+    "training\\train_policy.py": "66e4ee68aa14dfa007f146fa15fec4123b8370b97a9b7084956a5cb38243a253"
+  },
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.4.6"
+}

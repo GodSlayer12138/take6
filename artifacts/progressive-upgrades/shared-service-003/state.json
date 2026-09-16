@@ -1,0 +1,12 @@
+{
+  "pid": 108928,
+  "address": "\\\\.\\pipe\\ntw-progressive-13850ba39ff3471ab47d84b940fcda12",
+  "authkey": "09b60bfd8eb463a3695cc5f8aa3c0d772b097495aac59a35a02c123f8ed652fb",
+  "manifests": {
+    "234b8ff3e3f280fe5369de648e83f08c2dd492547bc78beb0ba5975a7bef32a9": "D:\\code\\ntw\\artifacts\\progressive-upgrades\\certificate-003\\manifest.json"
+  },
+  "source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5",
+  "status": "ready",
+  "streams": 4,
+  "information": "Policy ID and own public observation only; archived inference method unchanged"
+}

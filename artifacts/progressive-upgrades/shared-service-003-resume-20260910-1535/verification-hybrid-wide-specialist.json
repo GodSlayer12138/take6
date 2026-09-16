@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "games": 14,
+  "decisions": 140,
+  "players": [
+    3,
+    4
+  ],
+  "policy": "hybrid-wide-specialist",
+  "clients": 8,
+  "streams": 4,
+  "check": "Every selected card equals the archived original inference; reconstructed final scores also equal the archive",
+  "mean_compute_ms": 375.4934064285278,
+  "wall_seconds": 22.727244200001223,
+  "source_trace_sha256": "7d26e7e885f59761c8c83162c1ab4e07ba246ca2707b27d8bb046fc887bea27e",
+  "archive_policy_by_players": {
+    "3": "hybrid-wide-specialist",
+    "4": "hybrid-wide-specialist"
+  },
+  "selected_inputs_sha256": "5b221967b8b882b2d0a87fd661efadfb5a2cfc2e35ddf15e9896a4bc2b5ce96a",
+  "service_source_sha256": "2c4ce44d0fc717e17b848018f2182202446a756d573a7c167413af0b64a756b5",
+  "verifier_sha256": "aa3e751f355f3211c384d8af0206e585423a1a59e7562e0bb72f26f8aca914ba"
+}
