@@ -21,7 +21,7 @@ import {
 } from 'lucide-react'
 import Arena from './Arena.jsx'
 import ModelStatus from './web/ModelStatus.jsx'
-import { modelFor } from './web/ai-router.js'
+import { modelFor, STATIC_AI } from './web/ai-router.js'
 import {
   bullHeads,
   createGame,
@@ -302,7 +302,7 @@ function SetupScreen({ config, setConfig, onStart, onArena }) {
           </div>
         </div>
       </section>
-      <footer className="setup-footer"><span>规则内核：6 nimmt!</span><span>网页与本机 GPU 协作 · 不上传对局</span></footer>
+      <footer className="setup-footer"><span>规则内核：6 nimmt!</span><span>{STATIC_AI ? '浏览器本地推演 · 无需 GPU 后端' : '网页与本机 GPU 协作 · 不上传对局'}</span></footer>
     </main>
   )
 }
