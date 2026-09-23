@@ -2,11 +2,13 @@
 
 本地《6 nimmt! / 牛头王》游戏与 AI 推理项目。网页支持 2—10 人及固定 104 张 / `10n+4` 牌池，当前专项模型适用于二至四人、104 张。
 
+模型展示名称为 **牛头王·推演版、牛头王·双人版、牛头王·通用版**，下表使用简称；内部策略编号见 [名称对照](docs/TECHNICAL_REPORT.md#名称与内部编号)。
+
 | 场景 | 网页模型 | 运行方式 |
 |---|---|---|
-| 三人、四人 / 104 张 | `distill2048-specialist2048`，每候选 2,048 世界 | 本机 Python / CUDA |
-| 二人 / 104 张 | V6 神经评分与修正策略 | 浏览器 Worker |
-| 其他规则 | `neural_hybrid` 兼容策略 | 浏览器 Worker |
+| 三人、四人 / 104 张 | 推演版 | 本机 Python / CUDA |
+| 二人 / 104 张 | 双人版 | 浏览器 Worker |
+| 其他规则 | 通用版 | 浏览器 Worker |
 
 默认四人、104 张；对局、AI 建议和竞技场使用同一模型路由。AI 只读取自己的手牌及公开信息。
 
@@ -22,12 +24,12 @@ npm run dev       # http://127.0.0.1:5173，自动启动 Python 后端
 
 生产运行时执行 `npm run build` 后再执行 `npm start`，网页为 `http://127.0.0.1:8765`；与开发模式择一启动。默认 Python 为 `D:/Programs/miniconda3/envs/ntw-ai/python.exe`，可通过 `NTW_PYTHON` 修改，后端端口可通过 `NTW_API_PORT` 修改。
 
-纯静态发布使用 `npm run build:static`，将 `dist/` 部署到静态托管平台；仓库的 Vercel 配置已使用该命令。此版本无需 Python 或 GPU，二人 104 张使用 V6，其余规则使用浏览器混合 AI（`neural_hybrid`）。GPU 冠军的评测成绩不适用于纯静态版三四人 AI。
+纯静态发布使用 `npm run build:static`，将 `dist/` 部署到静态托管平台；仓库的 Vercel 配置已使用该命令。此版本无需 Python 或 GPU，二人 104 张使用双人版，其余规则使用通用版。推演版的评测成绩不适用于纯静态版三四人 AI。
 
 ## 文档
 
 - [最终模型技术说明](docs/TECHNICAL_REPORT.md)：网络、搜索、参数量、权重位置、接口和资源需求。
-- [最终评测结果](docs/EVALUATION.md)：三四人冠军、二人 V6 及 take6 对比，包含结论的适用范围。
+- [最终评测结果](docs/EVALUATION.md)：推演版、双人版及 take6 对比，包含结论的适用范围。
 - [模型索引](models/README.md)：必要文件和完整依赖清单。
 - [训练与历史资料](docs/RESEARCH.md)：继续训练、按需恢复旧实验及仓库体积说明。
 

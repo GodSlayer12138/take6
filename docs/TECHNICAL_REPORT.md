@@ -1,20 +1,32 @@
 # 最终模型技术说明
 
-更新：2026-09-15。本文仅描述当前网页使用的模型。最终成绩与对外比较见 [评测结果](EVALUATION.md)。
+模型与测量数据：2026-09-15；展示名称更新：2026-09-23。本文仅描述当前网页使用的模型。最终成绩与对外比较见 [评测结果](EVALUATION.md)。
 
 ## 1. 模型与适用范围
 
+三套策略统一命名为 **牛头王·推演版、牛头王·双人版、牛头王·通用版**，正文简称推演版、双人版、通用版。推演版通过模拟剩余回合选牌；双人版针对二人规则优化；通用版用于其他规则和浏览器兼容场景。
+
 | 场景 | 当前模型 | 运行方式 |
 |---|---|---|
-| 三人、四人 / 104 张 | `distill2048-specialist2048` | 本机 Python / CUDA 搜索 |
-| 二人 / 104 张 | V6 神经评分与线性修正 | 浏览器 Web Worker |
-| 其他人数或 `10n+4` 牌池 | `neural_hybrid` 兼容策略 | 浏览器 Web Worker |
+| 三人、四人 / 104 张 | 推演版 | 本机 Python / CUDA 搜索 |
+| 二人 / 104 张 | 双人版 | 浏览器 Web Worker |
+| 其他人数或 `10n+4` 牌池 | 通用版 | 浏览器 Web Worker |
+
+### 名称与内部编号
+
+| 报告名称 | 内部策略编号 |
+|---|---|
+| 推演版 | `distill2048-specialist2048` |
+| 双人版 | `v6` |
+| 通用版 | `neural_hybrid` |
+
+这些名称用于文档展示，原始结果、接口返回值和模型路径继续使用内部编号。纯静态部署中，二人 / 104 张使用双人版，其余场景使用通用版。
 
 网页默认四人、104 张；对局、AI 建议和竞技场通过 [ai-router.js](../src/web/ai-router.js) 使用同一路由。推荐范围限于已有评测，不代表所有人数、规则或公开模型中的最强策略。
 
 每局十回合、每人十张牌、四行公共牌。同步暗出后按牌值递增结算，最终牛头最少者胜；第六张牌或低于所有行尾时收行。评测自动选择牛头最少、再最短、再最前的行；网页人类玩家可以自主选行。
 
-## 2. 三四人冠军：网络与搜索
+## 2. 推演版：网络与搜索
 
 ### 网络结构与训练方法
 
@@ -54,7 +66,7 @@ utility(a) = -mean_worlds[win_share - 0.002 × future_bullheads]
 
 | 文件或目录 | 用途 |
 |---|---|
-| [distill2048-specialist2048.json](../artifacts/progressive-upgrades/development-007/distill2048-specialist2048.json) | 最终搜索配置 |
+| [推演版配置](../artifacts/progressive-upgrades/development-007/distill2048-specialist2048.json) | 最终搜索配置 |
 | [归档 progressive_planner.py](../artifacts/progressive-upgrades/development-007/source-snapshot/training/progressive_planner.py) | 正式运行时 |
 | [归档 progressive_torch_env.py](../artifacts/progressive-upgrades/development-007/source-snapshot/training/progressive_torch_env.py) | 批量模拟环境 |
 | [continuation-v2/model.pt](../artifacts/progressive-upgrades/continuation-v2/model.pt) | 三人续局网络 |
@@ -62,26 +74,26 @@ utility(a) = -mean_worlds[win_share - 0.002 × future_bullheads]
 | [opponent-proxies-v2/](../artifacts/progressive-upgrades/opponent-proxies-v2/) | DirV、Alpha、MCS、冠军搜索的四个行为预测网络 |
 | [完整依赖清单](../models/registry.json) | 其余四个 PT 依赖、路径和 SHA-256 |
 
-服务还读取冻结清单中的三个神经对手 JSON。配置、归档运行时和全部依赖需要成组保留；仅复制一个 PT 或 JSON 不能完整部署冠军。
+服务还读取冻结清单中的三个神经对手 JSON。配置、归档运行时和全部依赖需要成组保留；仅复制一个 PT 或 JSON 不能完整部署推演版。
 
 网页启动校验选中策略的配置、运行时、显式权重依赖、共享源代码和三个神经对手，不再要求整批历史候选导出存在。完整研究审计仍使用原清单；执行前需按 [恢复说明](RESEARCH.md) 取回历史资料。
 
-## 3. 二人 V6
+## 3. 双人版
 
-V6 以同样的 270 维网络评分为基础，加上 **27 个二人专项修正参数**，按修正后的代价升序选牌：
+双人版以同样的 270 维网络评分为基础，加上 **27 个二人专项修正参数**，按修正后的代价升序选牌：
 
 ```text
 score(a) = base_network(features(a)) + dot(theta_2p, basis(a))
 basis(a) = [x, x × phase, x × score_deficit]  # x 为 9 个候选特征
 ```
 
-修正项通过以比赛胜率为目标的交叉熵进化优化得到；推理不更新权重，也不进行完整续局搜索。二人实际使用 **110,620 个参数**（基础网络 110,593 + 修正 27）。导出文件还保存其他人数的修正项，当前网页只在二人 / 104 张路由中使用 V6。
+修正项通过以比赛胜率为目标的交叉熵进化优化得到；推理不更新权重，也不进行完整续局搜索。二人实际使用 **110,620 个参数**（基础网络 110,593 + 修正 27）。导出文件还保存其他人数的修正项，当前网页只在二人 / 104 张路由中使用双人版。
 
-权重：[v6/model.json](../artifacts/small-player-exploration/v6/model.json)；执行代码：[small-strategy-runtime.mjs](../scripts/small-strategy-runtime.mjs)。
+权重：[双人版权重](../artifacts/small-player-exploration/v6/model.json)；执行代码：[small-strategy-runtime.mjs](../scripts/small-strategy-runtime.mjs)。
 
 ## 4. 网页接口与信息边界
 
-`src/web/` 的异步 Worker 按人数与牌池选模型。三四人请求 [champion_api.py](../server/champion_api.py)，二人 V6 和兼容策略在浏览器计算。后端串行调度 GPU 请求，启动时验证配置、模型与冻结代码摘要。
+`src/web/` 的异步 Worker 按人数与牌池选模型。三四人请求 [champion_api.py](../server/champion_api.py)，双人版和通用版在浏览器计算。后端串行调度 GPU 请求，启动时验证配置、模型与冻结代码摘要。
 
 | 接口 / 字段 | 含义 |
 |---|---|
@@ -92,9 +104,9 @@ basis(a) = [x, x × phase, x × score_deficit]  # x 为 9 个候选特征
 | `scores` | 自己在首位、按座位循环排列的累计牛头数 |
 | `seed` | 非负安全整数随机种子 |
 
-当前网页只发送上述七个字段，不发送对手暗牌、对手模型身份或尚未翻开的动作。后端验证牌号、重复牌、手牌与公共牌互斥、人数及回合一致性；当前冠军不使用历史重加权。
+当前网页只发送上述七个字段，不发送对手暗牌、对手模型身份或尚未翻开的动作。后端验证牌号、重复牌、手牌与公共牌互斥、人数及回合一致性；推演版不使用历史重加权。
 
-服务仅绑定 `127.0.0.1`。前端再次检查模型身份、合法牌和 2,048 世界预算。CUDA 或请求失败时显示错误并允许重试，不自动把随机牌或低预算结果当成冠军建议。
+服务仅绑定 `127.0.0.1`。前端再次检查模型身份、合法牌和 2,048 世界预算。CUDA 或请求失败时显示错误并允许重试，不自动把随机牌或低预算结果当成推演版建议。
 
 ## 5. 运行与资源需求
 
@@ -109,7 +121,7 @@ npm run build
 npm start      # http://127.0.0.1:8765
 ```
 
-`NTW_API_PORT` 可修改后端端口。冠军需要可用 CUDA；启动器会管理配套进程，Ctrl+C 停止本次启动的服务。历史清单包含固定路径，跨机器迁移还需要处理路径兼容。
+`NTW_API_PORT` 可修改后端端口。推演版需要可用 CUDA；启动器会管理配套进程，Ctrl+C 停止本次启动的服务。历史清单包含固定路径，跨机器迁移还需要处理路径兼容。
 
 固定 2,048 世界、归档局面预热后的实测：
 

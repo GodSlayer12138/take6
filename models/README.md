@@ -2,13 +2,15 @@
 
 本目录只保存索引；权重和冻结依赖保持原路径。
 
+下表使用报告中的模型简称，内部编号见 [名称对照](../docs/TECHNICAL_REPORT.md#名称与内部编号)。
+
 | 场景 | 策略入口 | 必需运行环境 |
 |---|---|---|
-| 三人、四人 / 104 张 | [distill2048-specialist2048.json](../artifacts/progressive-upgrades/development-007/distill2048-specialist2048.json) | Python / CUDA 及配置对应的归档运行时 |
-| 二人 / 104 张 | [v6/model.json](../artifacts/small-player-exploration/v6/model.json) | [small-strategy-runtime.mjs](../scripts/small-strategy-runtime.mjs) / 浏览器 Worker |
-| 其他网页规则 | [ai-core.js](../src/game/ai-core.js) 的 `neural_hybrid` 路由 | 浏览器 Worker 及其 JSON 依赖 |
+| 三人、四人 / 104 张 | [推演版配置](../artifacts/progressive-upgrades/development-007/distill2048-specialist2048.json) | Python / CUDA 及配置对应的归档运行时 |
+| 二人 / 104 张 | [双人版权重](../artifacts/small-player-exploration/v6/model.json) | [small-strategy-runtime.mjs](../scripts/small-strategy-runtime.mjs) / 浏览器 Worker |
+| 其他网页规则 | [通用版策略](../src/game/ai-core.js) | 浏览器 Worker 及其 JSON 依赖 |
 
-三四人冠军包含十个 PT 依赖、搜索配置和归档模拟代码，必须成组保留；V6 的 JSON 可供二人策略直接推理。具体结构、参数与路径见 [技术说明](../docs/TECHNICAL_REPORT.md)。
+推演版包含十个 PT 依赖、搜索配置和归档模拟代码，必须成组保留；双人版的 JSON 可供二人策略直接推理。具体结构、参数与路径见 [技术说明](../docs/TECHNICAL_REPORT.md)。
 
 [registry.json](registry.json) 记录 10 个逻辑条目、70 个不重复依赖文件及 SHA-256，包含主力所需组件和核验对照。这些文件全部保留；[history.json](history.json) 记录已移出当前版本的历史文件、原提交和 SHA-256。
 

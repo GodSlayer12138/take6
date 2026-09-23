@@ -11,9 +11,9 @@ TITLES = {
     'two104_transfer': '二人 / 104 张，take6 迁移',
 }
 NAMES = {
-    'distill2048-specialist2048': '当前冠军',
-    'web-adaptive2': '网页兼容 AI',
-    'v6': 'V6',
+    'distill2048-specialist2048': '推演版',
+    'web-adaptive2': '通用版',
+    'v6': '双人版',
 }
 START = '<!-- take6-results:start -->'
 END = '<!-- take6-results:end -->'
@@ -31,7 +31,7 @@ def main():
     if text.count(START) != 1 or text.count(END) != 1 or text.index(END) < text.index(START):
         raise ValueError('Final evaluation document must contain one ordered result section')
     lines = [START,
-        '固定计划共 **1,280 局**。四人主比较同桌为当前冠军、take6、DirV 本地复现和 MCS 适配版。', '',
+        '固定计划共 **1,280 局**。四人主比较同桌为推演版、take6、DirV 本地复现和 MCS 适配版。', '',
         '| 场景 | 本地模型 | 本地夺冠份额 | take6 夺冠份额 | 本地减 take6（百分点） | 差值 95% 区间 |',
         '|---|---|---:|---:|---:|---|']
     summaries = result['summaries']
@@ -44,11 +44,11 @@ def main():
     primary = summaries['four104_project']
     lo,hi = primary['delta_ci95_pp']
     if lo > 0:
-        conclusion = '四人主比较的差值区间高于零，支持本地冠军在该固定对手池和规则下领先 take6'
+        conclusion = '四人主比较的差值区间高于零，支持推演版在该固定对手池和规则下领先 take6'
     elif hi < 0:
-        conclusion = '四人主比较的差值区间低于零，支持 take6 在该固定对手池和规则下领先本地冠军'
+        conclusion = '四人主比较的差值区间低于零，支持 take6 在该固定对手池和规则下领先推演版'
     else:
-        conclusion = '四人主比较的差值区间跨零，本轮不能确认本地冠军与 take6 的差异'
+        conclusion = '四人主比较的差值区间跨零，本轮不能确认推演版与 take6 的差异'
     others = {r['id']:r for r in primary['ranking']}
     lines += ['', conclusion + f"；同桌 DirV、MCS 的夺冠份额分别为 {others['dirv-10000']['first_share']*100:.2f}%、{others['mcs']['first_share']*100:.2f}%。", END]
     start,end = text.index(START),text.index(END)+len(END)
