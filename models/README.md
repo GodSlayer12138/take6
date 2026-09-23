@@ -10,7 +10,9 @@
 
 三四人冠军包含十个 PT 依赖、搜索配置和归档模拟代码，必须成组保留；V6 的 JSON 可供二人策略直接推理。具体结构、参数与路径见 [技术说明](../docs/TECHNICAL_REPORT.md)。
 
-[registry.json](registry.json) 记录 10 个逻辑条目、70 个不重复依赖文件及 SHA-256，包含主力所需组件和核验对照；[inventory.json](inventory.json) 保存文件盘点。原始权重、训练数据和评测证据不因文档精简而删除。
+[registry.json](registry.json) 记录 10 个逻辑条目、70 个不重复依赖文件及 SHA-256，包含主力所需组件和核验对照。这些文件全部保留；[history.json](history.json) 记录已移出当前版本的历史文件、原提交和 SHA-256。
+
+完整磁盘盘点不再随仓库提交，需要时运行 `python tools/organize_models.py --inventory` 生成本地 `models/inventory.json`。旧实验的恢复方法见 [训练与历史资料](../docs/RESEARCH.md)。
 
 take6 原始对照权重单独保留在 [external/take6/trained-anns/](../external/take6/trained-anns/)，未接入网页默认模型；最终对比见 [评测结果](../docs/EVALUATION.md)。
 

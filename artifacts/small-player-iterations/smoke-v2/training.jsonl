@@ -1,2 +1,0 @@
-{"update": 1, "games": 16, "players": 4, "win_share": 0.0625, "mean_bullheads": 15.4375, "mean_reward": -0.05777083337306976, "loss": 1.207872211933136, "anchor_kl": 8.518207323504612e-05, "seconds": 0.351, "development": {"4": 0.234375}, "development_delta": -0.0390625}
-{"update": 2, "games": 16, "players": 4, "win_share": 0.125, "mean_bullheads": 14.0, "mean_reward": 0.02570832334458828, "loss": 1.2034773230552673, "anchor_kl": 0.000611395516898483, "seconds": 0.437, "development": {"4": 0.234375}, "development_delta": -0.0390625}

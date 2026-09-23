@@ -1,4 +1,0 @@
-{
-  "mcs_budget": "Frozen manifest mistakenly labels mcs_samples_per_card as 18. Actual frozen source uses mcMax=100 total and floor(100/hand_size) per card; observation.samples is ignored. No runtime behavior, model, seed, or game was changed.",
-  "final_confidence_intervals": "Audited reports use the larger independent scheduling epoch as joint bootstrap unit, retaining shared-opponent covariance as well as seat rotations. Raw summary.json retains initial deal-block intervals; audited-summary.json and ranking.md are authoritative."
-}

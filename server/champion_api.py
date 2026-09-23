@@ -24,6 +24,36 @@ def sha(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def verify_runtime(manifest, folder, policy, exploration):
+    """Verify deployed code and weights without requiring the research archive.
+
+    The full campaign verifier also pins hundreds of unused experimental
+    exports. Keep that verifier for research replay; deployment checks the
+    selected policy, its explicit dependencies, frozen sources and opponents.
+    """
+    required = {policy['path']: policy['sha256'], policy['runtime']: policy['runtime_sha256']}
+    required.update(policy.get('dependency_sha256', {}))
+    for name, digest in manifest['source_sha256'].items():
+        required[str(ROOT / name)] = digest
+        required[str(folder / 'source-snapshot' / name)] = digest
+    # Shared imported code is still frozen, including helpers outside the
+    # planner's own source snapshot. Historical model exports are not imported.
+    for name, digest in manifest.get('common_dependency_sha256', {}).items():
+        if Path(name).suffix in ('.py', '.js', '.mjs'):
+            required[name] = digest
+    opponents = {'ntw-adaptive-rl-v3b', 'ntw-adaptive-arena-v8-distill', 'ntw-champion'}
+    models = {model['id']: model for model in exploration['entrants']}
+    for identifier in opponents:
+        model = models[identifier]
+        required[model['path']] = model['sha256']
+    for name, digest in required.items():
+        path = Path(name)
+        if not path.is_absolute():
+            path = ROOT / path
+        if sha(path) != digest:
+            raise RuntimeError(f'Frozen runtime dependency changed: {name}')
+
+
 def cards(value, minimum, maximum):
     if not isinstance(value, list) or not minimum <= len(value) <= maximum:
         raise ValueError('Invalid card list length')
@@ -82,24 +112,14 @@ def public_observation(value):
 
 class Champion:
     def __init__(self):
-        import progressive_campaign as campaign
         import torch
         state = load(ROOT / 'artifacts/progressive-upgrades/state.json')
         upgrade = state['accepted_upgrades'][-1]
         folder = ROOT / 'artifacts/progressive-upgrades' / upgrade['run']
         manifest = load(folder / 'manifest.json')
-        campaign.verify(manifest, folder)
-        # Archived planner imports a few shared current Python modules. Freeze
-        # those too rather than silently accepting an edited training runtime.
-        for name, digest in manifest['source_sha256'].items():
-            if sha(ROOT / name) != digest:
-                raise RuntimeError(f'Frozen runtime dependency changed: {name}')
         entry = upgrade['policy']
         original = load(ROOT / 'artifacts/small-player-exploration/evaluation-manifest.json')
-        for model in original['entrants']:
-            if model['id'] in ('ntw-adaptive-rl-v3b', 'ntw-adaptive-arena-v8-distill', 'ntw-champion'):
-                if sha(model['path']) != model['sha256']:
-                    raise RuntimeError('Frozen opponent model changed')
+        verify_runtime(manifest, folder, entry, original)
         if not torch.cuda.is_available():
             raise RuntimeError('正式冠军需要可用的 CUDA GPU；请使用 ntw-ai 环境启动')
         name = 'web_certified_planner_' + entry['runtime_sha256'][:16]

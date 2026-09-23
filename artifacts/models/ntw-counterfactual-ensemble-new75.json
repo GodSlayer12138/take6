@@ -1,1 +1,0 @@
-{"format":"ntw-counterfactual-ensemble","modelPaths":["ntw-compact-counterfactual-v3-opt20-w192.json","ntw-compact-counterfactual-old-opt20.json"],"weights":[0.75,0.25]}

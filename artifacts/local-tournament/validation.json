@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "engine_equivalence_turns": 300,
-  "forced_row_tie": true,
-  "every_entrant_legal_games": true,
-  "deterministic_mixed_eth_project": true,
-  "frozen_hashes": true
-}

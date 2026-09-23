@@ -1,9 +1,0 @@
-{
-  "status": "passed",
-  "replayed_games": 13312,
-  "complete_paired_substitutions": true,
-  "every_move_legal": true,
-  "scores_and_win_shares_recalculated": true,
-  "frozen_sources_and_weights": true,
-  "trace_sha256": "eda9a2935513e6477566de862a7800b1888a61655d0c6244fc1f1479f206d614"
-}

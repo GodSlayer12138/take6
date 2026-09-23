@@ -36,3 +36,9 @@ Thumbs.db
 
 # Local deployment metadata
 .vercel/
+
+# New experiments and restored history stay local. Deployed dependencies and
+# final summaries already tracked in Git remain versioned; add new releases
+# explicitly with git add -f after updating models/registry.json.
+/artifacts/
+/models/inventory.json

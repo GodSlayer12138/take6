@@ -29,6 +29,7 @@ npm run dev       # http://127.0.0.1:5173，自动启动 Python 后端
 - [最终模型技术说明](docs/TECHNICAL_REPORT.md)：网络、搜索、参数量、权重位置、接口和资源需求。
 - [最终评测结果](docs/EVALUATION.md)：三四人冠军、二人 V6 及 take6 对比，包含结论的适用范围。
 - [模型索引](models/README.md)：必要文件和完整依赖清单。
+- [训练与历史资料](docs/RESEARCH.md)：继续训练、按需恢复旧实验及仓库体积说明。
 
 ## 检查
 
@@ -38,6 +39,6 @@ npm test
 & 'D:/Programs/miniconda3/envs/ntw-ai/python.exe' tools/organize_models.py --check
 ```
 
-权重、冻结运行时及原始评测证据保留在原路径。历史文档已压缩保存于 [documentation-archive](artifacts/documentation-archive/)，不再作为当前阅读入口。
+仓库保留游戏、训练代码、模型索引中的依赖和最终评测摘要。旧候选模型、逐局记录、重复源代码快照及历史文档已从当前版本移除，可用 `python tools/restore_research.py --all` 从清理前的 Git 提交恢复；也可指定目录按需恢复。大型本地训练数据未删除，新实验产物默认不提交。
 
-Git 仓库包含模型依赖与评测记录；大型训练数据、编号中间检查点、缓存和日志仅保留在原机器。复测 take6 时先运行 `python tools/fetch_take6.py` 获取固定版本的上游文件。冻结清单仍含原机器路径，跨机器运行需按技术说明处理路径兼容。
+复测 take6 时先运行 `python tools/fetch_take6.py` 获取固定版本的上游文件。冻结清单仍含原机器路径，跨机器运行需按技术说明处理路径兼容。

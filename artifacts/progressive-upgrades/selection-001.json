@@ -1,7 +1,0 @@
-{
-  "development": "development-002",
-  "candidate": "gpu128-proxy",
-  "criterion": "Largest mean of three-player and four-player observed win-share gains among completed development candidates; both gains positive",
-  "development_results_sha256": "73385e6ba7472f4424332ede969b07cceac0df002fd7da7ca8b2d22bdc313ee2",
-  "selected_before_certificate": true
-}

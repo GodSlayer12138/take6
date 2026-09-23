@@ -3,9 +3,13 @@ import copy
 from http.client import HTTPConnection
 from http.server import ThreadingHTTPServer
 import json
+import hashlib
+from pathlib import Path
+import tempfile
 import threading
 import unittest
-from champion_api import handler_for, public_observation
+from unittest.mock import patch
+from champion_api import handler_for, public_observation, verify_runtime
 
 
 def initial():
@@ -65,6 +69,41 @@ class Boundaries(unittest.TestCase):
             server.shutdown()
             server.server_close()
             thread.join()
+
+
+class RuntimeFiles(unittest.TestCase):
+    def test_history_is_optional_but_runtime_and_opponents_remain_frozen(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            folder = root / 'certificate'
+            def record(name):
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(b'original')
+                return str(path), hashlib.sha256(b'original').hexdigest()
+            config, digest = record('policy.json')
+            runtime, _ = record('planner.py')
+            checkpoint, _ = record('network.pt')
+            source, _ = record('training/helper.py')
+            snapshot, _ = record('certificate/source-snapshot/training/helper.py')
+            shared, _ = record('training/shared.py')
+            opponents = []
+            for identifier in ('ntw-adaptive-rl-v3b', 'ntw-adaptive-arena-v8-distill', 'ntw-champion'):
+                path, _ = record(identifier + '.json')
+                opponents.append(dict(id=identifier, path=path, sha256=digest))
+            manifest = dict(source_sha256={'training/helper.py': digest},
+                            common_dependency_sha256={shared: digest, str(root / 'removed-history.json'): digest})
+            policy = dict(path=config, sha256=digest, runtime=runtime, runtime_sha256=digest,
+                          dependency_sha256={checkpoint: digest})
+            exploration = dict(entrants=opponents)
+            with patch('champion_api.ROOT', root):
+                verify_runtime(manifest, folder, policy, exploration)
+                for name in [config, runtime, checkpoint, source, snapshot, shared, *[m['path'] for m in opponents]]:
+                    with self.subTest(file=name):
+                        Path(name).write_bytes(b'changed')
+                        with self.assertRaisesRegex(RuntimeError, 'Frozen runtime dependency changed'):
+                            verify_runtime(manifest, folder, policy, exploration)
+                        Path(name).write_bytes(b'original')
 
 
 if __name__ == '__main__':

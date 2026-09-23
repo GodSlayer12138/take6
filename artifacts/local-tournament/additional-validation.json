@@ -1,8 +1,0 @@
-{
-  "status": "passed",
-  "command": "D:\\Programs\\miniconda3\\envs\\ntw-ai\\python.exe training/test_local_tournament.py",
-  "tests": 2,
-  "exported_checkpoint_parameter_equality": 15,
-  "serial_vs_spawned_worker_mixed_game_actions_identical": true,
-  "test_seconds": 25.388
-}

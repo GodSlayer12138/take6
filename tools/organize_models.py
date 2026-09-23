@@ -1,6 +1,6 @@
 """Build a model catalog and a conservative inventory without moving artifacts.
 
-Only models/registry.json and models/inventory.json are written. Historical
+Only models/registry.json and, with --inventory, models/inventory.json are written. Historical
 manifests, models, training data and evaluation records are never modified.
 Uses the standard library; does not load PyTorch checkpoints or start a GPU.
 """
@@ -192,6 +192,7 @@ def build_inventory(registry):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true', help='Verify catalog files and frozen digests without writing')
+    parser.add_argument('--inventory', action='store_true', help='Also generate a local, ignored full artifact inventory')
     args = parser.parse_args()
     if args.check:
         registry = load(INDEX / 'registry.json')
@@ -205,13 +206,14 @@ def main():
         print(json.dumps(dict(status='passed', entries=len(registry['entries']), unique_files=len(records))))
         return
     registry = build_registry()
-    inventory = build_inventory(registry)
     INDEX.mkdir(exist_ok=True)
-    for name, value in (('registry.json', registry), ('inventory.json', inventory)):
-        (INDEX / name).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-    print(json.dumps(dict(entries=len(registry['entries']), artifact_files=inventory['artifact_files'],
-                          artifact_bytes=inventory['artifact_bytes'], training_data_bytes=sum(x['bytes'] for x in inventory['training_data']),
-                          archive_review_candidates=len(inventory['archive_review_candidates']), artifacts_changed=False)))
+    (INDEX / 'registry.json').write_text(json.dumps(registry, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+    summary = dict(entries=len(registry['entries']), artifacts_changed=False)
+    if args.inventory:
+        inventory = build_inventory(registry)
+        (INDEX / 'inventory.json').write_text(json.dumps(inventory, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+        summary.update(artifact_files=inventory['artifact_files'], artifact_bytes=inventory['artifact_bytes'])
+    print(json.dumps(summary))
 
 
 if __name__ == '__main__':

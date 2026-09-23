@@ -1,8 +1,0 @@
-{
-  "inputs_sha256": "91a47006a43dfa802f0939a263ee19eee3cf2b45c48be0f4807fb7511d5b9b0f",
-  "decisions": 140,
-  "streams4_seconds": 5.8244892,
-  "streams1_seconds": 6.6983815,
-  "selected_streams": 4,
-  "interpretation": "Short identical archived-decision throughput check with other experiments idle; inference cards matched. Not a game-strength test."
-}
